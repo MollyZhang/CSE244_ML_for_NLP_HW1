@@ -1,0 +1,1085 @@
+ID,CORE RELATIONS
+0,other
+1,NO_REL
+2,movie.starring.actor
+3,movie.starring.actor
+4,NO_REL
+5,NO_REL
+6,movie.starring.actor
+7,movie.starring.actor
+8,movie.starring.actor
+9,NO_REL
+10,NO_REL
+11,movie.starring.actor
+12,movie.starring.actor
+13,movie.starring.actor
+14,movie.starring.actor
+15,movie.starring.actor
+16,movie.starring.actor
+17,movie_other
+18,NO_REL movie.starring.actor
+19,NO_REL
+20,movie.starring.actor
+21,NO_REL
+22,movie.starring.actor
+23,NO_REL
+24,NO_REL
+25,NO_REL
+26,NO_REL
+27,NO_REL
+28,NO_REL
+29,NO_REL
+30,NO_REL
+31,movie.starring.actor
+32,NO_REL movie_other
+33,movie_other
+34,movie.starring.actor
+35,NO_REL
+36,movie.estimated_budget
+37,movie.estimated_budget
+38,NO_REL
+39,movie.estimated_budget
+40,movie.estimated_budget
+41,NO_REL
+42,movie.estimated_budget
+43,movie.estimated_budget
+44,movie.estimated_budget
+45,NO_REL
+46,movie.estimated_budget
+47,movie.estimated_budget
+48,movie.estimated_budget
+49,movie.estimated_budget
+50,movie.estimated_budget
+51,movie.estimated_budget
+52,movie.estimated_budget
+53,NO_REL
+54,movie.estimated_budget
+55,movie.estimated_budget
+56,movie.starring.actor
+57,NO_REL
+58,movie.rating
+59,NO_REL
+60,movie.starring.actor
+61,movie.directed_by
+62,movie.directed_by
+63,movie.production_companies
+64,movie.country
+65,movie.country
+66,movie.country
+67,movie.country
+68,movie.country
+69,movie.country
+70,movie.country other
+71,movie.country other
+72,movie.initial_release_date
+73,movie.initial_release_date
+74,movie.initial_release_date
+75,movie.initial_release_date
+76,movie.initial_release_date
+77,movie.initial_release_date
+78,NO_REL
+79,movie.initial_release_date
+80,movie.initial_release_date
+81,movie.initial_release_date
+82,movie.initial_release_date
+83,movie.initial_release_date
+84,movie.initial_release_date
+85,movie.initial_release_date
+86,movie.initial_release_date
+87,movie.initial_release_date
+88,movie.initial_release_date
+89,movie.initial_release_date
+90,movie.initial_release_date
+91,movie.initial_release_date
+92,movie.initial_release_date
+93,movie.initial_release_date
+94,movie.initial_release_date
+95,movie.initial_release_date
+96,movie.initial_release_date
+97,movie.initial_release_date
+98,movie.initial_release_date
+99,movie.initial_release_date
+100,movie.initial_release_date
+101,movie.initial_release_date
+102,NO_REL
+103,movie.initial_release_date
+104,movie.initial_release_date
+105,NO_REL
+106,movie.initial_release_date
+107,movie.initial_release_date
+108,NO_REL
+109,movie.initial_release_date movie_other
+110,movie.initial_release_date
+111,movie.initial_release_date
+112,movie.initial_release_date
+113,movie.directed_by
+114,movie.directed_by
+115,movie.directed_by
+116,movie.directed_by
+117,NO_REL
+118,movie.directed_by
+119,movie.directed_by
+120,NO_REL
+121,movie.directed_by
+122,NO_REL
+123,movie.directed_by
+124,movie.directed_by
+125,movie.directed_by
+126,movie.directed_by
+127,movie.directed_by
+128,movie.directed_by
+129,movie.directed_by
+130,NO_REL
+131,movie.directed_by
+132,movie.directed_by
+133,movie.directed_by
+134,movie.directed_by
+135,movie.directed_by
+136,movie.directed_by
+137,NO_REL
+138,movie.directed_by
+139,movie.directed_by
+140,NO_REL
+141,NO_REL
+142,movie.directed_by
+143,movie.directed_by
+144,NO_REL
+145,movie.directed_by
+146,NO_REL
+147,NO_REL
+148,movie.directed_by
+149,NO_REL
+150,movie.directed_by
+151,NO_REL
+152,movie.directed_by
+153,movie.directed_by
+154,movie.directed_by
+155,movie.directed_by
+156,movie.directed_by
+157,movie.directed_by
+158,NO_REL
+159,movie.genre
+160,movie.genre
+161,movie.genre
+162,NO_REL
+163,movie.genre
+164,movie.genre
+165,NO_REL
+166,movie_other
+167,NO_REL
+168,NO_REL
+169,movie.genre
+170,movie.genre
+171,NO_REL
+172,NO_REL
+173,NO_REL
+174,NO_REL
+175,movie.genre
+176,movie.genre
+177,NO_REL
+178,NO_REL
+179,movie.language
+180,movie.language
+181,NO_REL
+182,NO_REL
+183,NO_REL
+184,movie.language
+185,movie.language
+186,NO_REL
+187,movie.country movie.language
+188,NO_REL
+189,movie.produced_by
+190,NO_REL
+191,NO_REL
+192,NO_REL
+193,NO_REL
+194,movie.language
+195,NO_REL movie.starring.actor
+196,movie.starring.actor
+197,NO_REL
+198,NO_REL
+199,NO_REL
+200,NO_REL
+201,movie.starring.actor
+202,movie.country movie.language
+203,NO_REL movie.starring.actor
+204,NO_REL movie_other other
+205,NO_REL
+206,NO_REL
+207,movie_other
+208,movie.gross_revenue
+209,movie.language
+210,NO_REL
+211,NO_REL
+212,NO_REL
+213,NO_REL
+214,NO_REL
+215,NO_REL
+216,movie.directed_by
+217,NO_REL
+218,movie.starring.actor
+219,movie.directed_by
+220,movie.produced_by
+221,movie.starring.actor
+222,movie.starring.actor
+223,movie.starring.actor
+224,movie.directed_by
+225,movie.directed_by
+226,movie.initial_release_date
+227,NO_REL
+228,movie.directed_by
+229,movie.rating
+230,NO_REL
+231,movie.language
+232,movie.country
+233,movie.country
+234,movie.language other
+235,movie.language
+236,other
+237,NO_REL movie.genre
+238,NO_REL
+239,movie.genre
+240,movie.genre
+241,movie.genre
+242,NO_REL
+243,movie.starring.actor
+244,movie.starring.actor
+245,movie.country
+246,movie.country
+247,movie.country
+248,movie.country
+249,movie.country movie.language
+250,movie.country
+251,movie.country
+252,movie.country
+253,movie.country
+254,movie.language
+255,movie.country movie.language
+256,movie.country movie.language
+257,NO_REL
+258,NO_REL
+259,NO_REL
+260,movie.language
+261,NO_REL
+262,movie.directed_by
+263,movie.country
+264,movie.country
+265,NO_REL
+266,movie.directed_by
+267,movie.language
+268,movie.country
+269,movie.genre
+270,NO_REL
+271,movie.language
+272,movie.starring.actor
+273,NO_REL
+274,NO_REL
+275,movie.starring.actor
+276,movie.starring.actor
+277,movie.starring.actor
+278,movie.produced_by
+279,NO_REL
+280,NO_REL
+281,NO_REL
+282,NO_REL
+283,NO_REL
+284,NO_REL
+285,movie.country
+286,movie.country
+287,movie.country movie.language
+288,movie.country movie.language
+289,movie.country movie.language
+290,movie.country movie.language
+291,movie.country movie.language
+292,movie.language
+293,movie.language
+294,movie.production_companies
+295,movie.production_companies
+296,movie.starring.actor
+297,movie.starring.actor
+298,movie.subjects
+299,movie.subjects
+300,movie.starring.actor
+301,NO_REL
+302,NO_REL
+303,movie.production_companies
+304,movie.production_companies
+305,movie.production_companies
+306,movie.country
+307,movie.produced_by
+308,NO_REL movie.genre
+309,movie.directed_by
+310,NO_REL
+311,NO_REL
+312,movie.country movie_other
+313,NO_REL
+314,movie.language
+315,movie.language
+316,movie.language
+317,movie.rating
+318,movie.rating
+319,movie.rating movie_other
+320,movie.rating
+321,NO_REL
+322,NO_REL
+323,movie.rating
+324,movie.rating
+325,movie.rating
+326,movie.rating
+327,movie.rating
+328,movie.rating
+329,movie.rating
+330,movie.rating
+331,movie.rating
+332,movie.directed_by
+333,movie.produced_by
+334,movie.directed_by movie.initial_release_date
+335,movie.production_companies
+336,movie.country
+337,movie.country
+338,movie.country
+339,movie.directed_by
+340,NO_REL
+341,movie.directed_by movie.gross_revenue movie.review
+342,movie.directed_by
+343,movie.directed_by
+344,movie.directed_by
+345,movie.directed_by
+346,movie.directed_by
+347,NO_REL
+348,movie.produced_by
+349,NO_REL
+350,movie.language
+351,movie.directed_by
+352,movie.directed_by
+353,movie.directed_by
+354,movie.directed_by
+355,NO_REL
+356,NO_REL
+357,NO_REL
+358,movie.directed_by
+359,NO_REL
+360,NO_REL
+361,movie.directed_by
+362,NO_REL
+363,movie.starring.actor
+364,movie.starring.actor
+365,movie.starring.actor
+366,movie.country
+367,NO_REL
+368,movie.country
+369,movie.country movie.language
+370,movie.language
+371,movie.produced_by
+372,NO_REL
+373,NO_REL
+374,movie.produced_by movie.production_companies
+375,movie.initial_release_date
+376,movie.directed_by
+377,NO_REL
+378,NO_REL
+379,NO_REL
+380,movie.directed_by
+381,movie.produced_by
+382,movie.produced_by
+383,movie.produced_by
+384,movie.starring.actor
+385,movie.produced_by
+386,movie.directed_by
+387,movie.directed_by
+388,movie.directed_by
+389,movie.produced_by
+390,movie.produced_by
+391,movie.production_companies
+392,movie.production_companies
+393,movie.production_companies
+394,NO_REL
+395,NO_REL
+396,NO_REL
+397,NO_REL
+398,NO_REL
+399,NO_REL
+400,NO_REL
+401,NO_REL
+402,NO_REL movie_other
+403,movie.starring.actor movie_other
+404,movie.starring.actor
+405,NO_REL
+406,movie.starring.actor
+407,movie.production_companies
+408,movie.production_companies
+409,movie.production_companies
+410,NO_REL
+411,NO_REL
+412,movie.directed_by
+413,movie.country
+414,NO_REL
+415,movie.production_companies
+416,movie.country movie.language
+417,movie.starring.actor
+418,movie.starring.actor
+419,movie.starring.actor
+420,movie.country
+421,movie.starring.actor
+422,movie.directed_by
+423,movie.directed_by
+424,movie.directed_by
+425,movie.directed_by
+426,movie.directed_by
+427,NO_REL
+428,movie.starring.actor
+429,movie.starring.actor
+430,movie.starring.actor
+431,NO_REL
+432,movie.rating
+433,movie.rating
+434,movie.rating
+435,movie.rating
+436,movie.rating
+437,movie.rating
+438,NO_REL
+439,movie.rating
+440,NO_REL
+441,movie.rating
+442,movie.country
+443,movie.language
+444,NO_REL
+445,NO_REL
+446,movie.subjects
+447,movie.subjects
+448,movie.subjects
+449,movie.directed_by movie.gross_revenue movie_other
+450,NO_REL
+451,NO_REL
+452,movie.directed_by
+453,movie.country movie.language
+454,movie.country movie.language
+455,NO_REL
+456,NO_REL
+457,NO_REL
+458,NO_REL
+459,movie.directed_by
+460,movie.produced_by
+461,movie.produced_by
+462,movie.produced_by
+463,movie.produced_by
+464,movie.produced_by
+465,movie.produced_by
+466,movie.starring.actor
+467,movie.directed_by
+468,movie.country
+469,NO_REL
+470,NO_REL
+471,NO_REL
+472,NO_REL
+473,NO_REL
+474,NO_REL
+475,NO_REL
+476,NO_REL
+477,NO_REL
+478,NO_REL
+479,NO_REL
+480,NO_REL
+481,NO_REL
+482,NO_REL
+483,NO_REL movie.language
+484,NO_REL
+485,movie.starring.actor
+486,NO_REL
+487,movie.directed_by
+488,movie.produced_by
+489,NO_REL
+490,NO_REL
+491,movie.directed_by
+492,movie.directed_by
+493,movie.production_companies
+494,movie.subjects
+495,movie.country movie.initial_release_date
+496,NO_REL
+497,NO_REL
+498,NO_REL
+499,NO_REL
+500,NO_REL
+501,movie.language
+502,movie.language
+503,NO_REL
+504,movie.starring.actor
+505,movie.starring.actor
+506,movie.starring.actor
+507,movie.starring.actor
+508,NO_REL
+509,NO_REL
+510,movie.directed_by
+511,NO_REL
+512,NO_REL
+513,NO_REL
+514,NO_REL
+515,movie.rating
+516,movie.rating
+517,movie.rating
+518,movie.rating
+519,movie.rating
+520,movie.rating
+521,movie.rating
+522,movie.rating
+523,movie.directed_by
+524,movie.directed_by
+525,NO_REL
+526,movie.starring.actor
+527,movie.rating
+528,movie.rating
+529,movie.produced_by
+530,NO_REL
+531,movie.directed_by
+532,movie.language
+533,movie.starring.actor
+534,NO_REL
+535,NO_REL
+536,other
+537,NO_REL
+538,NO_REL
+539,NO_REL
+540,NO_REL
+541,NO_REL
+542,NO_REL
+543,NO_REL
+544,NO_REL
+545,NO_REL
+546,NO_REL
+547,NO_REL
+548,NO_REL
+549,NO_REL
+550,other
+551,NO_REL
+552,NO_REL other
+553,NO_REL
+554,NO_REL
+555,NO_REL
+556,NO_REL
+557,NO_REL
+558,NO_REL
+559,NO_REL
+560,NO_REL other
+561,movie.produced_by
+562,movie.produced_by
+563,movie.produced_by
+564,NO_REL
+565,NO_REL
+566,NO_REL
+567,movie.produced_by
+568,movie.produced_by
+569,NO_REL
+570,movie.produced_by
+571,movie.produced_by
+572,movie.produced_by
+573,movie.produced_by
+574,movie.produced_by
+575,movie.produced_by
+576,movie.produced_by
+577,movie.produced_by
+578,movie.produced_by
+579,movie_other
+580,movie.produced_by
+581,movie.produced_by
+582,movie.produced_by
+583,movie.produced_by
+584,movie.produced_by
+585,movie.produced_by
+586,movie.produced_by
+587,movie.produced_by
+588,movie.produced_by
+589,NO_REL
+590,NO_REL
+591,movie.produced_by
+592,movie.produced_by
+593,movie.production_companies
+594,movie.production_companies
+595,movie.produced_by
+596,movie.produced_by
+597,movie.produced_by
+598,movie.produced_by
+599,movie.produced_by
+600,NO_REL
+601,movie.gross_revenue
+602,movie.directed_by movie.gross_revenue
+603,movie.gross_revenue
+604,movie.gross_revenue
+605,movie.gross_revenue
+606,movie.gross_revenue
+607,movie.gross_revenue
+608,movie.gross_revenue
+609,movie.gross_revenue
+610,movie.gross_revenue
+611,NO_REL
+612,movie.starring.actor movie.starring.character
+613,movie.starring.actor movie.starring.character
+614,movie.starring.actor
+615,movie.starring.actor
+616,movie.starring.actor
+617,movie.starring.actor other
+618,movie.starring.actor movie.starring.character other
+619,movie.starring.actor
+620,movie.starring.actor movie.starring.character
+621,movie.starring.actor movie.starring.character
+622,NO_REL
+623,NO_REL
+624,movie.starring.actor
+625,movie.starring.actor movie.starring.character
+626,movie.directed_by movie.starring.actor movie.starring.character
+627,movie.starring.actor movie.starring.character
+628,movie.starring.actor movie.starring.character
+629,movie.starring.actor
+630,movie.starring.actor movie.starring.character
+631,movie.starring.actor
+632,movie.starring.actor movie.starring.character
+633,movie.starring.actor movie.starring.character
+634,movie.estimated_budget
+635,movie.estimated_budget
+636,movie.estimated_budget
+637,movie.estimated_budget
+638,movie.estimated_budget
+639,movie.estimated_budget
+640,movie.initial_release_date
+641,movie.estimated_budget
+642,movie.estimated_budget
+643,NO_REL
+644,NO_REL
+645,movie.estimated_budget
+646,movie.estimated_budget
+647,NO_REL
+648,movie.estimated_budget movie_other
+649,movie.estimated_budget
+650,movie.estimated_budget
+651,NO_REL movie_other other
+652,movie.country
+653,movie.country
+654,movie.country
+655,movie_other
+656,movie_other
+657,movie.country
+658,NO_REL
+659,movie.initial_release_date
+660,NO_REL
+661,movie.initial_release_date
+662,movie.initial_release_date
+663,movie.initial_release_date
+664,movie.initial_release_date
+665,movie.initial_release_date movie.rating
+666,movie.initial_release_date
+667,movie.initial_release_date
+668,movie.initial_release_date
+669,movie.initial_release_date
+670,movie.initial_release_date
+671,movie.initial_release_date
+672,movie.initial_release_date
+673,movie.directed_by
+674,NO_REL
+675,movie.directed_by
+676,movie.directed_by
+677,NO_REL
+678,movie.language
+679,movie.language
+680,NO_REL
+681,movie.language
+682,movie.language
+683,movie.rating
+684,movie.genre movie.initial_release_date
+685,NO_REL
+686,movie.produced_by
+687,NO_REL
+688,NO_REL movie_other
+689,NO_REL movie_other other
+690,NO_REL
+691,movie.subjects
+692,NO_REL
+693,NO_REL
+694,NO_REL
+695,movie.initial_release_date
+696,NO_REL
+697,movie.initial_release_date
+698,movie.initial_release_date
+699,movie.language
+700,NO_REL
+701,NO_REL
+702,NO_REL
+703,NO_REL
+704,movie.directed_by
+705,movie.directed_by
+706,movie.directed_by movie_other
+707,movie.directed_by
+708,movie_other
+709,movie.directed_by
+710,movie.directed_by
+711,movie.directed_by
+712,movie.directed_by
+713,movie.directed_by movie_other
+714,movie.starring.actor
+715,movie.initial_release_date
+716,movie.rating
+717,NO_REL
+718,movie_other
+719,movie.initial_release_date
+720,movie.initial_release_date
+721,NO_REL
+722,NO_REL
+723,movie.subjects
+724,movie.language
+725,movie.language
+726,movie.language
+727,NO_REL
+728,movie.language
+729,movie.language
+730,movie.language
+731,movie.language
+732,movie.language
+733,movie.language
+734,movie.language
+735,movie.country movie.language
+736,movie.language
+737,movie.language
+738,movie.language
+739,movie.language
+740,movie.language
+741,movie.language
+742,NO_REL
+743,movie.produced_by
+744,NO_REL
+745,movie.produced_by
+746,movie.produced_by
+747,movie.production_companies
+748,movie.initial_release_date
+749,movie.initial_release_date movie.production_companies
+750,movie.rating
+751,movie.rating
+752,NO_REL
+753,movie.genre movie.rating
+754,movie.rating
+755,movie.initial_release_date movie.rating
+756,movie.production_companies movie.rating
+757,NO_REL
+758,movie.initial_release_date
+759,NO_REL
+760,movie.starring.actor
+761,movie.starring.actor
+762,movie.starring.actor
+763,movie.starring.actor
+764,movie.starring.actor
+765,movie.starring.actor
+766,movie.initial_release_date movie.starring.actor
+767,NO_REL
+768,movie.directed_by
+769,movie.starring.actor
+770,NO_REL
+771,NO_REL
+772,NO_REL
+773,NO_REL
+774,NO_REL
+775,movie.subjects
+776,movie.subjects
+777,movie.subjects
+778,NO_REL
+779,NO_REL
+780,NO_REL
+781,movie.starring.character movie_other
+782,movie.subjects
+783,movie.subjects
+784,NO_REL
+785,NO_REL
+786,NO_REL
+787,movie.subjects
+788,NO_REL
+789,movie.subjects
+790,NO_REL
+791,NO_REL
+792,movie.subjects
+793,movie.subjects
+794,movie.subjects
+795,movie.subjects
+796,movie.subjects
+797,movie.language
+798,movie.rating
+799,movie.language
+800,movie.language
+801,movie.language movie_other
+802,movie.directed_by
+803,NO_REL
+804,NO_REL
+805,NO_REL
+806,NO_REL
+807,NO_REL
+808,NO_REL
+809,NO_REL
+810,movie.initial_release_date
+811,movie.language other
+812,NO_REL
+813,NO_REL
+814,movie.produced_by
+815,movie.initial_release_date movie_other
+816,movie.country
+817,movie.country movie.language
+818,movie.initial_release_date movie.language
+819,movie.language movie.production_companies
+820,NO_REL movie.production_companies
+821,NO_REL movie.production_companies
+822,NO_REL
+823,NO_REL movie.directed_by
+824,movie.starring.actor
+825,NO_REL
+826,movie.produced_by
+827,other
+828,movie.produced_by
+829,movie.produced_by
+830,movie.produced_by
+831,NO_REL
+832,movie.gross_revenue
+833,movie.gross_revenue
+834,NO_REL
+835,movie.gross_revenue
+836,movie.gross_revenue
+837,movie.gross_revenue
+838,movie.gross_revenue
+839,movie.gross_revenue
+840,movie.gross_revenue
+841,movie.gross_revenue
+842,movie.gross_revenue
+843,movie.gross_revenue
+844,movie.gross_revenue
+845,movie.gross_revenue
+846,movie.gross_revenue
+847,movie.gross_revenue
+848,movie.gross_revenue
+849,NO_REL
+850,movie.country
+851,movie.gross_revenue movie.initial_release_date
+852,movie.gross_revenue
+853,NO_REL
+854,movie.gross_revenue
+855,movie.gross_revenue
+856,movie.gross_revenue
+857,NO_REL
+858,NO_REL
+859,other
+860,other
+861,NO_REL
+862,movie_other
+863,NO_REL
+864,movie.language
+865,NO_REL
+866,movie_other
+867,movie_other other
+868,movie_other
+869,movie_other
+870,NO_REL movie_other
+871,NO_REL
+872,other
+873,NO_REL
+874,NO_REL
+875,NO_REL
+876,movie.gross_revenue
+877,other
+878,NO_REL
+879,other
+880,other
+881,NO_REL
+882,other
+883,other
+884,NO_REL
+885,NO_REL other
+886,NO_REL movie_other other
+887,NO_REL
+888,movie.rating movie_other
+889,movie_other
+890,NO_REL
+891,movie.produced_by
+892,movie.language
+893,movie.starring.actor movie_other
+894,movie_other
+895,NO_REL
+896,movie_other
+897,NO_REL
+898,movie.gross_revenue movie.initial_release_date movie.review movie.runtime movie.starring.character movie_other rt.runtime
+899,NO_REL other
+900,NO_REL
+901,NO_REL
+902,NO_REL
+903,NO_REL
+904,movie.initial_release_date other
+905,movie_other
+906,NO_REL
+907,NO_REL
+908,movie.starring.actor other
+909,movie.review other
+910,NO_REL other
+911,movie_other
+912,movie_other
+913,other
+914,movie_other
+915,movie_other
+916,movie_other
+917,other
+918,movie_other
+919,NO_REL
+920,other
+921,NO_REL
+922,movie.trailer other
+923,NO_REL
+924,NO_REL
+925,movie_other
+926,other
+927,movie.rating movie_other
+928,other
+929,movie_other
+930,NO_REL movie_other other
+931,movie_other
+932,other
+933,movie.rating
+934,other
+935,movie.initial_release_date other
+936,movie.gross_revenue
+937,movie.initial_release_date
+938,other
+939,NO_REL
+940,other
+941,NO_REL
+942,other
+943,NO_REL other
+944,NO_REL movie_other other
+945,NO_REL
+946,other
+947,movie_other
+948,NO_REL movie_other other
+949,gr.amount movie.gross_revenue other
+950,movie.gross_revenue other
+951,NO_REL movie.review movie_other other
+952,other
+953,movie.country
+954,movie_other
+955,NO_REL
+956,other
+957,movie.starring.character movie_other other
+958,movie.country other
+959,NO_REL movie_other
+960,other
+961,NO_REL
+962,movie_other
+963,movie.starring.actor
+964,actor.gender movie.gross_revenue movie.starring.actor movie_other
+965,movie.starring.actor
+966,movie.starring.actor
+967,NO_REL
+968,person.date_of_birth
+969,NO_REL
+970,NO_REL
+971,NO_REL
+972,NO_REL
+973,movie.directed_by movie.initial_release_date movie.starring.character movie_other
+974,movie.directed_by
+975,movie.directed_by movie.star_rating
+976,movie.directed_by movie.star_rating
+977,NO_REL movie.directed_by
+978,movie.produced_by
+979,NO_REL movie.directed_by
+980,movie.produced_by
+981,NO_REL
+982,movie.directed_by
+983,NO_REL
+984,movie.media
+985,NO_REL
+986,movie.award movie.country
+987,movie.initial_release_date movie.starring.actor person.award
+988,movie.starring.actor
+989,movie.review
+990,movie.review
+991,movie.directed_by
+992,movie.directed_by movie.star_rating
+993,movie.directed_by movie.star_rating
+994,movie.directed_by
+995,movie.directed_by
+996,gr.amount movie.gross_revenue
+997,gr.amount movie.gross_revenue
+998,movie.gross_revenue
+999,NO_REL
+1000,movie.initial_release_date movie.production_companies
+1001,movie.initial_release_date
+1002,movie.initial_release_date
+1003,movie.initial_release_date
+1004,movie.initial_release_date movie.rating
+1005,movie.production_companies
+1006,movie.initial_release_date movie.production_companies
+1007,movie_other person.award
+1008,movie.locations
+1009,movie.country movie.initial_release_date movie.locations
+1010,NO_REL
+1011,NO_REL
+1012,NO_REL
+1013,NO_REL
+1014,movie.country movie.star_rating
+1015,movie.country
+1016,movie.country
+1017,movie.subjects
+1018,movie.subjects
+1019,NO_REL
+1020,NO_REL
+1021,NO_REL
+1022,movie.genre
+1023,movie.language
+1024,movie.language
+1025,movie.language
+1026,NO_REL
+1027,NO_REL
+1028,movie_other
+1029,NO_REL
+1030,movie.initial_release_date
+1031,NO_REL
+1032,movie.starring.actor
+1033,movie_other
+1034,movie.directed_by
+1035,movie.directed_by
+1036,person.picture
+1037,movie.directed_by
+1038,movie_other
+1039,NO_REL movie.produced_by
+1040,NO_REL
+1041,NO_REL
+1042,NO_REL
+1043,movie.rating
+1044,movie.rating
+1045,movie.rating movie_other
+1046,movie.rating
+1047,movie.rating
+1048,NO_REL
+1049,NO_REL
+1050,movie_other
+1051,NO_REL
+1052,NO_REL
+1053,movie.rating
+1054,movie.rating
+1055,movie.rating
+1056,movie.rating
+1057,movie.gross_revenue
+1058,NO_REL
+1059,movie.gross_revenue
+1060,movie.gross_revenue movie_other
+1061,NO_REL
+1062,movie.review
+1063,movie.review
+1064,movie.review
+1065,movie_other
+1066,movie.review
+1067,movie.review
+1068,movie.review
+1069,movie.review
+1070,movie.review
+1071,NO_REL
+1072,NO_REL
+1073,NO_REL
+1074,NO_REL
+1075,NO_REL
+1076,NO_REL
+1077,movie.trailer
+1078,NO_REL
+1079,NO_REL
+1080,NO_REL
+1081,movie.production_companies
+1082,NO_REL
+1083,movie.locations
