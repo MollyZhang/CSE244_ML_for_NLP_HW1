@@ -8,7 +8,7 @@ def prep_train_val(path, train_file, val_file, batch_size=64):
     text_field = Field(sequential=True, tokenize=tokenize, 
                        lower=True, include_lengths=True)
     labeler = lambda x: np.array([int(i) for i in list(x)])
-    label_field = RawField(preprocessing=lambda x: labeler)
+    label_field = RawField(preprocessing=lambda x: labeler(x))
 
     datafields = [("ID", None), ("text", text_field), ("label", label_field)]
     trn, vld = TabularDataset.splits(
