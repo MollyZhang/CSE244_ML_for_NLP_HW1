@@ -39,6 +39,7 @@ class BatchWrapper(object):
         self.onehot = onehot
         self.batch_size = batch_size
         self.include_len = length
+        self.sample_size = len(data)
         if self.onehot:
             assert(vocab_size > 0)
             self.vocab_size = vocab_size
@@ -56,7 +57,7 @@ class BatchWrapper(object):
                 x = one_hot(x.cpu(), vocab_size).cuda()            
             if not self.include_len:
                 x = x[0]
-            y = np.stack(batch.label, axis=0)
+            y = torch.tensor(np.stack(batch.label, axis=0)).float().cuda()
             yield (x, y)
     
     def __len__(self):
