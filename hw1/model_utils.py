@@ -5,24 +5,28 @@ from torch.autograd import Variable
 
 
 class MultiLayerMLP(nn.Module):
-    def __init__(self, emb_dim=100, output_dim=46, vocab_size=2043,
-                 batch_norm=False, num_layers=1, p_dropout=0.1):
+    def __init__(self, emb_dim=300, hidden_dim=100, 
+                 output_dim=46, vocab_size=2043,
+                 num_middle_layer=3, p_dropout=0.2):
         super().__init__() 
-        self.num_layers = num_layers
         self.embedding = nn.Embedding(vocab_size, emb_dim)
-        self.fcs = []
-        for _ in range(self.num_layers):
-            self.fcs.append(nn.Linear(emb_dim, emb_dim))
-        self.fcs = nn.ModuleList(self.fcs)
-        self.final_layer = nn.Linear(emb_dim, output_dim)
-        #self.bn = nn.BatchNorm1d(emb_dim)
-        self.batch_norm = batch_norm
+        self.first_layer = nn.Linear(emb_dim, hidden_dim)
+        self.middle_layers = []
+        for _ in range(num_middle_layer):
+            self.middle_layers.append(nn.Linear(hidden_dim, hidden_dim))
+        self.middle_layers = nn.ModuleList(self.middle_layers)
+        self.final_layer = nn.Linear(hidden_dim, output_dim)
         self.dropout = nn.Dropout(p=p_dropout)
         
     def forward(self, seq):
-        hidden = self.embedding(seq).sum(dim=0) # sum of word embedding
-        for fc in self.fcs:
-            hidden = F.relu(self.dropout(fc(hidden)))
+        emb = self.embedding(seq).sum(dim=0) # sum of word embedding
+        hidden = F.relu(self.dropout(self.first_layer(emb)))
+        for i, middle_layer in enumerate(self.middle_layers):
+            if i == len(self.middle_layers) - 1:
+                hidden = F.relu(self.dropout(middle_layer(hidden)))
+            else:
+                hidden = F.relu(middle_layer(hidden))
+                
         preds = self.final_layer(hidden)
         return preds
 

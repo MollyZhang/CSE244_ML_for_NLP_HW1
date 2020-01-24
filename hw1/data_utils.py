@@ -18,7 +18,7 @@ def prep_train_val(path, train_file, val_file, batch_size=64):
     
     text_field.build_vocab(trn, vld)
     vocab_size = len(text_field.vocab)
-    train_iter, val_iter = BucketIterator.splits(
+    train_iter, val_iter = Iterator.splits(
         (trn, vld),
         batch_sizes=(batch_size, batch_size),
         device=torch.device("cuda"), 

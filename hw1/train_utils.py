@@ -48,7 +48,7 @@ def train(train_data, val_data, model,
     train_f1 = evaluation.calculate_f1(train_data, best_model)
     result = {"trained_model": best_model, 
               "train f1 score": train_f1, 
-              "val f1 score": val_f1, 
+              "val f1 score": best_val_f1, 
               "train loss": epoch_loss, 
               "val loss": val_loss}
     return result
