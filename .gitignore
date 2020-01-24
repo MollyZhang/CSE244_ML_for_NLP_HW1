@@ -2,6 +2,10 @@
 fasttext/
 hw1/data/submissions/
 
+# linux
+*.swp
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
