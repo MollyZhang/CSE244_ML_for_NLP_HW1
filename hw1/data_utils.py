@@ -3,43 +3,60 @@ import torch
 import numpy as np
 
 
-def prep_train_val(path, train_file, val_file, batch_size=64):
+def prep_all_data(batch_size=64):
+    path = "data"
+    train_file = "train_real.csv"
+    val_file = "val.csv"
+    holdout_test_file = "holdout_test.csv"
+    test_file = "test.csv"
+    train_val_file = 'train_val.csv'
+    
     tokenize = lambda x: x.split()
     text_field = Field(sequential=True, tokenize=tokenize, 
                        lower=True, include_lengths=True)
     labeler = lambda x: np.array([int(i) for i in list(x)])
     label_field = RawField(preprocessing=lambda x: labeler(x))
 
-    datafields = [("ID", None), ("text", text_field), ("label", label_field)]
-    trn, vld = TabularDataset.splits(
-        path=path, train=train_file, validation=val_file,
+    trn, vld, tst = TabularDataset.splits(path=path, 
+        train=train_file, validation=val_file, test=test_file,
         format='csv', skip_header=True,
-        fields=datafields)
+        fields=[("ID", RawField(preprocessing=lambda x:int(x))), 
+                ("text", text_field), 
+                ("raw_text", RawField()),
+                ("label", label_field),
+                ("raw_label", RawField())])
     
-    text_field.build_vocab(trn, vld)
+    vocab = np.load("./data/vocab.npy")
+    text_field.build_vocab([vocab])
     vocab_size = len(text_field.vocab)
-    train_iter, val_iter = Iterator.splits(
-        (trn, vld),
-        batch_sizes=(batch_size, batch_size),
+
+    train_iter, val_iter, test_iter = BucketIterator.splits(
+        (trn, vld, tst),
+        batch_sizes=(batch_size, batch_size, batch_size),
         device=torch.device("cuda"), 
         sort_key=lambda x: len(x.text), 
         sort_within_batch=False,
         repeat=False)
-    train_data = BatchWrapper(train_iter, 
-        vocab_size=vocab_size, batch_size=batch_size)
-    val_data = BatchWrapper(val_iter, 
-        vocab_size=vocab_size, batch_size=batch_size)
-    return train_data, val_data
+    
+    train_data = BatchWrapper(train_iter, text_field=text_field, 
+        sample_size=len(trn), vocab_size=vocab_size, batch_size=batch_size)
+    val_data = BatchWrapper(val_iter, text_field=text_field, 
+        sample_size=len(vld), vocab_size=vocab_size, batch_size=batch_size)
+    test_data = BatchWrapper(test_iter, text_field=text_field, 
+        sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
+    
+    return train_data, val_data, test_data
 
 
 class BatchWrapper(object):
-    def __init__(self, data, onehot=False, 
-                 length=False, vocab_size=-1, batch_size=-1):
+    def __init__(self, data, onehot=False, text_field=None, 
+                 length=False, sample_size=-1, vocab_size=-1, batch_size=-1):
         self.data = data
         self.onehot = onehot
         self.batch_size = batch_size
         self.include_len = length
-        self.sample_size = len(data)
+        self.sample_size = sample_size
+        self.text_field = text_field
         if self.onehot:
             assert(vocab_size > 0)
             self.vocab_size = vocab_size
@@ -58,8 +75,13 @@ class BatchWrapper(object):
             if not self.include_len:
                 x = x[0]
             y = torch.tensor(np.stack(batch.label, axis=0)).float().cuda()
-            yield (x, y)
+            ID = batch.ID
+            raw_text = batch.raw_text
+            raw_label = batch.raw_label
+            extra = {"ID": batch.ID, "raw_text": batch.raw_text, 
+                     "raw_label": batch.raw_label}
+            yield (x, y, extra)
     
     def __len__(self):
-        return len(self.data)
- 
+        return self.sample_size
+
