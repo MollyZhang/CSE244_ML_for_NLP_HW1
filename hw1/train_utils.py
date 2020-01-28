@@ -1,3 +1,4 @@
+import copy
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -12,8 +13,7 @@ def train(train_data, val_data, model,
           print_freq=10):
     no_improvement = 0
     best_val_f1 = 0
-    best_model = model
-    loss_func = nn.BCEWithLogitsLoss()
+    loss_func = nn.BCEWithLogitsLoss(reduction='sum')
     model.cuda()
     opt = optim.Adam(model.parameters(), lr=lr)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(
@@ -23,9 +23,9 @@ def train(train_data, val_data, model,
             break
         running_loss = 0.0
         model.train() # turn on training mode
-        for x, y in train_data: 
+        for x, y, _ in train_data: 
             opt.zero_grad()
-            preds = model(x)        
+            preds = model((x, _["raw_text"]))        
             loss = loss_func(preds, y.type_as(preds))
             loss.backward()
             opt.step()
@@ -38,11 +38,11 @@ def train(train_data, val_data, model,
         if val_f1 > best_val_f1:
             no_improvement = 0
             best_val_f1 = val_f1
-            best_model = model
+            best_model = copy.deepcopy(model)
         else:
             no_improvement += 1
         scheduler.step(val_loss)
-        if epoch % 10 == 0:
+        if epoch % print_freq == 0:
             print('Epoch: {}, LR: {}, Train Loss: {:.4f}, Val Loss: {:.4f}, Val f1 {:.3f}'.format(
                 epoch, opt.param_groups[0]['lr'], epoch_loss, val_loss, val_f1))
     train_f1 = evaluation.calculate_f1(train_data, best_model)
@@ -57,8 +57,8 @@ def train(train_data, val_data, model,
 def calculate_loss(val_data, model, loss_func):
     model.eval() 
     val_loss = 0.0
-    for x, y in val_data:
-        preds = model(x)
+    for x, y, _ in val_data:
+        preds = model((x, _["raw_text"]))
         loss = loss_func(preds, y.type_as(preds))
         val_loss += loss.item() * y.shape[0]
     val_loss /= val_data.sample_size

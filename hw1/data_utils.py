@@ -1,9 +1,9 @@
 from torchtext.data import TabularDataset, Field, RawField, BucketIterator, Iterator
 import torch
 import numpy as np
+import re
 
-
-def prep_all_data(batch_size=64):
+def prep_all_data(batch_size=64, use_holdout_test=False):
     path = "data"
     train_file = "train_real.csv"
     val_file = "val.csv"
@@ -11,14 +11,17 @@ def prep_all_data(batch_size=64):
     test_file = "test.csv"
     train_val_file = 'train_val.csv'
     
-    tokenize = lambda x: x.split()
+    tokenize = lambda x: re.split("'| ", x.lower())
     text_field = Field(sequential=True, tokenize=tokenize, 
                        lower=True, include_lengths=True)
     labeler = lambda x: np.array([int(i) for i in list(x)])
     label_field = RawField(preprocessing=lambda x: labeler(x))
 
+    test_to_use = test_file
+    if use_holdout_test:
+        test_to_use = holdout_test_file
     trn, vld, tst = TabularDataset.splits(path=path, 
-        train=train_file, validation=val_file, test=test_file,
+        train=train_file, validation=val_file, test=test_to_use,
         format='csv', skip_header=True,
         fields=[("ID", RawField(preprocessing=lambda x:int(x))), 
                 ("text", text_field), 

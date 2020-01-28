@@ -1,12 +1,15 @@
 import torch
 import numpy as np
 
+
 def calculate_f1(data, m):
     m.eval()
     total_f1 = 0
     num_samples = 0
-    for x, y in data:
-        pred = m(x)
+    for x, y, _ in data:
+        if y.shape[1] == 1:
+            raise("no label in data")
+        pred = m((x, _["raw_text"]))
         total_f1 += f1(pred, y)
         num_samples += y.shape[0]
     return(total_f1/num_samples)
