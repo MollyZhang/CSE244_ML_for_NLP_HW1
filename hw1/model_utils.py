@@ -38,8 +38,9 @@ class BaseModelWithLabel(nn.Module):
         else: 
             self.embedding = nn.Embedding(vocab_size, emb_dim)
         self.label_vocab = np.load("./data/label_vocab_restrict.npy")       
-        self.final_layer = nn.Linear(emb_dim, output_dim)
-        self.combination_layer = nn.Linear(len(self.label_vocab)+output_dim, output_dim)
+        self.final_layer1 = nn.Linear(emb_dim, output_dim)
+        self.final_layer2 = nn.Linear(len(self.label_vocab), output_dim)
+        self.combination_layer = nn.Linear(2*output_dim, output_dim)
  
     def forward(self, x):
         seq, raw_text = x
@@ -47,9 +48,9 @@ class BaseModelWithLabel(nn.Module):
         emb = self.embedding(seq).sum(dim=0) # sum of word embedding
         # label_feature: batch_size * label_vocab
         label_features = self.create_label_feature(raw_text)
-        preds = self.final_layer(emb)
-        combined_preds = self.combination_layer(
-            torch.cat((preds, label_features), dim=1))
+        preds1 = self.final_layer1(emb)
+        preds2 = self.final_layer2(label_features)
+        combined_preds = self.combination_layer(torch.cat((preds1, preds2), dim=1))
         return combined_preds
 
     def create_label_feature(self, text):

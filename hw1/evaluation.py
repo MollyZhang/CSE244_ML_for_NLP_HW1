@@ -23,10 +23,17 @@ def f1(y_pred, y_true):
     for sample_idx in range(batch_size):
         true_idx = np.arange(num_class)[(y_true[sample_idx] == 1).astype('bool')]
         pred_idx = np.arange(num_class)[(y_pred[sample_idx] == 1).astype('bool')]
+
+        # remove other or NO_REL if they show up as a co-occuring label
+        #if len(pred_idx) >= 2:
+        #    pred_idx = np.delete(pred_idx, [0, 37])
+
         # make sure at least to predict one
         assert (y_true[sample_idx].sum() > 0)
         if len(pred_idx) == 0:
             pred_idx = [np.argmax(y_pred[sample_idx]).item()]
+        #if pred_idx[0] == 0 and len(pred_idx) == 1:
+        #    pred_idx = np.array([37])
 
         tp = len(np.intersect1d(true_idx, pred_idx))        
         precision = tp/len(pred_idx)

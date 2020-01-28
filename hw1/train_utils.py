@@ -10,11 +10,14 @@ import evaluation
 
 def train(train_data, val_data, model,
           lr=1e-3, patience=10, max_epoch=100,
-          print_freq=10):
+          print_freq=10, cpu=False):
     no_improvement = 0
     best_val_f1 = 0
     loss_func = nn.BCEWithLogitsLoss(reduction='sum')
-    model.cuda()
+    if cpu:
+        model.cpu()
+    else:
+        model.cuda()
     opt = optim.Adam(model.parameters(), lr=lr)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(
         optimizer=opt, factor=0.1, patience=patience)
