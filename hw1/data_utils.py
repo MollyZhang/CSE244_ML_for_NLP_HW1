@@ -4,7 +4,8 @@ import numpy as np
 import re
 
 
-def prep_all_data(batch_size=64, use_holdout_test=False, device="cuda"):
+def prep_all_data(batch_size=64, use_holdout_test=False, 
+                  device="cuda", x_type="embedding"):
     path = "data"
     train_file = "train_real.csv"
     val_file = "val.csv"
@@ -16,10 +17,7 @@ def prep_all_data(batch_size=64, use_holdout_test=False, device="cuda"):
     text_field = Field(sequential=True, tokenize=tokenize, 
                        lower=True, include_lengths=True)
     labeler = lambda x: torch.tensor([int(i) for i in list(x)])
-    #labeler = lambda x: x.split(" ")
     label_field = RawField(preprocessing=lambda x: labeler(x), is_target=True)
-    #label_field = Field(sequential=False, use_vocab=False,
-    #    preprocessing=lambda x: labeler(x), is_target=True)
 
     test_to_use = test_file
     if use_holdout_test:
@@ -44,45 +42,53 @@ def prep_all_data(batch_size=64, use_holdout_test=False, device="cuda"):
         sort_key=lambda x: len(x.text), 
         sort_within_batch=False,
         repeat=False)
-    
-    train_data = BatchWrapper(train_iter, text_field=text_field, 
-        sample_size=len(trn), vocab_size=vocab_size, batch_size=batch_size)
-    val_data = BatchWrapper(val_iter, text_field=text_field, 
-        sample_size=len(vld), vocab_size=vocab_size, batch_size=batch_size)
-    test_data = BatchWrapper(test_iter, text_field=text_field, 
-        sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
-    
+
+
+    if x_type == "embedding":
+        train_data = EmbeddingWrapper(train_iter, text_field=text_field, 
+            sample_size=len(trn), vocab_size=vocab_size, batch_size=batch_size)
+        val_data = EmbeddingWrapper(val_iter, text_field=text_field, 
+            sample_size=len(vld), vocab_size=vocab_size, batch_size=batch_size)
+        test_data = EmbeddingWrapper(test_iter, text_field=text_field, 
+            sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
+    elif x_type == "ngram":
+        train_data = NgramWrapper(train_iter, text_field=text_field, 
+            sample_size=len(trn), vocab_size=vocab_size, batch_size=batch_size)
+        val_data = NgramWrapper(val_iter, text_field=text_field, 
+            sample_size=len(vld), vocab_size=vocab_size, batch_size=batch_size)
+        test_data = NgramWrapper(test_iter, text_field=text_field, 
+            sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
+    else:
+        raise(Exception("invalid x_type"))
     return train_data, val_data, test_data
 
 
-class BatchWrapper(object):
-    def __init__(self, data, onehot=False, text_field=None, device="cuda",
-                 length=False, sample_size=-1, vocab_size=-1, batch_size=-1):
+class BaseWrapper(object):
+    def __init__(self, data, text_field=None, device="cuda",
+                 length=False, sample_size=None, vocab_size=None, batch_size=None):
         self.data = data
-        self.onehot = onehot
         self.batch_size = batch_size
         self.include_len = length
         self.sample_size = sample_size
         self.text_field = text_field
         self.device = device
-        if self.onehot:
-            assert(vocab_size > 0)
-            self.vocab_size = vocab_size
     
-    def one_hot(self, seq_batch,vocab_size):
-        out = torch.zeros(seq_batch.size()+torch.Size([vocab_size]))
-        dim = len(seq_batch.size())
-        index = seq_batch.view(seq_batch.size()+torch.Size([1]))
-        return out.scatter_(dim,index,1)
+    def __len__(self):
+        return self.sample_size
+
+
+class EmbeddingWrapper(BaseWrapper):
+    def __init__(self, data, text_field=None, device="cuda",
+                 length=False, sample_size=None, vocab_size=None, batch_size=None):
+        super().__init__(data, text_field=text_field, device=device,
+                         length=length, sample_size=sample_size, 
+                         vocab_size=vocab_size, batch_size=batch_size)
     
     def __iter__(self):
         for batch in self.data:
             x = batch.text
-            if self.onehot:
-                x = one_hot(x.cpu(), vocab_size).cuda()            
             if not self.include_len:
                 x = x[0]
-            #print(batch.label)
             y = torch.stack(batch.label, axis=0)#.to(self.device)
             ID = batch.ID
             raw_text = batch.raw_text
@@ -91,6 +97,30 @@ class BatchWrapper(object):
                      "raw_label": batch.raw_label}
             yield (x, y, extra)
     
-    def __len__(self):
-        return self.sample_size
 
+class NgramWrapper(BaseWrapper):
+    def __init__(self, data, text_field=None, device="cuda", ngram=1,
+                 length=False, sample_size=None, vocab_size=None, batch_size=None):
+        super().__init__(data, text_field=text_field, device=device,
+                         length=length, sample_size=sample_size, 
+                         vocab_size=vocab_size, batch_size=batch_size)
+        self.ngram = ngram   
+        self.vocab = np.load("./data/{}grams.npy".format(self.ngram))
+
+    def __iter__(self):
+        for batch in self.data:
+            raw_text = batch.raw_text
+            x = torch.zeros(len(raw_text), len(self.vocab), device=self.device)
+            for i, each_line in enumerate(raw_text):
+                words = re.split("'| ", each_line)
+                for word in words:
+                    if word in self.vocab:
+                        j = np.where(self.vocab==word)[0][0]
+                        x[i, j] += 1
+            y = torch.stack(batch.label, axis=0)
+            ID = batch.ID
+            raw_text = batch.raw_text
+            raw_label = batch.raw_label
+            extra = {"ID": batch.ID, "raw_text": batch.raw_text, 
+                     "raw_label": batch.raw_label}
+            yield (x, y, extra)
