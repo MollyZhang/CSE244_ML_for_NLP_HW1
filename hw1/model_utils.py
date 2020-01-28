@@ -145,15 +145,19 @@ class GRU(nn.Module):
 
 class BaseModelNGram(nn.Module):
     """add label features"""
-    def __init__(self, input_dim, device="cuda", hidden_dim=300, output_dim=46):
+    def __init__(self, input_dim, device="cuda",
+                 hidden_dim=400, output_dim=46):
         super().__init__()
-        self.fc1 = nn.Linear(input_dim, output_dim)
+        self.fc1 = nn.Linear(input_dim, hidden_dim)
+        self.fc3 = nn.Linear(hidden_dim, output_dim)
         self.device = device
         self.output_dim = output_dim
- 
+        self.batchnorm1 = nn.BatchNorm1d(hidden_dim)
+
     def forward(self, x):
         ngram, raw_text = x
-        preds = self.fc1(ngram)
+        hidden = F.relu(self.batchnorm1(self.fc1(ngram)))
+        preds = self.fc3(hidden)
         return preds
 
 
