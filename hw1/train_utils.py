@@ -10,11 +10,11 @@ import evaluation
 
 def train(train_data, val_data, model,
           lr=1e-3, patience=10, max_epoch=100,
-          print_freq=10, cpu=False):
+          print_freq=10, device="cuda"):
     no_improvement = 0
     best_val_f1 = 0
     loss_func = nn.BCEWithLogitsLoss(reduction='sum')
-    if cpu:
+    if device=="cpu":
         model.cpu()
     else:
         model.cuda()

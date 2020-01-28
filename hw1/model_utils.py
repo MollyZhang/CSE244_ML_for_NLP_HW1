@@ -7,7 +7,6 @@ import numpy as np
 import re
 
 
-
 class BaseModel(nn.Module):
     def __init__(self, pretrained_emb=False,
                  emb_dim=300, output_dim=46, vocab_size=2044):
@@ -20,7 +19,8 @@ class BaseModel(nn.Module):
             self.embedding = nn.Embedding(vocab_size, emb_dim)
         self.final_layer = nn.Linear(emb_dim, output_dim)
         
-    def forward(self, seq):
+    def forward(self, x):
+        seq, raw_text = x
         emb = self.embedding(seq).sum(dim=0) # sum of word embedding
         preds = self.final_layer(emb)
         return preds
@@ -28,8 +28,8 @@ class BaseModel(nn.Module):
 
 class BaseModelWithLabel(nn.Module):
     """add label features"""
-    def __init__(self, pretrained_emb=False,
-                 emb_dim=300, output_dim=46, vocab_size=2044):
+    def __init__(self, pretrained_emb=False, device="cuda",
+                 emb_dim=300, hidden_dim=300, output_dim=46, vocab_size=2044):
         super().__init__()
         if pretrained_emb:
             emb_matrix = torch.load("./data/emb_matrix_ft.pt")
@@ -37,10 +37,14 @@ class BaseModelWithLabel(nn.Module):
                 freeze=False)
         else: 
             self.embedding = nn.Embedding(vocab_size, emb_dim)
-        self.label_vocab = np.load("./data/label_vocab_restrict.npy")       
+        self.label_vocab = np.load("./data/label_vocab.npy")       
+        self.labels = np.load("./data/labels.npy") 
         self.final_layer1 = nn.Linear(emb_dim, output_dim)
-        self.final_layer2 = nn.Linear(len(self.label_vocab), output_dim)
+        #self.linear_layer = nn.Linear(emb_dim, hidden_dim)
+        self.final_layer2 = nn.Linear(len(self.labels), output_dim)
         self.combination_layer = nn.Linear(2*output_dim, output_dim)
+        self.device = device
+        self.output_dim = output_dim
  
     def forward(self, x):
         seq, raw_text = x
@@ -50,22 +54,36 @@ class BaseModelWithLabel(nn.Module):
         label_features = self.create_label_feature(raw_text)
         preds1 = self.final_layer1(emb)
         preds2 = self.final_layer2(label_features)
+        scaling_bias = torch.rand(self.output_dim, requires_grad=True).to(self.device)
         combined_preds = self.combination_layer(torch.cat((preds1, preds2), dim=1))
         return combined_preds
 
     def create_label_feature(self, text):
-        label_feature = torch.zeros(len(text), len(self.label_vocab)) 
+        """ a label get additional boosts if a word in text overlaps with it
+            boost num is the number of words which overlaps with this label
+        """
+        label_feature = torch.zeros(len(text), self.output_dim)
         for i, each_line in enumerate(text):
             for word in re.split("'| ", each_line):
                 if word in self.label_vocab:
-                    idx = np.where(self.label_vocab==word)[0][0]
-                    label_feature[i, idx] = 1
-        return label_feature.cuda()
+                    for j, each_label in enumerate(self.labels):
+                        if word in each_label:
+                            label_idx = np.where(self.labels==each_label)[0][0]
+                            label_feature[i, label_idx] += 1
+        if self.device == "cuda":
+            return label_feature.cuda()
+        elif self.device == "cpu":
+            return label_feature
+
+    def create_cosim_feature(self, text):
+        """ cosine similarity between text and label words"""
+        pass
 
 
 class GRU(nn.Module):
-    def __init__(self, pretrained_emb=False, hidden_unit=100,
-                 emb_dim=300, output_dim=46, vocab_size=200):
+    def __init__(self, pretrained_emb=False, device="cuda", hidden_unit=200,
+                 emb_dim=300, output_dim=46, vocab_size=2000, 
+                 bi=True):
         super().__init__()
         if pretrained_emb:
             emb_matrix = torch.load("./data/emb_matrix_ft.pt")
@@ -73,17 +91,82 @@ class GRU(nn.Module):
                 freeze=False)
         else: 
             self.embedding = nn.Embedding(vocab_size, emb_dim)
-        self.gru = nn.LSTM(emb_dim, hidden_unit)
-        self.final_layer = nn.Linear(hidden_unit, output_dim)
+        self.gru = nn.GRU(emb_dim, hidden_unit, bidirectional=bi)
+        self.hidden_unit = hidden_unit
+        self.device = device
+        self.bi = bi
+        if self.bi:
+            self.h0_bi = 2
+        else:
+            self.h0_bi = 1
+        self.final_layer1 = nn.Linear(self.h0_bi * hidden_unit, output_dim)
+        #self.label_vocab = np.load("./data/label_vocab_restrict.npy")       
+        #self.labels = np.load("./data/labels.npy") 
+        #self.final_layer2 = nn.Linear(len(self.labels), output_dim)
+        #self.combination_layer = nn.Linear(self.h0_bi * hidden_unit + output_dim, output_dim)
+        #self.output_dim = output_dim
         
     def forward(self, x):
         seq, raw_text = x
+        batch_size = len(raw_text)
         # emb shape: sequence_length, batch_size, emb_dim
         emb = self.embedding(seq)
-        output, (h, c) = self.gru(emb)
-        preds = self.final_layer(h[-1, :, :])
+        h0 = torch.rand((self.h0_bi,batch_size,self.hidden_unit), requires_grad=True)
+        h0 = (h0 - 0.5)/self.hidden_unit
+        if self.device == "cuda":
+            h0 = h0.cuda()
+        self.gru.flatten_parameters()
+        output, h  = self.gru(emb, h0)
+        preds = self.final_layer1(output[-1, :, :])
+        
+        #label_features = self.create_label_feature(raw_text)
+        #preds2 = self.final_layer2(label_features)
+        #combined_preds = self.combination_layer(torch.cat((output[-1, :, :], preds2), dim=1))
         return preds
 
+
+    def create_label_feature(self, text):
+        """ a label get additional boosts if a word in text overlaps with it
+            boost num is the number of words which overlaps with this label
+        """
+        label_feature = torch.zeros(len(text), self.output_dim)
+        for i, each_line in enumerate(text):
+            for word in re.split("'| ", each_line):
+                if word in self.label_vocab:
+                    for j, each_label in enumerate(self.labels):
+                        if word in each_label:
+                            label_idx = np.where(self.labels==each_label)[0][0]
+                            label_feature[i, label_idx] += 1
+        if self.device == "cuda":
+            return label_feature.cuda()
+        elif self.device == "cpu":
+            return label_feature
+
+
+class BaseModelNGram(nn.Module):
+    """add label features"""
+    def __init__(self, device="cuda", hidden_dim=300, output_dim=46):
+        super().__init__()
+        self.label_vocab = np.load("./data/label_vocab.npy")       
+        self.labels = np.load("./data/labels.npy") 
+        self.final_layer1 = nn.Linear(emb_dim, output_dim)
+        #self.linear_layer = nn.Linear(emb_dim, hidden_dim)
+        self.final_layer2 = nn.Linear(len(self.labels), output_dim)
+        self.combination_layer = nn.Linear(2*output_dim, output_dim)
+        self.device = device
+        self.output_dim = output_dim
+ 
+    def forward(self, x):
+        seq, raw_text = x
+        # emb dimension: batch_size * emb_dim
+        emb = self.embedding(seq).sum(dim=0) # sum of word embedding
+        # label_feature: batch_size * label_vocab
+        label_features = self.create_label_feature(raw_text)
+        preds1 = self.final_layer1(emb)
+        preds2 = self.final_layer2(label_features)
+        scaling_bias = torch.rand(self.output_dim, requires_grad=True).to(self.device)
+        combined_preds = self.combination_layer(torch.cat((preds1, preds2), dim=1))
+        return combined_preds
 
 
 class MultiLayerMLP(nn.Module):
