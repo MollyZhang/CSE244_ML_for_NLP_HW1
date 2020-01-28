@@ -5,7 +5,7 @@ import re
 
 
 def prep_all_data(batch_size=64, use_holdout_test=False, 
-                  device="cuda", x_type="embedding"):
+                  device="cuda", x_type="embedding", ngram=None):
     path = "data"
     train_file = "train_real.csv"
     val_file = "val.csv"
@@ -52,12 +52,13 @@ def prep_all_data(batch_size=64, use_holdout_test=False,
         test_data = EmbeddingWrapper(test_iter, text_field=text_field, 
             sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
     elif x_type == "ngram":
+        assert(ngram is not None)
         train_data = NgramWrapper(train_iter, text_field=text_field, 
-            sample_size=len(trn), vocab_size=vocab_size, batch_size=batch_size)
+            sample_size=len(trn), ngram=ngram, batch_size=batch_size)
         val_data = NgramWrapper(val_iter, text_field=text_field, 
-            sample_size=len(vld), vocab_size=vocab_size, batch_size=batch_size)
+            sample_size=len(vld), ngram=ngram, batch_size=batch_size)
         test_data = NgramWrapper(test_iter, text_field=text_field, 
-            sample_size=len(tst), vocab_size=vocab_size, batch_size=batch_size)
+            sample_size=len(tst), ngram=ngram, batch_size=batch_size)
     else:
         raise(Exception("invalid x_type"))
     return train_data, val_data, test_data
@@ -100,23 +101,23 @@ class EmbeddingWrapper(BaseWrapper):
 
 class NgramWrapper(BaseWrapper):
     def __init__(self, data, text_field=None, device="cuda", ngram=1,
-                 length=False, sample_size=None, vocab_size=None, batch_size=None):
+                 length=False, sample_size=None, batch_size=None):
         super().__init__(data, text_field=text_field, device=device,
                          length=length, sample_size=sample_size, 
-                         vocab_size=vocab_size, batch_size=batch_size)
-        self.ngram = ngram   
-        self.vocab = np.load("./data/{}grams.npy".format(self.ngram))
+                         batch_size=batch_size)
+        self.ngram = ngram
+        self.vocabs = []
+        for gram in range(1, ngram+1):
+            self.vocabs.append(np.load("./data/{}grams.npy".format(gram)))
+        self.vocab_size = sum([len(i) for i in self.vocabs])
 
     def __iter__(self):
         for batch in self.data:
             raw_text = batch.raw_text
-            x = torch.zeros(len(raw_text), len(self.vocab), device=self.device)
-            for i, each_line in enumerate(raw_text):
-                words = re.split("'| ", each_line)
-                for word in words:
-                    if word in self.vocab:
-                        j = np.where(self.vocab==word)[0][0]
-                        x[i, j] += 1
+            xs = []
+            for gram in range(1, self.ngram+1):
+                xs.append(self.get_gram_x(gram, raw_text))
+            x = torch.cat(xs, dim=1)
             y = torch.stack(batch.label, axis=0)
             ID = batch.ID
             raw_text = batch.raw_text
@@ -124,3 +125,18 @@ class NgramWrapper(BaseWrapper):
             extra = {"ID": batch.ID, "raw_text": batch.raw_text, 
                      "raw_label": batch.raw_label}
             yield (x, y, extra)
+
+    def get_gram_x(self, n, raw_text):
+        vocab = self.vocabs[n-1]
+        x = torch.zeros(len(raw_text), len(vocab), device=self.device)
+        for i, each_line in enumerate(raw_text):
+            words = re.split("'| ", each_line)
+            for j in range(len(words) - (n-1)):
+                ngram = "_".join(words[j:j+n])
+                if ngram in vocab:
+                    k = np.where(vocab==ngram)[0][0]
+                    x[i, k] += 1
+        return x
+
+
+
