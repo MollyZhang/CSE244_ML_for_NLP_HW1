@@ -9,7 +9,7 @@ import re
 
 class BaseModel(nn.Module):
     def __init__(self, pretrained_emb=False,
-                 emb_dim=300, output_dim=46, vocab_size=2044):
+                 emb_dim=300, output_dim=46, vocab_size=2000):
         super().__init__()
         if pretrained_emb:
             emb_matrix = torch.load("./data/emb_matrix_ft.pt")
