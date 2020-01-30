@@ -10,14 +10,14 @@ def calculate_f1(data, m):
         if y.shape[1] == 1:
             raise("no label in data")
         pred = m((x, _["raw_text"]))
-        total_f1 += f1(pred, y)
+        y_pred = (torch.sigmoid(pred) > 0.5).int().cpu().numpy()
+        total_f1 += f1(y_pred, y)
         num_samples += y.shape[0]
     return(total_f1/num_samples)
 
     
 def f1(y_pred, y_true):
     total_f1 = 0
-    y_pred = (torch.sigmoid(y_pred) > 0.5).int().cpu().numpy()
     y_true = y_true.cpu().numpy()
     batch_size, num_class = y_true.shape
     for sample_idx in range(batch_size):
