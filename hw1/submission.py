@@ -27,15 +27,13 @@ def get_submission(model=None, data=None):
 
 
 class Ensemble(object):
-    def __init__(self, model1=None, model2=None, 
-                       m1_val_data=None, m1_test_data=None,
-                       m2_val_data=None, m2_test_data=None):
-        self.model1 = model1
-        self.model2 = model2
-        self.m1_val_data = m1_val_data
-        self.m2_val_data = m2_val_data
-        self.m1_test_data = m1_test_data
-        self.m2_test_data = m2_test_data
+    def __init__(self, models=None, 
+                       val_data=None,
+                       test_data=None):
+        self.models = models
+        self.num_models = len(models)
+        self.val_data = val_data
+        self.test_data = test_data
         self.df_val = pd.read_csv(
             "./data/val.csv", index_col="ID")[["text", "raw_label"]]
         self.df_test = pd.read_csv(
@@ -47,14 +45,13 @@ class Ensemble(object):
 
     def get_ensemble_result(self, submission=False):
         if submission:
-            m1_data = self.m1_test_data
-            m2_data = self.m2_test_data
+            data = self.test_data
         else:
-            m1_data = self.m1_val_data
-            m2_data = self.m2_val_data
-        df1 = self.get_preds(self.model1, m1_data)
-        df2 = self.get_preds(self.model2, m2_data)
-        ensemble_df = self.calculate_ensemble_f1(df1, df2)
+            data = self.val_data
+        dfs = []
+        for i in range(self.num_models): 
+            dfs.append(self.get_preds(self.models[i], data[i]))
+        ensemble_df = self.calculate_ensemble_f1(dfs)
 
         if submission:
             df_labeled = ensemble_df.join(self.df_test)
@@ -78,8 +75,8 @@ class Ensemble(object):
         ids = np.concatenate(ids, axis=0)
         return pd.DataFrame(preds, index=ids).sort_index()
     
-    def calculate_ensemble_f1(self, df1, df2):
-        df = (df1 + df2)/2
+    def calculate_ensemble_f1(self, dfs):
+        df = sum(dfs)/self.num_models
         preds = df.as_matrix()
         ids = df.index
         num_class = df.shape[1]
