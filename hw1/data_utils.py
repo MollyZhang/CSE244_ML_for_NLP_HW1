@@ -2,16 +2,14 @@ from torchtext.data import TabularDataset, Field, RawField, BucketIterator, Iter
 import torch
 import numpy as np
 import re
+import os
 
 
-def prep_all_data(batch_size=64, use_holdout_test=False, 
-                  device="cuda", ngram=1):
-    path = "data"
-    train_file = "train_real.csv"
-    val_file = "val.csv"
-    holdout_test_file = "holdout_test.csv"
-    test_file = "test.csv"
-    train_val_file = 'train_val.csv'
+def prep_all_data(batch_size=64, path="data", 
+                  device="cuda", ngram=1, 
+                  train_file = "train_real.csv",
+                  val_file = "val.csv",
+                  test_file = "test.csv"):
     
     tokenize = lambda x: re.split("'| ", x.lower())
     text_field = Field(sequential=True, tokenize=tokenize, 
@@ -19,11 +17,8 @@ def prep_all_data(batch_size=64, use_holdout_test=False,
     labeler = lambda x: torch.tensor([int(i) for i in list(x)])
     label_field = RawField(preprocessing=lambda x: labeler(x), is_target=True)
 
-    test_to_use = test_file
-    if use_holdout_test:
-        test_to_use = holdout_test_file
     trn, vld, tst = TabularDataset.splits(path=path, 
-        train=train_file, validation=val_file, test=test_to_use,
+        train=train_file, validation=val_file, test=test_file,
         format='csv', skip_header=True,
         fields=[("ID", RawField(preprocessing=lambda x:int(x))), 
                 ("text", text_field), 
@@ -31,7 +26,7 @@ def prep_all_data(batch_size=64, use_holdout_test=False,
                 ("label", label_field),
                 ("raw_label", RawField())])
 
-    vocab = np.load("./data/vocab.npy")
+    vocab = np.load(os.path.join(path, "vocab.npy"))
     text_field.build_vocab([vocab])
     vocab_size = len(text_field.vocab)
 
@@ -43,17 +38,17 @@ def prep_all_data(batch_size=64, use_holdout_test=False,
         sort_within_batch=False,
         repeat=False)
 
-    train_data = BaseWrapper(train_iter, text_field=text_field, 
+    train_data = BaseWrapper(train_iter, text_field=text_field, path=path, 
         sample_size=len(trn), ngram=ngram, batch_size=batch_size)
-    val_data = BaseWrapper(val_iter, text_field=text_field, 
+    val_data = BaseWrapper(val_iter, text_field=text_field, path=path,
         sample_size=len(vld), ngram=ngram, batch_size=batch_size)
-    test_data = BaseWrapper(test_iter, text_field=text_field, 
+    test_data = BaseWrapper(test_iter, text_field=text_field, path=path,
         sample_size=len(tst), ngram=ngram, batch_size=batch_size)
     return train_data, val_data, test_data
 
 
 class BaseWrapper(object):
-    def __init__(self, data, text_field=None, device="cuda", ngram=1,
+    def __init__(self, data, text_field=None, path="data", device="cuda", ngram=1,
                  sample_size=None, ngram_vocab_size=None, batch_size=None):
         self.data = data
         self.batch_size = batch_size
@@ -63,7 +58,7 @@ class BaseWrapper(object):
         self.ngram = ngram
         self.vocabs = []
         for gram in range(1, ngram+1):
-            self.vocabs.append(np.load("./data/{}grams.npy".format(gram)))
+            self.vocabs.append(np.load(os.path.join(path, "{}grams.npy".format(gram))))
         self.ngram_vocab_size = sum([len(i) for i in self.vocabs])
 
     def __iter__(self):

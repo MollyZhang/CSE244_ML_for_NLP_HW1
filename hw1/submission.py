@@ -28,11 +28,14 @@ def get_submission(model=None, data=None):
 
 class Ensemble(object):
     def __init__(self, model1=None, model2=None, 
-                       val_data=None, test_data=None):
+                       m1_val_data=None, m1_test_data=None,
+                       m2_val_data=None, m2_test_data=None):
         self.model1 = model1
         self.model2 = model2
-        self.val_data = val_data
-        self.test_data = test_data
+        self.m1_val_data = m1_val_data
+        self.m2_val_data = m2_val_data
+        self.m1_test_data = m1_test_data
+        self.m2_test_data = m2_test_data
         self.df_val = pd.read_csv(
             "./data/val.csv", index_col="ID")[["text", "raw_label"]]
         self.df_test = pd.read_csv(
@@ -44,11 +47,13 @@ class Ensemble(object):
 
     def get_ensemble_result(self, submission=False):
         if submission:
-            data = self.test_data
+            m1_data = self.m1_test_data
+            m2_data = self.m2_test_data
         else:
-            data = self.val_data
-        df1 = self.get_preds(self.model1, data)
-        df2 = self.get_preds(self.model2, data)
+            m1_data = self.m1_val_data
+            m2_data = self.m2_val_data
+        df1 = self.get_preds(self.model1, m1_data)
+        df2 = self.get_preds(self.model2, m2_data)
         ensemble_df = self.calculate_ensemble_f1(df1, df2)
 
         if submission:

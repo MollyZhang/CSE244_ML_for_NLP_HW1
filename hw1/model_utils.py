@@ -5,6 +5,8 @@ from torch.autograd import Variable
 import torch
 import numpy as np
 import re
+import os
+
 
 
 class BaseModel(nn.Module):
@@ -81,12 +83,13 @@ class BaseModelWithLabel(nn.Module):
 
 
 class GRU(nn.Module):
-    def __init__(self, pretrained_emb=False, device="cuda", hidden_unit=200,
+    def __init__(self, pretrained_emb=False, device="cuda", path='data',
+                 hidden_unit=200,
                  emb_dim=300, output_dim=46, vocab_size=2000, 
                  bi=True):
         super().__init__()
         if pretrained_emb:
-            emb_matrix = torch.load("./data/emb_matrix_ft.pt")
+            emb_matrix = torch.load(os.path.join(path, "emb_matrix_ft.pt"))
             self.embedding = nn.Embedding.from_pretrained(emb_matrix, 
                 freeze=False)
         else: 
@@ -119,10 +122,10 @@ class GRU(nn.Module):
 
 class BaseModelNGram(nn.Module):
     """add label features"""
-    def __init__(self, ngram=1, device="cuda",
+    def __init__(self, ngram=1, device="cuda", path="data",
                  hidden_dim=400, output_dim=46):
         super().__init__()
-        input_dim = len(np.load("./data/{}grams.npy".format(ngram)))
+        input_dim = len(np.load(os.path.join(path, "{}grams.npy".format(ngram))))
         self.fc1 = nn.Linear(input_dim, hidden_dim)
         self.fc3 = nn.Linear(hidden_dim, output_dim)
         self.device = device

@@ -1,0 +1,1085 @@
+ID,text,raw_text,label,raw_label
+0,star of thor,star of thor,0,dummy
+1,who is in the movie the campaign,who is in the movie the campaign,0,dummy
+2,list the cast of the movie the campaign,list the cast of the movie the campaign,0,dummy
+3,who was in twilight,who was in twilight,0,dummy
+4,who is in vulguria,who is in vulguria,0,dummy
+5,actor from lost,actor from lost,0,dummy
+6,who played in the movie rocky,who played in the movie rocky,0,dummy
+7,who played in the movie captain|america,who played in the movie captain|america,0,dummy
+8,cast and crew for in|july,cast and crew for in|july,0,dummy
+9,who is in movie in|july,who is in movie in|july,0,dummy
+10,who's in star|wars episode four,who's in star|wars episode four,0,dummy
+11,who was in apollo|13,who was in apollo|13,0,dummy
+12,who was apollo|13 's cast,who was apollo|13 's cast,0,dummy
+13,search for information about the cast and crew of apollo|13,search for information about the cast and crew of apollo|13,0,dummy
+14,i would like to know more about the cast and crew of the movie apollo|13,i would like to know more about the cast and crew of the movie apollo|13,0,dummy
+15,who starred in the avengers,who starred in the avengers,0,dummy
+16,cast for finding|nemo,cast for finding|nemo,0,dummy
+17,actor from lassie,actor from lassie,0,dummy
+18,list actors in the movie midnight|cowboy,list actors in the movie midnight|cowboy,0,dummy
+19,dirty|dancing actors,dirty|dancing actors,0,dummy
+20,who are cast and crew of dirty|dancing,who are cast and crew of dirty|dancing,0,dummy
+21,who was in hitch,who was in hitch,0,dummy
+22,who is in the cast of hitch,who is in the cast of hitch,0,dummy
+23,star of facts of life,star of facts of life,0,dummy
+24,show me movie credits,show me movie credits,0,dummy
+25,who does the voices for the movie,who does the voices for the movie,0,dummy
+26,find movie actors,find movie actors,0,dummy
+27,show credits - forager,show credits - forager,0,dummy
+28,star of modern|family,star of modern|family,0,dummy
+29,look up information about the cast crew of go,look up information about the cast crew of go,0,dummy
+30,find information about the cast and crew of go,find information about the cast and crew of go,0,dummy
+31,who was in the cast of go,who was in the cast of go,0,dummy
+32,can you find the lead actor in pretty|women,can you find the lead actor in pretty|women,0,dummy
+33,what are the actors names and parts in finding|nemo,what are the actors names and parts in finding|nemo,0,dummy
+34,searching for names of crew members of appollo thirteen,searching for names of crew members of appollo thirteen,0,dummy
+35,budget for dark|knight,budget for dark|knight,0,dummy
+36,what was the budget for the godfather,what was the budget for the godfather,0,dummy
+37,budget for twilight,budget for twilight,0,dummy
+38,please look up the budget of step|up,please look up the budget of step|up,0,dummy
+39,budget for titanic the movie,budget for titanic the movie,0,dummy
+40,what was the budget for the movie titanic,what was the budget for the movie titanic,0,dummy
+41,budget for iron|man|2,budget for iron|man|2,0,dummy
+42,please tell me how much was the budget for avatar,please tell me how much was the budget for avatar,0,dummy
+43,how much money did they spend to make avatar,how much money did they spend to make avatar,0,dummy
+44,avatar's budget,avatar's budget,0,dummy
+45,how much did avatar take in,how much did avatar take in,0,dummy
+46,please show me what the budget was for avatar,please show me what the budget was for avatar,0,dummy
+47,what was the budget for the avatar movie,what was the budget for the avatar movie,0,dummy
+48,can you tell me the budget of the movie avatar,can you tell me the budget of the movie avatar,0,dummy
+49,total budget for the movie avatar,total budget for the movie avatar,0,dummy
+50,what was the budget for batman|begins,what was the budget for batman|begins,0,dummy
+51,what was the budget for the avengers,what was the budget for the avengers,0,dummy
+52,what was the budget for gone|with|the|wind,what was the budget for gone|with|the|wind,0,dummy
+53,what was spent on my|big|fat|greek|wedding,what was spent on my|big|fat|greek|wedding,0,dummy
+54,what was pretty|woman s budget,what was pretty|woman s budget,0,dummy
+55,what was the budget for spaceballs,what was the budget for spaceballs,0,dummy
+56,how many movies has kevin|bacon been the lead actor in,how many movies has kevin|bacon been the lead actor in,0,dummy
+57,how many star|wars movies are there,how many star|wars movies are there,0,dummy
+58,how many movies are rated g,how many movies are rated g,0,dummy
+59,spain has how many movies,spain has how many movies,0,dummy
+60,how many movies has kristen|stewart starred in,how many movies has kristen|stewart starred in,0,dummy
+61,how many movies has robert|wise directed,how many movies has robert|wise directed,0,dummy
+62,how many movies did hitchcock direct,how many movies did hitchcock direct,0,dummy
+63,how many movies has paramount done,how many movies has paramount done,0,dummy
+64,i would like to know the name of the country from where the movie kati patang comes,i would like to know the name of the country from where the movie kati patang comes,0,dummy
+65,what country is bullhead,what country is bullhead,0,dummy
+66,what country made black|swan,what country made black|swan,0,dummy
+67,what country was black|swan from,what country was black|swan from,0,dummy
+68,what country was the movie made,what country was the movie made,0,dummy
+69,what country did deep|blue|sea come from,what country did deep|blue|sea come from,0,dummy
+70,origin of titanic,origin of titanic,0,dummy
+71,origin of king|lear,origin of king|lear,0,dummy
+72,when will top|gun be released,when will top|gun be released,0,dummy
+73,release year and date for casino,release year and date for casino,0,dummy
+74,when did will|ferrell begin acting,when did will|ferrell begin acting,0,dummy
+75,show me when 24 will be released,show me when 24 will be released,0,dummy
+76,can i have release date of movie,can i have release date of movie,0,dummy
+77,movie's release date,movie's release date,0,dummy
+78,show me when the movie was made,show me when the movie was made,0,dummy
+79,when the movie titanic was released,when the movie titanic was released,0,dummy
+80,what year did the italian movie roman|holiday come out,what year did the italian movie roman|holiday come out,0,dummy
+81,can you please search for release date for karate kid,can you please search for release date for karate kid,0,dummy
+82,karate kid release date please,karate kid release date please,0,dummy
+83,when was dirty|dancing released,when was dirty|dancing released,0,dummy
+84,when was spaceballs released,when was spaceballs released,0,dummy
+85,when was batman released,when was batman released,0,dummy
+86,when was pretty|woman released,when was pretty|woman released,0,dummy
+87,when was men|in|black released,when was men|in|black released,0,dummy
+88,when did kristen|stewart start acting,when did kristen|stewart start acting,0,dummy
+89,when is possessed going to be released,when is possessed going to be released,0,dummy
+90,when was resident|evil released,when was resident|evil released,0,dummy
+91,release date for finding|nemo,release date for finding|nemo,0,dummy
+92,when was finding|nemo released,when was finding|nemo released,0,dummy
+93,release date of hum|tum,release date of hum|tum,0,dummy
+94,when was freedom|writers released,when was freedom|writers released,0,dummy
+95,when was avatar released,when was avatar released,0,dummy
+96,when did avatar released,when did avatar released,0,dummy
+97,i would like to know the release date of the movie avatar,i would like to know the release date of the movie avatar,0,dummy
+98,can you tell me when was the movie avatar released,can you tell me when was the movie avatar released,0,dummy
+99,when was date|night released,when was date|night released,0,dummy
+100,when did black|swan come out,when did black|swan come out,0,dummy
+101,when did avergers come out,when did avergers come out,0,dummy
+102,what date did the amazing|spiderman show for the 1st time,what date did the amazing|spiderman show for the 1st time,0,dummy
+103,what is the release date of vulgaria,what is the release date of vulgaria,0,dummy
+104,when the movie the godfather was released,when the movie the godfather was released,0,dummy
+105,when does looper come out,when does looper come out,0,dummy
+106,can you tell me the release date of the movie barfi,can you tell me the release date of the movie barfi,0,dummy
+107,what date did the|movie|heroine come out,what date did the|movie|heroine come out,0,dummy
+108,when did the|house|at|the|end|of|the|street hit theaters,when did the|house|at|the|end|of|the|street hit theaters,0,dummy
+109,what day is fun|size coming|out,what day is fun|size coming|out,0,dummy
+110,what day will django|unchained come out,what day will django|unchained come out,0,dummy
+111,when will i be able to view iron|man|3,when will i be able to view iron|man|3,0,dummy
+112,on what date will iron|man|3 be released,on what date will iron|man|3 be released,0,dummy
+113,who directed gone|with|the|wind,who directed gone|with|the|wind,0,dummy
+114,who was the director for black|swan,who was the director for black|swan,0,dummy
+115,tell me the directed of black|swan,tell me the directed of black|swan,0,dummy
+116,who is the director of sleepless|in|seattle,who is the director of sleepless|in|seattle,0,dummy
+117,find who the director was in men|in|black|3,find who the director was in men|in|black|3,0,dummy
+118,locate the director who created the movie men|in|black|3,locate the director who created the movie men|in|black|3,0,dummy
+119,director of titanic,director of titanic,0,dummy
+120,titanic director,titanic director,0,dummy
+121,avengers movie director,avengers movie director,0,dummy
+122,dirctor of movie avengers,dirctor of movie avengers,0,dummy
+123,who was the director for nacho|libre,who was the director for nacho|libre,0,dummy
+124,director for big,director for big,0,dummy
+125,who was the director of welcome|to|the|dollhouse,who was the director of welcome|to|the|dollhouse,0,dummy
+126,who directed the movie house at the end of the at the street,who directed the movie house at the end of the at the street,0,dummy
+127,who was the director of the movie toy|story,who was the director of the movie toy|story,0,dummy
+128,list director gilda,list director gilda,0,dummy
+129,who directed field|of|dreams,who directed field|of|dreams,0,dummy
+130,who is the second director on finding|nemo,who is the second director on finding|nemo,0,dummy
+131,find director of finding|nemo,find director of finding|nemo,0,dummy
+132,who directed finding|nemo,who directed finding|nemo,0,dummy
+133,finding|nemo directed by who,finding|nemo directed by who,0,dummy
+134,director of finding|nemo,director of finding|nemo,0,dummy
+135,who directed hitch,who directed hitch,0,dummy
+136,i want to know who is the director of the movie batman,i want to know who is the director of the movie batman,0,dummy
+137,who is director of the words,who is director of the words,0,dummy
+138,who directed million|dollar|baby,who directed million|dollar|baby,0,dummy
+139,who was the guy that directed moneyball,who was the guy that directed moneyball,0,dummy
+140,who did twilight,who did twilight,0,dummy
+141,twilight director,twilight director,0,dummy
+142,who directed twilight,who directed twilight,0,dummy
+143,who directed twilight,who directed twilight,0,dummy
+144,who is the director of hum|tum,who is the director of hum|tum,0,dummy
+145,look for the director of step|up,look for the director of step|up,0,dummy
+146,please find the director of freedom|writers,please find the director of freedom|writers,0,dummy
+147,find the director of freedom|writers,find the director of freedom|writers,0,dummy
+148,look up the director of freedom|writers,look up the director of freedom|writers,0,dummy
+149,find the director of freedom|writers,find the director of freedom|writers,0,dummy
+150,who directed baby|mama,who directed baby|mama,0,dummy
+151,godfather director,godfather director,0,dummy
+152,show me who directed the|sound|of|music,show me who directed the|sound|of|music,0,dummy
+153,who directed the|sound|of|music,who directed the|sound|of|music,0,dummy
+154,who directed the|sound|of|music,who directed the|sound|of|music,0,dummy
+155,find the name of the director of return,find the name of the director of return,0,dummy
+156,show movie avengers director name,show movie avengers director name,0,dummy
+157,name the director in sleepless|in|seattle,name the director in sleepless|in|seattle,0,dummy
+158,what's the genre for black|swan,what's the genre for black|swan,0,dummy
+159,what is black|swan's genre,what is black|swan's genre,0,dummy
+160,what genre is parenthood,what genre is parenthood,0,dummy
+161,what kind of movie is parenthood,what kind of movie is parenthood,0,dummy
+162,genre for pride|and|prejudice,genre for pride|and|prejudice,0,dummy
+163,can you tell me the genre of the movie lawless,can you tell me the genre of the movie lawless,0,dummy
+164,show me what genre does movie lawless belongs to,show me what genre does movie lawless belongs to,0,dummy
+165,genre for snow|white|and|the|huntsman,genre for snow|white|and|the|huntsman,0,dummy
+166,what is the movie type,what is the movie type,0,dummy
+167,what's the genre of rushmore,what's the genre of rushmore,0,dummy
+168,get the genre of welcome|to|the|dollhouse,get the genre of welcome|to|the|dollhouse,0,dummy
+169,i want to find the genre freedom|writers is in,i want to find the genre freedom|writers is in,0,dummy
+170,what genre is freedom|writers in,what genre is freedom|writers in,0,dummy
+171,genre for batman,genre for batman,0,dummy
+172,give me the genre of the movie avatar,give me the genre of the movie avatar,0,dummy
+173,i would like to know the genre of the movie avatar,i would like to know the genre of the movie avatar,0,dummy
+174,genre for bad|teacher,genre for bad|teacher,0,dummy
+175,can you tell me pretty|girl the movie's genre,can you tell me pretty|girl the movie's genre,0,dummy
+176,what genre is the movie pitch|perfect,what genre is the movie pitch|perfect,0,dummy
+177,in what language is this movie,in what language is this movie,0,dummy
+178,what language is this movie,what language is this movie,0,dummy
+179,what language is the|movie|hero in,what language is the|movie|hero in,0,dummy
+180,language of king|lear,language of king|lear,0,dummy
+181,language of casa blanca,language of casa blanca,0,dummy
+182,what language is head|on in,what language is head|on in,0,dummy
+183,language of spanglish,language of spanglish,0,dummy
+184,find out what language the|father|of|my|children is in,find out what language the|father|of|my|children is in,0,dummy
+185,i am intersted in viewing belle what foreign language is the movie available in,i am intersted in viewing belle what foreign language is the movie available in,0,dummy
+186,i need to find out about names of some japanese movies,i need to find out about names of some japanese movies,0,dummy
+187,can you tell me names of some japanese movies,can you tell me names of some japanese movies,0,dummy
+188,ron|howard name some of the movies he produce,ron|howard name some of the movies he produce,0,dummy
+189,tell me the names of the movies produced by william packer,tell me the names of the movies produced by william packer,0,dummy
+190,about life|is|beautiful,about life|is|beautiful,0,dummy
+191,show me info on life|is|beautiful,show me info on life|is|beautiful,0,dummy
+192,find old movies,find old movies,0,dummy
+193,find movie ratings,find movie ratings,0,dummy
+194,find newly released movies in spanish,find newly released movies in spanish,0,dummy
+195,was bill|paxton in the movie apollo|13,was bill|paxton in the movie apollo|13,0,dummy
+196,was kevin|bacon in the movie apollo|13,was kevin|bacon in the movie apollo|13,0,dummy
+197,find movies about dancing,find movies about dancing,0,dummy
+198,search for movies about dancing,search for movies about dancing,0,dummy
+199,show will|ferrell films,show will|ferrell films,0,dummy
+200,will|ferrell movies,will|ferrell movies,0,dummy
+201,what movies has will|ferrell appeared in,what movies has will|ferrell appeared in,0,dummy
+202,find russian movies,find russian movies,0,dummy
+203,show me the movie pretty|women so i can see who starred in the movie,show me the movie pretty|women so i can see who starred in the movie,0,dummy
+204,feral,feral,0,dummy
+205,the movie is called big,the movie is called big,0,dummy
+206,will|smith acting carrer,will|smith acting carrer,0,dummy
+207,how many movies did peter|jackson do,how many movies did peter|jackson do,0,dummy
+208,movies and gross payment,movies and gross payment,0,dummy
+209,search for tim|burton movies in french,search for tim|burton movies in french,0,dummy
+210,exhibit all details of original finding|nemo movie,exhibit all details of original finding|nemo movie,0,dummy
+211,finding|nemo movie,finding|nemo movie,0,dummy
+212,find the movie finding|nemo,find the movie finding|nemo,0,dummy
+213,i am looking for information on the movie finding|nemo,i am looking for information on the movie finding|nemo,0,dummy
+214,show me details for the movie finding|nemo,show me details for the movie finding|nemo,0,dummy
+215,what did andrew|stanton direct,what did andrew|stanton direct,0,dummy
+216,show me some other movies directed by andrew|stanton,show me some other movies directed by andrew|stanton,0,dummy
+217,display albert|brooks movie,display albert|brooks movie,0,dummy
+218,show a movie with albert|brooks in the cast,show a movie with albert|brooks in the cast,0,dummy
+219,what other films has sergio|leone directed,what other films has sergio|leone directed,0,dummy
+220,what movies has george|harrison produced,what movies has george|harrison produced,0,dummy
+221,what has charlie|sheen starred in,what has charlie|sheen starred in,0,dummy
+222,please find the movies in which clive|owen has appeared,please find the movies in which clive|owen has appeared,0,dummy
+223,in which movies has clive|owen appear,in which movies has clive|owen appear,0,dummy
+224,spike|lee directed what movie,spike|lee directed what movie,0,dummy
+225,search for movies directed by spike|lee,search for movies directed by spike|lee,0,dummy
+226,movie release dates,movie release dates,0,dummy
+227,director information for movies,director information for movies,0,dummy
+228,movies by director,movies by director,0,dummy
+229,please list all movies not rated pg,please list all movies not rated pg,0,dummy
+230,find movies,find movies,0,dummy
+231,i want a list of english speaking movies,i want a list of english speaking movies,0,dummy
+232,a list of movies made|in|america,a list of movies made|in|america,0,dummy
+233,are there any movies produced in the united states,are there any movies produced in the united states,0,dummy
+234,show english movies,show english movies,0,dummy
+235,search english movies,search english movies,0,dummy
+236,comedy,comedy,0,dummy
+237,find a comedy,find a comedy,0,dummy
+238,watch comedy movies,watch comedy movies,0,dummy
+239,get horror films,get horror films,0,dummy
+240,show me horror movies,show me horror movies,0,dummy
+241,i want to see a listing of horror movies,i want to see a listing of horror movies,0,dummy
+242,show actor bruce|willis movies,show actor bruce|willis movies,0,dummy
+243,which movies did bruce|willis star in,which movies did bruce|willis star in,0,dummy
+244,list movies with bruce|willis,list movies with bruce|willis,0,dummy
+245,show me movies made in canada,show me movies made in canada,0,dummy
+246,can i watch a canadian film,can i watch a canadian film,0,dummy
+247,see canadian movies,see canadian movies,0,dummy
+248,search for information about canadian movies,search for information about canadian movies,0,dummy
+249,I'd like to see some italian films,I'd like to see some italian films,0,dummy
+250,show me something italian - made,show me something italian - made,0,dummy
+251,i want to see a movie from spain,i want to see a movie from spain,0,dummy
+252,find movies from spain,find movies from spain,0,dummy
+253,spain|country movies,spain|country movies,0,dummy
+254,display a list of spanish films,display a list of spanish films,0,dummy
+255,spanish movie listing,spanish movie listing,0,dummy
+256,spanish movies,spanish movies,0,dummy
+257,find actors in movies,find actors in movies,0,dummy
+258,search by actors,search by actors,0,dummy
+259,find some romantic movies,find some romantic movies,0,dummy
+260,i want to see a movie in french,i want to see a movie in french,0,dummy
+261,gwyneth|paltrow movies,gwyneth|paltrow movies,0,dummy
+262,find movies with quentin|tarantino as director,find movies with quentin|tarantino as director,0,dummy
+263,england movies,england movies,0,dummy
+264,england movies please,england movies please,0,dummy
+265,find david|tennant movies,find david|tennant movies,0,dummy
+266,show me what richard|lester directed,show me what richard|lester directed,0,dummy
+267,get films in hindi,get films in hindi,0,dummy
+268,show me movies from india,show me movies from india,0,dummy
+269,what is a british horror movie,what is a british horror movie,0,dummy
+270,i want to watch an r rated comedy,i want to watch an r rated comedy,0,dummy
+271,list of french language comedies,list of french language comedies,0,dummy
+272,look for dirty|dancing movie with jennifer|grey,look for dirty|dancing movie with jennifer|grey,0,dummy
+273,tell me in detail about the movie dirty|dancing,tell me in detail about the movie dirty|dancing,0,dummy
+274,tell about movie dirty|dancing,tell about movie dirty|dancing,0,dummy
+275,can i see a list of bette|midler movies,can i see a list of bette|midler movies,0,dummy
+276,list of movies starring bette|midler,list of movies starring bette|midler,0,dummy
+277,show me all of anne|hathaway's movies,show me all of anne|hathaway's movies,0,dummy
+278,what movies has sandra|bullock produced,what movies has sandra|bullock produced,0,dummy
+279,find|me movies from portugal,find|me movies from portugal,0,dummy
+280,what movies has robert|redford been in,what movies has robert|redford been in,0,dummy
+281,dirty|dancing info,dirty|dancing info,0,dummy
+282,dirty|dancing,dirty|dancing,0,dummy
+283,give a short bio for dirty|dancing,give a short bio for dirty|dancing,0,dummy
+284,about dirty|dancing,about dirty|dancing,0,dummy
+285,movies from japan,movies from japan,0,dummy
+286,show movies from japan,show movies from japan,0,dummy
+287,list japanese movies,list japanese movies,0,dummy
+288,show me japanese movies,show me japanese movies,0,dummy
+289,give me a list of some japanese movies,give me a list of some japanese movies,0,dummy
+290,give me a list of japanese movies,give me a list of japanese movies,0,dummy
+291,japanese movies,japanese movies,0,dummy
+292,show me japanese language movies,show me japanese language movies,0,dummy
+293,which films are spoken in japanese,which films are spoken in japanese,0,dummy
+294,miramax films only,miramax films only,0,dummy
+295,show movies by miramax,show movies by miramax,0,dummy
+296,search sandra|bullock movies,search sandra|bullock movies,0,dummy
+297,watch sandra|bullock movies,watch sandra|bullock movies,0,dummy
+298,find movies about vampires,find movies about vampires,0,dummy
+299,find movies having vampires,find movies having vampires,0,dummy
+300,will|smith movies,will|smith movies,0,dummy
+301,cars movie,cars movie,0,dummy
+302,what movies did darla anderson produce,what movies did darla anderson produce,0,dummy
+303,what films are made by paramount,what films are made by paramount,0,dummy
+304,show me movies by paramount,show me movies by paramount,0,dummy
+305,what movies has paramount released,what movies has paramount released,0,dummy
+306,show all movies from turkey,show all movies from turkey,0,dummy
+307,show me movies produced by bruce|lee,show me movies produced by bruce|lee,0,dummy
+308,is parenthood a drama,is parenthood a drama,0,dummy
+309,i want to see an kevin|james film tonight,i want to see an kevin|james film tonight,0,dummy
+310,find films from china,find films from china,0,dummy
+311,get films from china,get films from china,0,dummy
+312,i'd like to watch a movie made in china,i'd like to watch a movie made in china,0,dummy
+313,list some movies from china,list some movies from china,0,dummy
+314,chinese films,chinese films,0,dummy
+315,show me other chinese movies,show me other chinese movies,0,dummy
+316,show me chinese movies,show me chinese movies,0,dummy
+317,what movies have a pg-13 rating,what movies have a pg-13 rating,0,dummy
+318,please list movies that are rated pg-13,please list movies that are rated pg-13,0,dummy
+319,i need a g rating so i can take the kids,i need a g rating so i can take the kids,0,dummy
+320,find a g rated movie,find a g rated movie,0,dummy
+321,find g movies,find g movies,0,dummy
+322,find g movies,find g movies,0,dummy
+323,i want rated g movies,i want rated g movies,0,dummy
+324,look up g rated movies,look up g rated movies,0,dummy
+325,i am searching for any g rated movies for my children to view,i am searching for any g rated movies for my children to view,0,dummy
+326,rated g movies for family watching,rated g movies for family watching,0,dummy
+327,find g rated movies,find g rated movies,0,dummy
+328,are there any movies rated g playing,are there any movies rated g playing,0,dummy
+329,i want to see movies rated g,i want to see movies rated g,0,dummy
+330,find movies rated g,find movies rated g,0,dummy
+331,show me movies with g rating,show me movies with g rating,0,dummy
+332,did robert|wise direct any other musicals,did robert|wise direct any other musicals,0,dummy
+333,bruce|lee produced movie listing,bruce|lee produced movie listing,0,dummy
+334,what was the last movie made by robert|wise,what was the last movie made by robert|wise,0,dummy
+335,find movies produced by mgm,find movies produced by mgm,0,dummy
+336,show me british made movies,show me british made movies,0,dummy
+337,movies from the uk,movies from the uk,0,dummy
+338,find|me movies from the uk,find|me movies from the uk,0,dummy
+339,can you list ron|howard movie production,can you list ron|howard movie production,0,dummy
+340,i need to know the movies produce by ron|howard,i need to know the movies produce by ron|howard,0,dummy
+341,did clint|eastwood direct any other movies besides million|dollar|baby,did clint|eastwood direct any other movies besides million|dollar|baby,0,dummy
+342,find movies directed by clint|eastwood,find movies directed by clint|eastwood,0,dummy
+343,what movies have been directed by clint|eastwood,what movies have been directed by clint|eastwood,0,dummy
+344,list all movies that were directed by clint|eastwood,list all movies that were directed by clint|eastwood,0,dummy
+345,what movies has clint|eastwood directed,what movies has clint|eastwood directed,0,dummy
+346,show movies directed by clint|eastwood,show movies directed by clint|eastwood,0,dummy
+347,find all films by stanley|kubrick,find all films by stanley|kubrick,0,dummy
+348,i want to select the option to search for movies produced by spielberg,i want to select the option to search for movies produced by spielberg,0,dummy
+349,i would like to search for movies produced by stephen speilberg,i would like to search for movies produced by stephen speilberg,0,dummy
+350,show me japanese horror movies,show me japanese horror movies,0,dummy
+351,i would like to see movies ron|howard directed,i would like to see movies ron|howard directed,0,dummy
+352,movies by spielberg,movies by spielberg,0,dummy
+353,movies by spielberg,movies by spielberg,0,dummy
+354,what movies did spielberg direct,what movies did spielberg direct,0,dummy
+355,list spielberg movies,list spielberg movies,0,dummy
+356,spielberg movie,spielberg movie,0,dummy
+357,spielberg movies please,spielberg movies please,0,dummy
+358,directed by spielberg,directed by spielberg,0,dummy
+359,find the spielberg movies,find the spielberg movies,0,dummy
+360,find movies from spielberg,find movies from spielberg,0,dummy
+361,i would like to watch a movie directed by eddie|murphy,i would like to watch a movie directed by eddie|murphy,0,dummy
+362,the camp,the camp,0,dummy
+363,watch sandra|bullock the|blind|side,watch sandra|bullock the|blind|side,0,dummy
+364,i want to see movies with hugh|jackman,i want to see movies with hugh|jackman,0,dummy
+365,list movies with kevin|spacey,list movies with kevin|spacey,0,dummy
+366,look for movies from france,look for movies from france,0,dummy
+367,can you show me movies that were made in france,can you show me movies that were made in france,0,dummy
+368,find|me any movies that were made in france,find|me any movies that were made in france,0,dummy
+369,french movies please,french movies please,0,dummy
+370,french movies,french movies,0,dummy
+371,find movies produced by,find movies produced by,0,dummy
+372,movies by producers,movies by producers,0,dummy
+373,display movies produced by,display movies produced by,0,dummy
+374,find movies produced by mosfilm,find movies produced by mosfilm,0,dummy
+375,what was kristen|stewart's first movie,what was kristen|stewart's first movie,0,dummy
+376,get me movies directed by miranda|july,get me movies directed by miranda|july,0,dummy
+377,tom|hanks movies,tom|hanks movies,0,dummy
+378,show me movies with tom|hanks,show me movies with tom|hanks,0,dummy
+379,i am trying to find a list of movies with tom|hanks,i am trying to find a list of movies with tom|hanks,0,dummy
+380,provide movies directed by oliver|stone please,provide movies directed by oliver|stone please,0,dummy
+381,i want to look for movies produced by albert|ruddy,i want to look for movies produced by albert|ruddy,0,dummy
+382,what are all of the movies produced by albert|ruddy,what are all of the movies produced by albert|ruddy,0,dummy
+383,movies produced by yash|chopra,movies produced by yash|chopra,0,dummy
+384,what did brad|pitt porduce,what did brad|pitt porduce,0,dummy
+385,bring up all brad|pitt produced movies,bring up all brad|pitt produced movies,0,dummy
+386,show all movies that penny|marshall directed,show all movies that penny|marshall directed,0,dummy
+387,i need a list of all the movies directed by james|cameron,i need a list of all the movies directed by james|cameron,0,dummy
+388,give me a list of all the movies directed by james|cameron,give me a list of all the movies directed by james|cameron,0,dummy
+389,james|cameron movies produced,james|cameron movies produced,0,dummy
+390,movies produced by james|cameron,movies produced by james|cameron,0,dummy
+391,what films have been produced by warner|bros.,what films have been produced by warner|bros.,0,dummy
+392,find movies produced by warner|bros.,find movies produced by warner|bros.,0,dummy
+393,what movies have been produced by warner|bros.,what movies have been produced by warner|bros.,0,dummy
+394,show me movies by wb,show me movies by wb,0,dummy
+395,give me information about finding|nemo,give me information about finding|nemo,0,dummy
+396,i want information about finding|nemo,i want information about finding|nemo,0,dummy
+397,show me finding|nemo,show me finding|nemo,0,dummy
+398,finding|nemo bing,finding|nemo bing,0,dummy
+399,search finding|nemo,search finding|nemo,0,dummy
+400,show information page for finding|nemo,show information page for finding|nemo,0,dummy
+401,the campaign information,the campaign information,0,dummy
+402,more information on apallo thirteen,more information on apallo thirteen,0,dummy
+403,research apollo|13,research apollo|13,0,dummy
+404,has kristen|stewart starred in movies other than twilight,has kristen|stewart starred in movies other than twilight,0,dummy
+405,show me kristen|stewart movies,show me kristen|stewart movies,0,dummy
+406,what movies has kristen|stewarted starred in,what movies has kristen|stewarted starred in,0,dummy
+407,lionsgate movies,lionsgate movies,0,dummy
+408,show lionsgate movies,show lionsgate movies,0,dummy
+409,show movies made by production lionsgate,show movies made by production lionsgate,0,dummy
+410,give me something by charles|vidor,give me something by charles|vidor,0,dummy
+411,show charles|vidor movie,show charles|vidor movie,0,dummy
+412,what film did charles|vidor direct,what film did charles|vidor direct,0,dummy
+413,which movies have been made outside the united states,which movies have been made outside the united states,0,dummy
+414,find|me nigeria movies,find|me nigeria movies,0,dummy
+415,display 7|arts movies,display 7|arts movies,0,dummy
+416,korean movie,korean movie,0,dummy
+417,what other movies did roberto|benigni star in,what other movies did roberto|benigni star in,0,dummy
+418,i want to see movies starring denzel|washington please,i want to see movies starring denzel|washington please,0,dummy
+419,list the kareena's movie,list the kareena's movie,0,dummy
+420,i want to watch a drama made in turkey,i want to watch a drama made in turkey,0,dummy
+421,jennifer|lopez played in what movies,jennifer|lopez played in what movies,0,dummy
+422,show me all of the movies directed by woody|allen,show me all of the movies directed by woody|allen,0,dummy
+423,show robert|wise movies,show robert|wise movies,0,dummy
+424,want to see robert|wise movies,want to see robert|wise movies,0,dummy
+425,what movies has robert|wise directed,what movies has robert|wise directed,0,dummy
+426,what movies have robert|wise directed,what movies have robert|wise directed,0,dummy
+427,where can i find a list of movies produced by chris|nolan,where can i find a list of movies produced by chris|nolan,0,dummy
+428,what movies has brad|pitt been in,what movies has brad|pitt been in,0,dummy
+429,what are the movies brad|pitt had been in,what are the movies brad|pitt had been in,0,dummy
+430,what are some movies with brad|pitt,what are some movies with brad|pitt,0,dummy
+431,find an r rated movie,find an r rated movie,0,dummy
+432,show me r rated movies,show me r rated movies,0,dummy
+433,give me a list of r rated movies,give me a list of r rated movies,0,dummy
+434,look up r rated movies,look up r rated movies,0,dummy
+435,i want only r rated movies,i want only r rated movies,0,dummy
+436,i want to see a list of rated r movies,i want to see a list of rated r movies,0,dummy
+437,show me only movies with a rating of r,show me only movies with a rating of r,0,dummy
+438,please look for movies with an r rating,please look for movies with an r rating,0,dummy
+439,show me movies rated r,show me movies rated r,0,dummy
+440,look for movies with an r rating,look for movies with an r rating,0,dummy
+441,give me a list of all movies that are rated r,give me a list of all movies that are rated r,0,dummy
+442,i want to watch movies from norway,i want to watch movies from norway,0,dummy
+443,can i have a list of spanish speaking movies,can i have a list of spanish speaking movies,0,dummy
+444,show me movies made|in|mexico,show me movies made|in|mexico,0,dummy
+445,show me the movie pot zombies,show me the movie pot zombies,0,dummy
+446,what movies have zombies in them,what movies have zombies in them,0,dummy
+447,show me movies about zombies,show me movies about zombies,0,dummy
+448,show me movies about zombies,show me movies about zombies,0,dummy
+449,show me ones by david|fincher,show me ones by david|fincher,0,dummy
+450,show ridley|scott's filmography,show ridley|scott's filmography,0,dummy
+451,find ridley|scott movies,find ridley|scott movies,0,dummy
+452,can you show me movies directed by ridley|scott,can you show me movies directed by ridley|scott,0,dummy
+453,list german movies,list german movies,0,dummy
+454,german movies,german movies,0,dummy
+455,find action films,find action films,0,dummy
+456,find some action movies,find some action movies,0,dummy
+457,list dredd movie,list dredd movie,0,dummy
+458,show me george|lucas movies,show me george|lucas movies,0,dummy
+459,find movies directed by george|lucas,find movies directed by george|lucas,0,dummy
+460,produced by,produced by,0,dummy
+461,please find movies produced by morgan|freeman,please find movies produced by morgan|freeman,0,dummy
+462,please look up movies produced by morgan|freeman,please look up movies produced by morgan|freeman,0,dummy
+463,search for movies produced by morgan|freeman,search for movies produced by morgan|freeman,0,dummy
+464,find movies produced by morgan|freeman,find movies produced by morgan|freeman,0,dummy
+465,look up movies produced by morgan|freeman,look up movies produced by morgan|freeman,0,dummy
+466,what movies has meryl|streep starred in,what movies has meryl|streep starred in,0,dummy
+467,show me the movies directed by the director of this movie,show me the movies directed by the director of this movie,0,dummy
+468,i want to see movies made in russia,i want to see movies made in russia,0,dummy
+469,look up star|wars four movie,look up star|wars four movie,0,dummy
+470,display all details about star|wars-a new hope movie,display all details about star|wars-a new hope movie,0,dummy
+471,get all details about star|wars-a new hope movie,get all details about star|wars-a new hope movie,0,dummy
+472,star|wars episode four,star|wars episode four,0,dummy
+473,i want star|wars four main page,i want star|wars four main page,0,dummy
+474,search star|wars four,search star|wars four,0,dummy
+475,find|me tons of info related to star|wars four,find|me tons of info related to star|wars four,0,dummy
+476,get details of in|july movie,get details of in|july movie,0,dummy
+477,find details of in|july movie,find details of in|july movie,0,dummy
+478,show details of in|july movie,show details of in|july movie,0,dummy
+479,tell me about in|july movie,tell me about in|july movie,0,dummy
+480,look up the movie in|july,look up the movie in|july,0,dummy
+481,display information for the movie title in|july,display information for the movie title in|july,0,dummy
+482,movie in|july data,movie in|july data,0,dummy
+483,where can i find the movie aankhen in hindi,where can i find the movie aankhen in hindi,0,dummy
+484,display julia|roberts films,display julia|roberts films,0,dummy
+485,list the movies that have the actress angelina|jolie,list the movies that have the actress angelina|jolie,0,dummy
+486,dustin|hoffman movies,dustin|hoffman movies,0,dummy
+487,what movies did david|ayer direct,what movies did david|ayer direct,0,dummy
+488,i would like to view movies produced by clint|eastwood,i would like to view movies produced by clint|eastwood,0,dummy
+489,list all movies about horses,list all movies about horses,0,dummy
+490,find all johnny|depp movies,find all johnny|depp movies,0,dummy
+491,search by director,search by director,0,dummy
+492,search by director,search by director,0,dummy
+493,is there any upcoming movies from warner|bros.,is there any upcoming movies from warner|bros.,0,dummy
+494,bring up movies with ice skating in it,bring up movies with ice skating in it,0,dummy
+495,find newly released comedies from england,find newly released comedies from england,0,dummy
+496,i need info on house|at|the|end|of|the|street,i need info on house|at|the|end|of|the|street,0,dummy
+497,what is the houses at the end of the street about,what is the houses at the end of the street about,0,dummy
+498,give me more facts about the movie house|at|the|end|of|the|street in detail,give me more facts about the movie house|at|the|end|of|the|street in detail,0,dummy
+499,i would like to know in detail about the movie house|at|the|end|of|the|street,i would like to know in detail about the movie house|at|the|end|of|the|street,0,dummy
+500,display movie information for the film house|at|the|end|of|the|street,display movie information for the film house|at|the|end|of|the|street,0,dummy
+501,films with chinese,films with chinese,0,dummy
+502,i want to watch a movie in chinese,i want to watch a movie in chinese,0,dummy
+503,find movies produced and directed by tyler|perry,find movies produced and directed by tyler|perry,0,dummy
+504,tom|cruise movies please,tom|cruise movies please,0,dummy
+505,i want tom|cruise movies please,i want tom|cruise movies please,0,dummy
+506,which movies star tom|cruise,which movies star tom|cruise,0,dummy
+507,which movies do tom|cruise play in,which movies do tom|cruise play in,0,dummy
+508,find end|of|watch,find end|of|watch,0,dummy
+509,search by genre,search by genre,0,dummy
+510,looking for movies of yash|chopra,looking for movies of yash|chopra,0,dummy
+511,find|me information about the campaign movie,find|me information about the campaign movie,0,dummy
+512,information for movie the campaign,information for movie the campaign,0,dummy
+513,show me info on the movie the campaign please,show me info on the movie the campaign please,0,dummy
+514,i need to see all the details about the movie the campaign,i need to see all the details about the movie the campaign,0,dummy
+515,sort all pg movies,sort all pg movies,0,dummy
+516,pg rated movies,pg rated movies,0,dummy
+517,access a list of pg movies please,access a list of pg movies please,0,dummy
+518,give me a list of pg movies,give me a list of pg movies,0,dummy
+519,can you find|me a list of pg rated movies to watch,can you find|me a list of pg rated movies to watch,0,dummy
+520,show me a list of pg rated movies,show me a list of pg rated movies,0,dummy
+521,find movies with a pg rating,find movies with a pg rating,0,dummy
+522,what movies are pg,what movies are pg,0,dummy
+523,movies by hitchcock,movies by hitchcock,0,dummy
+524,what movies did hitchcock make,what movies did hitchcock make,0,dummy
+525,watch hitchcook movies,watch hitchcook movies,0,dummy
+526,i want to see any current movies starring tom|hanks,i want to see any current movies starring tom|hanks,0,dummy
+527,i want a list of recent movies rated pg,i want a list of recent movies rated pg,0,dummy
+528,give me a list of recent movies rated pg,give me a list of recent movies rated pg,0,dummy
+529,ray|stark produced what other movies,ray|stark produced what other movies,0,dummy
+530,what is spielberg's latest movie,what is spielberg's latest movie,0,dummy
+531,please find movies directed by tom|hanks,please find movies directed by tom|hanks,0,dummy
+532,are there any recent movies that are polish speaking,are there any recent movies that are polish speaking,0,dummy
+533,what movies has tom|cruise been in recently,what movies has tom|cruise been in recently,0,dummy
+534,search for new movies,search for new movies,0,dummy
+535,search for in|july,search for in|july,0,dummy
+536,watch in|july online,watch in|july online,0,dummy
+537,search for information about lionsgate,search for information about lionsgate,0,dummy
+538,lionsgate info,lionsgate info,0,dummy
+539,find information about paramount studios,find information about paramount studios,0,dummy
+540,who is ray|stark,who is ray|stark,0,dummy
+541,find information on charles|vidor,find information on charles|vidor,0,dummy
+542,i want to look up information about tom|cruise,i want to look up information about tom|cruise,0,dummy
+543,can you please search details about will|ferrell,can you please search details about will|ferrell,0,dummy
+544,will|ferrell biography,will|ferrell biography,0,dummy
+545,show will|ferrell biography,show will|ferrell biography,0,dummy
+546,show me a complete biography of will|ferrell,show me a complete biography of will|ferrell,0,dummy
+547,show me information on will|ferrell,show me information on will|ferrell,0,dummy
+548,show me will|ferrell's bio,show me will|ferrell's bio,0,dummy
+549,get info on kristen|stewart,get info on kristen|stewart,0,dummy
+550,does kristen|stewart have a personal page,does kristen|stewart have a personal page,0,dummy
+551,where can i find information about kristen|stewart,where can i find information about kristen|stewart,0,dummy
+552,jennifer|aniston bio,jennifer|aniston bio,0,dummy
+553,i want to see spielberg's main page,i want to see spielberg's main page,0,dummy
+554,spielberg summary,spielberg summary,0,dummy
+555,about spielberg,about spielberg,0,dummy
+556,find|me bio details for spielberg,find|me bio details for spielberg,0,dummy
+557,bio for spielberg,bio for spielberg,0,dummy
+558,show me hitchcock,show me hitchcock,0,dummy
+559,i want more information about hitchcock's biography,i want more information about hitchcock's biography,0,dummy
+560,all info hitchcock,all info hitchcock,0,dummy
+561,find the name of the producer of avatar,find the name of the producer of avatar,0,dummy
+562,producer hitch,producer hitch,0,dummy
+563,who produces hitch,who produces hitch,0,dummy
+564,production company for transformers,production company for transformers,0,dummy
+565,what company made et,what company made et,0,dummy
+566,what was the production company for et,what was the production company for et,0,dummy
+567,who produces cars,who produces cars,0,dummy
+568,can you find who produced cars,can you find who produced cars,0,dummy
+569,production company for devil,production company for devil,0,dummy
+570,who produced the movie steel|magnolias,who produced the movie steel|magnolias,0,dummy
+571,who produced avatar,who produced avatar,0,dummy
+572,i want to know the producer of avatar,i want to know the producer of avatar,0,dummy
+573,who produced avatar,who produced avatar,0,dummy
+574,who produced avatar,who produced avatar,0,dummy
+575,avatar producer,avatar producer,0,dummy
+576,i would like to know who produced the movie avatar,i would like to know who produced the movie avatar,0,dummy
+577,who produced the movie avatar,who produced the movie avatar,0,dummy
+578,who are the producers for the movie avatar,who are the producers for the movie avatar,0,dummy
+579,what is grease's producer,what is grease's producer,0,dummy
+580,who produced grease,who produced grease,0,dummy
+581,who produced the movie my|big|fat|greek|wedding,who produced the movie my|big|fat|greek|wedding,0,dummy
+582,who produced pretty|woman,who produced pretty|woman,0,dummy
+583,tell me the producer for the godfather,tell me the producer for the godfather,0,dummy
+584,the godfather was produced by,the godfather was produced by,0,dummy
+585,who produced the movie clue,who produced the movie clue,0,dummy
+586,who produced hotel|rwanda,who produced hotel|rwanda,0,dummy
+587,who produced marley|and|me,who produced marley|and|me,0,dummy
+588,who produced despicable|me,who produced despicable|me,0,dummy
+589,who is the company that produced the movie inception,who is the company that produced the movie inception,0,dummy
+590,what company developed the movie inception,what company developed the movie inception,0,dummy
+591,find producer of the|great|debaters,find producer of the|great|debaters,0,dummy
+592,who produced inception,who produced inception,0,dummy
+593,provide the name of the company that produced sparkle,provide the name of the company that produced sparkle,0,dummy
+594,i need to know the company that produced sparkle,i need to know the company that produced sparkle,0,dummy
+595,find the producer of look|who|s|talking,find the producer of look|who|s|talking,0,dummy
+596,who produced harlem|nights,who produced harlem|nights,0,dummy
+597,find the producer of step|up,find the producer of step|up,0,dummy
+598,please find the producer of freedom|writers,please find the producer of freedom|writers,0,dummy
+599,look for the producer of freedom|writers,look for the producer of freedom|writers,0,dummy
+600,show me movie rating,show me movie rating,0,dummy
+601,how much revenue did pretty|woman make,how much revenue did pretty|woman make,0,dummy
+602,earnings for pretty|woman,earnings for pretty|woman,0,dummy
+603,what was the revenue of pretty|woman,what was the revenue of pretty|woman,0,dummy
+604,how much did pretty|woman make,how much did pretty|woman make,0,dummy
+605,what was the gross revenue for the avengers,what was the gross revenue for the avengers,0,dummy
+606,how much did the avengers make,how much did the avengers make,0,dummy
+607,revenue for the avengers,revenue for the avengers,0,dummy
+608,how much did the dark night generate in revenues,how much did the dark night generate in revenues,0,dummy
+609,find revenue totals for jurassic|park,find revenue totals for jurassic|park,0,dummy
+610,revenue for independence|day,revenue for independence|day,0,dummy
+611,what is the new will|ferrell movie about,what is the new will|ferrell movie about,0,dummy
+612,who played the voice of nemo in finding|nemo,who played the voice of nemo in finding|nemo,0,dummy
+613,who played richie cunningham in happy|days,who played richie cunningham in happy|days,0,dummy
+614,who stars in house|at|the|end|of|the|street,who stars in house|at|the|end|of|the|street,0,dummy
+615,show me the cast for the|house|at|the|end|of|the|street,show me the cast for the|house|at|the|end|of|the|street,0,dummy
+616,cast and crew of house|at|the|end|of|the|street,cast and crew of house|at|the|end|of|the|street,0,dummy
+617,ethel actress from i|love|lucy,ethel actress from i|love|lucy,0,dummy
+618,actress who played ethel on i|love|lucy,actress who played ethel on i|love|lucy,0,dummy
+619,who are the cast members in lord|of|the|rings the two towers,who are the cast members in lord|of|the|rings the two towers,0,dummy
+620,who played hawkeye in mash,who played hawkeye in mash,0,dummy
+621,who played mother in tarkovsky's mirror,who played mother in tarkovsky's mirror,0,dummy
+622,show me the actor of the movie muthyala muggu,show me the actor of the movie muthyala muggu,0,dummy
+623,who are the droids in star|wars episode four,who are the droids in star|wars episode four,0,dummy
+624,who was that guy again who was in the avengers,who was that guy again who was in the avengers,0,dummy
+625,which actor played frodo in lord|of|the|rings,which actor played frodo in lord|of|the|rings,0,dummy
+626,find the name of the actress who played mother in mirror by andrey tarkovsky,find the name of the actress who played mother in mirror by andrey tarkovsky,0,dummy
+627,what is the name of the actress who played mother in tarkovsky's mirror,what is the name of the actress who played mother in tarkovsky's mirror,0,dummy
+628,what is the name of the actor who played todd in the tv show one|life|to|live,what is the name of the actor who played todd in the tv show one|life|to|live,0,dummy
+629,give me the name of the main actress in platoon,give me the name of the main actress in platoon,0,dummy
+630,what's the name of the mom on seinfeld,what's the name of the mom on seinfeld,0,dummy
+631,name the co-star in shoot|to|kill,name the co-star in shoot|to|kill,0,dummy
+632,what is the name of the actor who played atticus finch in to|kill|a|mockingbird,what is the name of the actor who played atticus finch in to|kill|a|mockingbird,0,dummy
+633,show me the name of the guy who was the father and a lawyer in to|kill|a|mockingbird,show me the name of the guy who was the father and a lawyer in to|kill|a|mockingbird,0,dummy
+634,please provide the cost for producing the|deer|hunter,please provide the cost for producing the|deer|hunter,0,dummy
+635,what is the budget for epic,what is the budget for epic,0,dummy
+636,search budget for the movie epic,search budget for the movie epic,0,dummy
+637,what was the budget for fire proof,what was the budget for fire proof,0,dummy
+638,what was the budget for fly whele,what was the budget for fly whele,0,dummy
+639,what was the budget for 1st harry|potter movie,what was the budget for 1st harry|potter movie,0,dummy
+640,how much was spent on shooting the last harry|potter film,how much was spent on shooting the last harry|potter film,0,dummy
+641,how much does it cost to produce looper,how much does it cost to produce looper,0,dummy
+642,how much did it cost to produce looper,how much did it cost to produce looper,0,dummy
+643,how much money was spent to produce looper,how much money was spent to produce looper,0,dummy
+644,how much did men|in|black|3 cost,how much did men|in|black|3 cost,0,dummy
+645,how much was it to make paranorman,how much was it to make paranorman,0,dummy
+646,show me the budget to rebel movie,show me the budget to rebel movie,0,dummy
+647,show me the budget for star|wars 2,show me the budget for star|wars 2,0,dummy
+648,how much did it cost to create the boardwalk empire,how much did it cost to create the boardwalk empire,0,dummy
+649,show me the budget for expendables 1,show me the budget for expendables 1,0,dummy
+650,what was the budget for finding|nemo in 3d,what was the budget for finding|nemo in 3d,0,dummy
+651,liongate,liongate,0,dummy
+652,which country made inchochine,which country made inchochine,0,dummy
+653,what country filed les mes,what country filed les mes,0,dummy
+654,what country is les mes from,what country is les mes from,0,dummy
+655,where was the|milk|of|sorrow made,where was the|milk|of|sorrow made,0,dummy
+656,what country is shawshank redemption,what country is shawshank redemption,0,dummy
+657,what country does the movie thoda pyaar thoda magic comes from,what country does the movie thoda pyaar thoda magic comes from,0,dummy
+658,tell me where the|white|ribbon came from,tell me where the|white|ribbon came from,0,dummy
+659,when was the movie barfi! released,when was the movie barfi! released,0,dummy
+660,what are the dates for the movie barfi!,what are the dates for the movie barfi!,0,dummy
+661,release date of the new bugs bunny film,release date of the new bugs bunny film,0,dummy
+662,what is the release date of evil goes global,what is the release date of evil goes global,0,dummy
+663,what is the release date for jaws 17 in the theaters,what is the release date for jaws 17 in the theaters,0,dummy
+664,what is the release date for jurassic|park 4,what is the release date for jurassic|park 4,0,dummy
+665,list release dates for the jurassic|park movies,list release dates for the jurassic|park movies,0,dummy
+666,when will the movie omg oh|my|god be released,when will the movie omg oh|my|god be released,0,dummy
+667,when was the|lord|of|the|rings movie released,when was the|lord|of|the|rings movie released,0,dummy
+668,whats paranormal activities release date,whats paranormal activities release date,0,dummy
+669,when will robocop come out,when will robocop come out,0,dummy
+670,when was suckerpunch be released,when was suckerpunch be released,0,dummy
+671,when was the|sound|of|music released,when was the|sound|of|music released,0,dummy
+672,when will twilight breaking|dawn part 2 be released,when will twilight breaking|dawn part 2 be released,0,dummy
+673,who directed ai,who directed ai,0,dummy
+674,find the director of downton|abbey,find the director of downton|abbey,0,dummy
+675,who directed good bad and ugly,who directed good bad and ugly,0,dummy
+676,i can't remember who directed star|wars,i can't remember who directed star|wars,0,dummy
+677,find the director of to|kill|a|mockingbird,find the director of to|kill|a|mockingbird,0,dummy
+678,is amelie in a different language,is amelie in a different language,0,dummy
+679,what language was amelie filmed in,what language was amelie filmed in,0,dummy
+680,what language is the|full|monty in,what language is the|full|monty in,0,dummy
+681,what is ju on's original language,what is ju on's original language,0,dummy
+682,what language is secrets and lies in,what language is secrets and lies in,0,dummy
+683,give me names of some action movies with a pg thirteen rating,give me names of some action movies with a pg thirteen rating,0,dummy
+684,show all comedy musicals for twenty twelve,show all comedy musicals for twenty twelve,0,dummy
+685,are there any documentaries on classic cars,are there any documentaries on classic cars,0,dummy
+686,show all dramas produced in 2010,show all dramas produced in 2010,0,dummy
+687,find some mysteries,find some mysteries,0,dummy
+688,search romantic commedies,search romantic commedies,0,dummy
+689,sci-fi,sci-fi,0,dummy
+690,show me westerns,show me westerns,0,dummy
+691,show car documentaries,show car documentaries,0,dummy
+692,show me a katie|holmes flick,show me a katie|holmes flick,0,dummy
+693,i want to see videos of spielberg,i want to see videos of spielberg,0,dummy
+694,videos related to spielberg,videos related to spielberg,0,dummy
+695,new released videos,new released videos,0,dummy
+696,i want to see brazilian movies,i want to see brazilian movies,0,dummy
+697,show all canandian movies for nineteen eighty,show all canandian movies for nineteen eighty,0,dummy
+698,what movies were made in ireland this year,what movies were made in ireland this year,0,dummy
+699,find philipino movies in english,find philipino movies in english,0,dummy
+700,show me the highest-grossing movies from portugal,show me the highest-grossing movies from portugal,0,dummy
+701,find movies in|america about obama,find movies in|america about obama,0,dummy
+702,i'd love to watch an albert|ruddy movie,i'd love to watch an albert|ruddy movie,0,dummy
+703,what other films has arthur ruddy done,what other films has arthur ruddy done,0,dummy
+704,bring up all movies brad|pitt directed,bring up all movies brad|pitt directed,0,dummy
+705,what movies has brad|pitt directed,what movies has brad|pitt directed,0,dummy
+706,movies by david|selsnic,movies by david|selsnic,0,dummy
+707,did holly|hunter direct any movies,did holly|hunter direct any movies,0,dummy
+708,what movies did joe|coen do,what movies did joe|coen do,0,dummy
+709,movies by john|paul as a director,movies by john|paul as a director,0,dummy
+710,show me movies directed by john|paul,show me movies directed by john|paul,0,dummy
+711,tom|cruise has directed what movies,tom|cruise has directed what movies,0,dummy
+712,please list all movies directed by tom|cruise,please list all movies directed by tom|cruise,0,dummy
+713,wesley|snipes directed what movie,wesley|snipes directed what movie,0,dummy
+714,find action movies with john|travolta,find action movies with john|travolta,0,dummy
+715,show all animation films for twenty twelve,show all animation films for twenty twelve,0,dummy
+716,animated pg thirteen movies,animated pg thirteen movies,0,dummy
+717,physfi movies,physfi movies,0,dummy
+718,i like sci-fi movies,i like sci-fi movies,0,dummy
+719,show me films released in september,show me films released in september,0,dummy
+720,show all movies released in september,show all movies released in september,0,dummy
+721,look up all movies coming in september,look up all movies coming in september,0,dummy
+722,find movies for twenty ten,find movies for twenty ten,0,dummy
+723,most recent zombie movies,most recent zombie movies,0,dummy
+724,search for movies in chinese,search for movies in chinese,0,dummy
+725,find|me movies that are in chinese,find|me movies that are in chinese,0,dummy
+726,i want to see a list of all movies shown in english,i want to see a list of all movies shown in english,0,dummy
+727,find movies in farsi,find movies in farsi,0,dummy
+728,send me movies that are in french,send me movies that are in french,0,dummy
+729,find movies in french,find movies in french,0,dummy
+730,i would like a list of movies in french,i would like a list of movies in french,0,dummy
+731,movies in french,movies in french,0,dummy
+732,i want to find movies using the french langauage,i want to find movies using the french langauage,0,dummy
+733,i want movies in french,i want movies in french,0,dummy
+734,find movies in german before 2000,find movies in german before 2000,0,dummy
+735,give me some movies which were filmed in polish,give me some movies which were filmed in polish,0,dummy
+736,find movies in portugese,find movies in portugese,0,dummy
+737,show all movies in spanish,show all movies in spanish,0,dummy
+738,list of movies in the spanish language,list of movies in the spanish language,0,dummy
+739,movies in spanish,movies in spanish,0,dummy
+740,i am searching for movies in spanish,i am searching for movies in spanish,0,dummy
+741,i would like to look for movies in spanish,i would like to look for movies in spanish,0,dummy
+742,find movies in swahili,find movies in swahili,0,dummy
+743,show me a list of all movies produced by alfred ruddy,show me a list of all movies produced by alfred ruddy,0,dummy
+744,what other movies charles|vidor produce,what other movies charles|vidor produce,0,dummy
+745,has jennifer anniston produced movies,has jennifer anniston produced movies,0,dummy
+746,show me the movies produced by m s raju,show me the movies produced by m s raju,0,dummy
+747,list the movies created by 7|arts,list the movies created by 7|arts,0,dummy
+748,lionsgate = i would like to get a list of your movies from two thousand and nine to two thousand and twelve,lionsgate = i would like to get a list of your movies from two thousand and nine to two thousand and twelve,0,dummy
+749,twentieth|century fox movies 2012,twentieth|century fox movies 2012,0,dummy
+750,show me nc minus seventeen rated movies,show me nc minus seventeen rated movies,0,dummy
+751,show me movies with not rated rating,show me movies with not rated rating,0,dummy
+752,give me a list of nr movies,give me a list of nr movies,0,dummy
+753,what is a list of pg thirteen action movies,what is a list of pg thirteen action movies,0,dummy
+754,i want to see a pg thirteen movie,i want to see a pg thirteen movie,0,dummy
+755,show me a complete list of r rated movies that came out in the last 30 days,show me a complete list of r rated movies that came out in the last 30 days,0,dummy
+756,show me all rated r movies by paramount,show me all rated r movies by paramount,0,dummy
+757,show me movies that are unrated,show me movies that are unrated,0,dummy
+758,list movies from 1995 with adam|sandler,list movies from 1995 with adam|sandler,0,dummy
+759,i want to see movies with alan rickmman,i want to see movies with alan rickmman,0,dummy
+760,which movies has angelina|jolie starred this season,which movies has angelina|jolie starred this season,0,dummy
+761,what movie was angelina a main actress,what movie was angelina a main actress,0,dummy
+762,look up movies starring the singer mario,look up movies starring the singer mario,0,dummy
+763,i want to find movies starring the singer mario,i want to find movies starring the singer mario,0,dummy
+764,look for movies with max von|sudow,look for movies with max von|sudow,0,dummy
+765,show me movies that have patrick|swayze and jennifer|grey in them,show me movies that have patrick|swayze and jennifer|grey in them,0,dummy
+766,show me movies that star patrick|swayze starred in from nineteen eighty seven,show me movies that star patrick|swayze starred in from nineteen eighty seven,0,dummy
+767,what is that dancing movie with patrick|swayze,what is that dancing movie with patrick|swayze,0,dummy
+768,movies of sharukh khan,movies of sharukh khan,0,dummy
+769,movie that tom|hanks and kevin becon played in together,movie that tom|hanks and kevin becon played in together,0,dummy
+770,movies about animals,movies about animals,0,dummy
+771,show me movies about bollywood,show me movies about bollywood,0,dummy
+772,chess movies,chess movies,0,dummy
+773,show me movies on chess,show me movies on chess,0,dummy
+774,what are some movies about disco,what are some movies about disco,0,dummy
+775,what movies can offer tips on gardening,what movies can offer tips on gardening,0,dummy
+776,i want to look up movies about hair,i want to look up movies about hair,0,dummy
+777,find movies about libraries,find movies about libraries,0,dummy
+778,find some movies about musicians,find some movies about musicians,0,dummy
+779,can you find movies about preschool boys,can you find movies about preschool boys,0,dummy
+780,look for movies about preschool boys,look for movies about preschool boys,0,dummy
+781,what films focus on rape and victim's rights,what films focus on rape and victim's rights,0,dummy
+782,i would like to know names of some movies on religious issues,i would like to know names of some movies on religious issues,0,dummy
+783,give me a list of some movies on religious issues,give me a list of some movies on religious issues,0,dummy
+784,look for movies about school,look for movies about school,0,dummy
+785,tell me the names of some soccer movies,tell me the names of some soccer movies,0,dummy
+786,what are some time travel movies i can watch,what are some time travel movies i can watch,0,dummy
+787,show me movies involving time travel,show me movies involving time travel,0,dummy
+788,vampire movies please,vampire movies please,0,dummy
+789,list movies with a theme of war in them,list movies with a theme of war in them,0,dummy
+790,show all movies with the theme of war,show all movies with the theme of war,0,dummy
+791,can you find|me some movies about war,can you find|me some movies about war,0,dummy
+792,i want a list of movies about war,i want a list of movies about war,0,dummy
+793,i want movies about war,i want movies about war,0,dummy
+794,find movies about world war two,find movies about world war two,0,dummy
+795,what are some zombie|apocalypse movies,what are some zombie|apocalypse movies,0,dummy
+796,search for zombie movies,search for zombie movies,0,dummy
+797,show me belle in spanish,show me belle in spanish,0,dummy
+798,is dredd rated r,is dredd rated r,0,dummy
+799,take me to the french version of et,take me to the french version of et,0,dummy
+800,find et in french,find et in french,0,dummy
+801,find fast and furious in japanese,find fast and furious in japanese,0,dummy
+802,hard day's night richard|lester,hard day's night richard|lester,0,dummy
+803,information about movie life|is|beautiful,information about movie life|is|beautiful,0,dummy
+804,movie information for life|is|beautiful,movie information for life|is|beautiful,0,dummy
+805,will you please show me info on the movie life|is|beautiful,will you please show me info on the movie life|is|beautiful,0,dummy
+806,can you please show me info on the movie life|is|beautiful,can you please show me info on the movie life|is|beautiful,0,dummy
+807,show me details to the movie life|is|beautiful,show me details to the movie life|is|beautiful,0,dummy
+808,show me info on the movie life|is|beautiful please,show me info on the movie life|is|beautiful please,0,dummy
+809,open a page about the movie life|is|beautiful,open a page about the movie life|is|beautiful,0,dummy
+810,is nine fourteen the premiere date for resident|evil,is nine fourteen the premiere date for resident|evil,0,dummy
+811,select rio in chinese,select rio in chinese,0,dummy
+812,find|me the first star|wars movie info,find|me the first star|wars movie info,0,dummy
+813,i need details about the movie star|wars:episode four -a new hope,i need details about the movie star|wars:episode four -a new hope,0,dummy
+814,did ray|stark produce steel|magnolias,did ray|stark produce steel|magnolias,0,dummy
+815,is the movie toy|story|4 being released next summer,is the movie toy|story|4 being released next summer,0,dummy
+816,i want to look up information about american|movies,i want to look up information about american|movies,0,dummy
+817,chinese foreign film with kungfu,chinese foreign film with kungfu,0,dummy
+818,french movies for twenty twelve,french movies for twenty twelve,0,dummy
+819,look for russian movies by mosfilm,look for russian movies by mosfilm,0,dummy
+820,show production company lionsgate,show production company lionsgate,0,dummy
+821,paramount film studios,paramount film studios,0,dummy
+822,i would like to have more information about the producer ray|stark,i would like to have more information about the producer ray|stark,0,dummy
+823,show me details for the director spielberg,show me details for the director spielberg,0,dummy
+824,show me that actor tom|cruise,show me that actor tom|cruise,0,dummy
+825,i would like information about the actor will|ferrell,i would like information about the actor will|ferrell,0,dummy
+826,who produced the movie great debaters,who produced the movie great debaters,0,dummy
+827,king's speech production company,king's speech production company,0,dummy
+828,i wonder who produced star|wars,i wonder who produced star|wars,0,dummy
+829,i can't remember who produced star|wars,i can't remember who produced star|wars,0,dummy
+830,who produced star|wars,who produced star|wars,0,dummy
+831,movie producers,movie producers,0,dummy
+832,how much did end|of|watch gross,how much did end|of|watch gross,0,dummy
+833,how much did movie earn,how much did movie earn,0,dummy
+834,show me the earnings for hotel|transylvania,show me the earnings for hotel|transylvania,0,dummy
+835,what did the movie the house at the end of the steet gross,what did the movie the house at the end of the steet gross,0,dummy
+836,revenue for iron|man|2,revenue for iron|man|2,0,dummy
+837,what amount of revenue did iron|man make,what amount of revenue did iron|man make,0,dummy
+838,what was the gross revenue of iron|man,what was the gross revenue of iron|man,0,dummy
+839,kahani's revenue,kahani's revenue,0,dummy
+840,get the revenue of kahani,get the revenue of kahani,0,dummy
+841,revenue looper,revenue looper,0,dummy
+842,how much did looper gross in sales,how much did looper gross in sales,0,dummy
+843,how much did looper gross,how much did looper gross,0,dummy
+844,ho much did looper make,ho much did looper make,0,dummy
+845,how much money did mr|and|mrs|smith make,how much money did mr|and|mrs|smith make,0,dummy
+846,how much money did the movie mr|and|mrs|smith make,how much money did the movie mr|and|mrs|smith make,0,dummy
+847,in the movie mr|and|mrs|smith how much money did the box offfice report,in the movie mr|and|mrs|smith how much money did the box offfice report,0,dummy
+848,how much money did philadelphia make,how much money did philadelphia make,0,dummy
+849,i want to know what the revenue for pirates was,i want to know what the revenue for pirates was,0,dummy
+850,how much was made from platoon,how much was made from platoon,0,dummy
+851,what was the gross revenue earned by star|wars in its original release,what was the gross revenue earned by star|wars in its original release,0,dummy
+852,what was the total gross receipts at the box office for the movie star|wars,what was the total gross receipts at the box office for the movie star|wars,0,dummy
+853,what were the gross receipts for hunger games,what were the gross receipts for hunger games,0,dummy
+854,tell me how much money tommy|boy made,tell me how much money tommy|boy made,0,dummy
+855,how much revenue did top|gun make,how much revenue did top|gun make,0,dummy
+856,tell me the revenue of training|day,tell me the revenue of training|day,0,dummy
+857,what is life|is|beautiful about,what is life|is|beautiful about,0,dummy
+858,show me a list of production companies,show me a list of production companies,0,dummy
+859,show me the viewer ratings in orange,show me the viewer ratings in orange,0,dummy
+860,is in|july on netflix,is in|july on netflix,0,dummy
+861,rate movies,rate movies,0,dummy
+862,find the actor that sings let me love you,find the actor that sings let me love you,0,dummy
+863,what is spielberg up to,what is spielberg up to,0,dummy
+864,israel are all your movies in your native language or in english,israel are all your movies in your native language or in english,0,dummy
+865,what's playing tonight,what's playing tonight,0,dummy
+866,where can i buy this movie,where can i buy this movie,0,dummy
+867,i would like to know if this is a real scary,i would like to know if this is a real scary,0,dummy
+868,how to rent dirty|dancing,how to rent dirty|dancing,0,dummy
+869,can i rent finding|nemo on netflix,can i rent finding|nemo on netflix,0,dummy
+870,hotel|rwanda is based on what,hotel|rwanda is based on what,0,dummy
+871,i need to know where you keep resident|evil,i need to know where you keep resident|evil,0,dummy
+872,in september,in september,0,dummy
+873,dvd finding|nemo,dvd finding|nemo,0,dummy
+874,find movie from criteria,find movie from criteria,0,dummy
+875,find a movie,find a movie,0,dummy
+876,can you tell me which movie made the most at the box office in the weekend of september twenty eighth,can you tell me which movie made the most at the box office in the weekend of september twenty eighth,0,dummy
+877,find movies selected on all criteria,find movies selected on all criteria,0,dummy
+878,options available for movies today,options available for movies today,0,dummy
+879,find all selected criteria,find all selected criteria,0,dummy
+880,search highlighted information,search highlighted information,0,dummy
+881,bring up movie request,bring up movie request,0,dummy
+882,find selected information,find selected information,0,dummy
+883,find selected criteria,find selected criteria,0,dummy
+884,where can i watch movie,where can i watch movie,0,dummy
+885,search all databases,search all databases,0,dummy
+886,search databases,search databases,0,dummy
+887,where can i see movie,where can i see movie,0,dummy
+888,what is the age limit for the pg rating for the movie hotel|transylvania,what is the age limit for the pg rating for the movie hotel|transylvania,0,dummy
+889,what does the rating r mean for the movie dred,what does the rating r mean for the movie dred,0,dummy
+890,show me the sequels or prequels to this movie,show me the sequels or prequels to this movie,0,dummy
+891,how long did it take james|cameron to produce avatar,how long did it take james|cameron to produce avatar,0,dummy
+892,is this film dubbed in english,is this film dubbed in english,0,dummy
+893,apollo|13 cast was chosen how,apollo|13 cast was chosen how,0,dummy
+894,what other formats is finding|nemo in,what other formats is finding|nemo in,0,dummy
+895,in how many|days did it take to make twenty one point two for looper,in how many|days did it take to make twenty one point two for looper,0,dummy
+896,what age group is for rated r movies,what age group is for rated r movies,0,dummy
+897,show me the behind scenes of the movie in orange,show me the behind scenes of the movie in orange,0,dummy
+898,how long do you predict that wb will continue to strive in today's market,how long do you predict that wb will continue to strive in today's market,0,dummy
+899,the crap,the crap,0,dummy
+900,who determines the ratings on movies,who determines the ratings on movies,0,dummy
+901,house|at|the|end|of|the|street should of made more money,house|at|the|end|of|the|street should of made more money,0,dummy
+902,find|me dirty|dancing news,find|me dirty|dancing news,0,dummy
+903,who else could have preformed your job,who else could have preformed your job,0,dummy
+904,twenty one point two was paid out,twenty one point two was paid out,0,dummy
+905,find some notes on parental guidance please,find some notes on parental guidance please,0,dummy
+906,who came up for the main plot,who came up for the main plot,0,dummy
+907,what is the standard to be rated g,what is the standard to be rated g,0,dummy
+908,i love taye|diggs,i love taye|diggs,0,dummy
+909,show me the movie reviews in orange,show me the movie reviews in orange,0,dummy
+910,show me celebrities,show me celebrities,0,dummy
+911,how old do you have to be to see an r-rated movie,how old do you have to be to see an r-rated movie,0,dummy
+912,does ireland have an equivalent to th us oscar awards,does ireland have an equivalent to th us oscar awards,0,dummy
+913,click on the most popular movie in orange,click on the most popular movie in orange,0,dummy
+914,brazil movie locations,brazil movie locations,0,dummy
+915,what is the history behind lionsgate,what is the history behind lionsgate,0,dummy
+916,what does an r rating mean on a movie,what does an r rating mean on a movie,0,dummy
+917,can you give me more information about the text highlighted in orange,can you give me more information about the text highlighted in orange,0,dummy
+918,what are the recommended ages for a pg movie,what are the recommended ages for a pg movie,0,dummy
+919,send dredd movie,send dredd movie,0,dummy
+920,jenn ann lover,jenn ann lover,0,dummy
+921,did kristen|stewart have an affair with the director of snow|white|and|the|huntsman,did kristen|stewart have an affair with the director of snow|white|and|the|huntsman,0,dummy
+922,show me movie highlights in orange,show me movie highlights in orange,0,dummy
+923,need to rate movie,need to rate movie,0,dummy
+924,how old do you have to be to see a rated r movie,how old do you have to be to see a rated r movie,0,dummy
+925,what does a pg thirteen rating mean,what does a pg thirteen rating mean,0,dummy
+926,twenty one point two is the first week gross,twenty one point two is the first week gross,0,dummy
+927,r rating what does that include,r rating what does that include,0,dummy
+928,in julie,in julie,0,dummy
+929,wb- what does it take to become a movie producer,wb- what does it take to become a movie producer,0,dummy
+930,show me hollywood influences,show me hollywood influences,0,dummy
+931,how does a movie receive an r rating,how does a movie receive an r rating,0,dummy
+932,did you have fun on the set,did you have fun on the set,0,dummy
+933,what are the rating symbols for movies,what are the rating symbols for movies,0,dummy
+934,sb news on life,sb news on life,0,dummy
+935,i have a thirteen year old,i have a thirteen year old,0,dummy
+936,end|of|watch shoulde of made less money,end|of|watch shoulde of made less money,0,dummy
+937,when the movie comes out do you think it will raise in the box office,when the movie comes out do you think it will raise in the box office,0,dummy
+938,show me the movie list in orange,show me the movie list in orange,0,dummy
+939,show me the story of the armstrong siddeley,show me the story of the armstrong siddeley,0,dummy
+940,classic cars,classic cars,0,dummy
+941,i want to learn about flowers,i want to learn about flowers,0,dummy
+942,out camping,out camping,0,dummy
+943,happy,happy,0,dummy
+944,interesting,interesting,0,dummy
+945,sort by spanish,sort by spanish,0,dummy
+946,where is punjabi,where is punjabi,0,dummy
+947,what is robert|wise's middle name,what is robert|wise's middle name,0,dummy
+948,ferret,ferret,0,dummy
+949,forty three million what,forty three million what,0,dummy
+950,twenty one point two million dollars was divided between who,twenty one point two million dollars was divided between who,0,dummy
+951,do movie authors use real countries,do movie authors use real countries,0,dummy
+952,on lies,on lies,0,dummy
+953,the movie a tanu is from hungary; where is the country hungary,the movie a tanu is from hungary; where is the country hungary,0,dummy
+954,how fun is it to produce a movie,how fun is it to produce a movie,0,dummy
+955,did you like working with who you did,did you like working with who you did,0,dummy
+956,can i see a map of canada,can i see a map of canada,0,dummy
+957,was your journey worth it,was your journey worth it,0,dummy
+958,south american country flags,south american country flags,0,dummy
+959,need more info that relates to china,need more info that relates to china,0,dummy
+960,flags of planet|earth,flags of planet|earth,0,dummy
+961,best writers in the field,best writers in the field,0,dummy
+962,find the male actor from grand torino,find the male actor from grand torino,0,dummy
+963,who played the female lead in hitch,who played the female lead in hitch,0,dummy
+964,find the female actress from shallow|hal,find the female actress from shallow|hal,0,dummy
+965,who is in picture three,who is in picture three,0,dummy
+966,who are the lead actors,who are the lead actors,0,dummy
+967,how old is jennifer|aniston,how old is jennifer|aniston,0,dummy
+968,when was will|ferrell born,when was will|ferrell born,0,dummy
+969,where was black|swan directed,where was black|swan directed,0,dummy
+970,where was muriel|s|wedding shot,where was muriel|s|wedding shot,0,dummy
+971,show release date in the usa for the movie little|women,show release date in the usa for the movie little|women,0,dummy
+972,show movie description,show movie description,0,dummy
+973,i'd like to see popular film directors from the nineteen fifty 's through today,i'd like to see popular film directors from the nineteen fifty 's through today,0,dummy
+974,best director,best director,0,dummy
+975,best directors of all time,best directors of all time,0,dummy
+976,please show me famous film directors,please show me famous film directors,0,dummy
+977,greatest directors,greatest directors,0,dummy
+978,who produced some of the most popular movies,who produced some of the most popular movies,0,dummy
+979,show me successful movie directors,show me successful movie directors,0,dummy
+980,who produced hotel|rwanda cover art,who produced hotel|rwanda cover art,0,dummy
+981,who's the director,who's the director,0,dummy
+982,director's name,director's name,0,dummy
+983,what is the name of a turkish director that produced a drama film,what is the name of a turkish director that produced a drama film,0,dummy
+984,watch dredd movie,watch dredd movie,0,dummy
+985,see dredd movie,see dredd movie,0,dummy
+986,what was the name of an academy award winning russian documentary,what was the name of an academy award winning russian documentary,0,dummy
+987,what movie titles starring meryl|streep earned oscar nominations,what movie titles starring meryl|streep earned oscar nominations,0,dummy
+988,in search for names of crew members please,in search for names of crew members please,0,dummy
+989,get me reviews and info about the campaign movie,get me reviews and info about the campaign movie,0,dummy
+990,show me reviews and info for the campaign,show me reviews and info for the campaign,0,dummy
+991,what movies that clint|eastwood direct that he won the best director oscar for,what movies that clint|eastwood direct that he won the best director oscar for,0,dummy
+992,what's hitchcock's most famous movie,what's hitchcock's most famous movie,0,dummy
+993,tell me some of walter f parkes best movies,tell me some of walter f parkes best movies,0,dummy
+994,looking for movies directed by actor number one,looking for movies directed by actor number one,0,dummy
+995,list of movies directed by director three,list of movies directed by director three,0,dummy
+996,show me the film that grossed seven point two million at the box office,show me the film that grossed seven point two million at the box office,0,dummy
+997,show me movies that made over seven million dollars,show me movies that made over seven million dollars,0,dummy
+998,show me movies that didn't gross much,show me movies that didn't gross much,0,dummy
+999,i want to see movies from early two thousands,i want to see movies from early two thousands,0,dummy
+1000,show last years films by 7|arts,show last years films by 7|arts,0,dummy
+1001,show all movies that came out nine fourteen twenty twelve,show all movies that came out nine fourteen twenty twelve,0,dummy
+1002,were there any movies released nine fourteen twenty twelve,were there any movies released nine fourteen twenty twelve,0,dummy
+1003,show me movies from the nineteen seventies,show me movies from the nineteen seventies,0,dummy
+1004,can you list all movies from twenty twelve with a rating of three|stars and up,can you list all movies from twenty twelve with a rating of three|stars and up,0,dummy
+1005,academy award lionsgate movies,academy award lionsgate movies,0,dummy
+1006,show oscar winning movies by warner|bros.,show oscar winning movies by warner|bros.,0,dummy
+1007,what movie performance did meryl|streep win her best supporting oscar,what movie performance did meryl|streep win her best supporting oscar,0,dummy
+1008,have any us released movies been filmed on location in the czech republic,have any us released movies been filmed on location in the czech republic,0,dummy
+1009,what us release movies have been filmed in the czech republic,what us release movies have been filmed in the czech republic,0,dummy
+1010,list movies set in ireland,list movies set in ireland,0,dummy
+1011,show me the movies released in england,show me the movies released in england,0,dummy
+1012,what movies are coming|out this week in great britain,what movies are coming|out this week in great britain,0,dummy
+1013,show me the movies released in nepal,show me the movies released in nepal,0,dummy
+1014,what are the top five french movies of all time,what are the top five french movies of all time,0,dummy
+1015,what top films have come out of russia,what top films have come out of russia,0,dummy
+1016,show me the top movies from spain,show me the top movies from spain,0,dummy
+1017,what is the highest rated zombie movie,what is the highest rated zombie movie,0,dummy
+1018,what are highly rated zombie movies i can watch,what are highly rated zombie movies i can watch,0,dummy
+1019,look for popular movies,look for popular movies,0,dummy
+1020,search for foreign language films,search for foreign language films,0,dummy
+1021,what is will|ferrell famous for,what is will|ferrell famous for,0,dummy
+1022,is this a musical,is this a musical,0,dummy
+1023,hope that the movie is in english,hope that the movie is in english,0,dummy
+1024,is this movie in english,is this movie in english,0,dummy
+1025,do they speak german in the movie,do they speak german in the movie,0,dummy
+1026,is this movie filmed in india,is this movie filmed in india,0,dummy
+1027,show all dawn|of|the|dead movies,show all dawn|of|the|dead movies,0,dummy
+1028,all of kung|fu|panda movies,all of kung|fu|panda movies,0,dummy
+1029,list movies that have time travel in their title,list movies that have time travel in their title,0,dummy
+1030,i want to see nine twenty eight release date films from twenty twelve,i want to see nine twenty eight release date films from twenty twelve,0,dummy
+1031,find information about french movies,find information about french movies,0,dummy
+1032,i need to know more about the life and movies of indian actor dilip|kumar,i need to know more about the life and movies of indian actor dilip|kumar,0,dummy
+1033,what does the miramax logo look like,what does the miramax logo look like,0,dummy
+1034,show me pictures of martin|scorsese,show me pictures of martin|scorsese,0,dummy
+1035,photos of spielberg,photos of spielberg,0,dummy
+1036,i want to see images of will|ferrell,i want to see images of will|ferrell,0,dummy
+1037,show me pictures of woody|allen,show me pictures of woody|allen,0,dummy
+1038,what are popular movie producers,what are popular movie producers,0,dummy
+1039,can you give me the producer,can you give me the producer,0,dummy
+1040,i would like to know the rating of the movie avatar,i would like to know the rating of the movie avatar,0,dummy
+1041,what rating is the movie barfi,what rating is the movie barfi,0,dummy
+1042,what is finding|nemo rated,what is finding|nemo rated,0,dummy
+1043,i need to know the rating of grease,i need to know the rating of grease,0,dummy
+1044,can you find out what rating the movie grease is,can you find out what rating the movie grease is,0,dummy
+1045,what is kids by larry|clark rated,what is kids by larry|clark rated,0,dummy
+1046,what rating did marley|and|me receive,what rating did marley|and|me receive,0,dummy
+1047,what is the rating for mr|and|mrs|smith,what is the rating for mr|and|mrs|smith,0,dummy
+1048,what rating did resident|evil receive,what rating did resident|evil receive,0,dummy
+1049,rating for snow|white|and|the|huntsman,rating for snow|white|and|the|huntsman,0,dummy
+1050,what rating is step|up,what rating is step|up,0,dummy
+1051,look up the rating of the movie step|up,look up the rating of the movie step|up,0,dummy
+1052,what rating did the campaign movie get,what rating did the campaign movie get,0,dummy
+1053,show me the rating for the movie the expendables,show me the rating for the movie the expendables,0,dummy
+1054,what is the rating for toy|story,what is the rating for toy|story,0,dummy
+1055,what is the rating for the movie toy|story,what is the rating for the movie toy|story,0,dummy
+1056,rating for twilight breaking|dawn,rating for twilight breaking|dawn,0,dummy
+1057,what was gross revenue for batman|begins,what was gross revenue for batman|begins,0,dummy
+1058,how much has black|swan brought in,how much has black|swan brought in,0,dummy
+1059,find the revenue for downton|abbey,find the revenue for downton|abbey,0,dummy
+1060,find the revenue of edward|scissor|hands,find the revenue of edward|scissor|hands,0,dummy
+1061,what is the most a movie made,what is the most a movie made,0,dummy
+1062,reviews for dirty|dancing,reviews for dirty|dancing,0,dummy
+1063,find reviews for dirty|dancing,find reviews for dirty|dancing,0,dummy
+1064,what are reviews for finding|nemo,what are reviews for finding|nemo,0,dummy
+1065,what are the ratings and review on finding|nemo,what are the ratings and review on finding|nemo,0,dummy
+1066,reviews for finding|nemo,reviews for finding|nemo,0,dummy
+1067,reviews for finding|nemo,reviews for finding|nemo,0,dummy
+1068,reviews for finding|nemo,reviews for finding|nemo,0,dummy
+1069,reviews for movie,reviews for movie,0,dummy
+1070,reviews for in|july,reviews for in|july,0,dummy
+1071,what are the reviewers saying about star|wars episode four,what are the reviewers saying about star|wars episode four,0,dummy
+1072,how long is life|is|beautiful,how long is life|is|beautiful,0,dummy
+1073,synopsis for the movie house|at|the|end|of|the|street,synopsis for the movie house|at|the|end|of|the|street,0,dummy
+1074,synopsis for star|wars four,synopsis for star|wars four,0,dummy
+1075,summary of star|wars four,summary of star|wars four,0,dummy
+1076,finding|nemo movie shortcut,finding|nemo movie shortcut,0,dummy
+1077,show me the trailer for house|at|the|end|of|the|street,show me the trailer for house|at|the|end|of|the|street,0,dummy
+1078,life|is|beatiful shortcut,life|is|beatiful shortcut,0,dummy
+1079,trailer for star|wars a new hope,trailer for star|wars a new hope,0,dummy
+1080,show resident|evil movies with trailers,show resident|evil movies with trailers,0,dummy
+1081,can i see previews for upcoming warner|bros. movies,can i see previews for upcoming warner|bros. movies,0,dummy
+1082,how many woody|allen movies are set in new york city,how many woody|allen movies are set in new york city,0,dummy
+1083,how many scorsese films were filmed in france,how many scorsese films were filmed in france,0,dummy
