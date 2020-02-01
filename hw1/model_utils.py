@@ -6,6 +6,8 @@ import torch
 import numpy as np
 import re
 import os
+from bert_embedding import BertEmbedding
+
 
 
 
@@ -83,21 +85,24 @@ class BaseModelWithLabel(nn.Module):
 
 
 class GRU(nn.Module):
-    def __init__(self, pretrained_emb=False, device="cuda", path='data',
-                 hidden_unit=200,
+    def __init__(self, ft=True, device="cuda", path='data',
+                 hidden_unit=200, num_layer=1,
                  emb_dim=300, output_dim=46, vocab_size=2000, 
                  bi=True):
         super().__init__()
-        if pretrained_emb:
+        if ft:
+            print("use fasttext pretained embedding")
             emb_matrix = torch.load(os.path.join(path, "emb_matrix_ft.pt"))
             self.embedding = nn.Embedding.from_pretrained(emb_matrix, 
                 freeze=False)
         else: 
+            print("use random initialized embedding")
             self.embedding = nn.Embedding(vocab_size, emb_dim)
-        self.gru = nn.GRU(emb_dim, hidden_unit, bidirectional=bi)
+        self.gru = nn.GRU(emb_dim, hidden_unit, num_layers=num_layer, bidirectional=bi)
         self.hidden_unit = hidden_unit
         self.device = device
         self.bi = bi
+        self.num_layer=num_layer
         if self.bi:
             self.h0_bi = 2
         else:
@@ -110,7 +115,8 @@ class GRU(nn.Module):
         batch_size = len(raw_text)
         # emb shape: sequence_length, batch_size, emb_dim
         emb = self.embedding(x_emb)
-        h0 = torch.rand((self.h0_bi,batch_size,self.hidden_unit), requires_grad=True)
+        h0 = torch.rand((self.h0_bi*self.num_layer,batch_size,self.hidden_unit), 
+            requires_grad=True)
         h0 = (h0 - 0.5)/self.hidden_unit
         if self.device == "cuda":
             h0 = h0.cuda()
@@ -142,12 +148,14 @@ class BaseModelNGram(nn.Module):
 
 
 class MultiLayerMLP(nn.Module):
-    def __init__(self, pretrained_emb=False, emb_matrix=None,
-                 emb_dim=300, hidden_dim=100, 
+    def __init__(self, pretrained_emb=False, path="data",
+                 emb_dim=300, hidden_dim=100,  
                  output_dim=46, vocab_size=2043,
                  num_middle_layer=3, p_dropout=0.2):
         super().__init__()
         if pretrained_emb:
+            print("use fasttext pretained embedding")
+            emb_matrix = torch.load(os.path.join(path, "emb_matrix_ft.pt"))
             self.embedding = nn.Embedding.from_pretrained(emb_matrix, freeze=False)
         else: 
             self.embedding = nn.Embedding(vocab_size, emb_dim)
@@ -158,16 +166,44 @@ class MultiLayerMLP(nn.Module):
             self.middle_layers.append(nn.Linear(hidden_dim, hidden_dim))
         self.middle_layers = nn.ModuleList(self.middle_layers)
         self.final_layer = nn.Linear(hidden_dim, output_dim)
-        self.dropout = nn.Dropout(p=p_dropout)
+        self.batchnorm1 = nn.BatchNorm1d(hidden_dim)
+        self.batchnorm2 = nn.BatchNorm1d(hidden_dim)
         
     def forward(self, seq):
-        emb = self.embedding(seq).sum(dim=0) # sum of word embedding
-        hidden = F.relu(self.dropout(self.first_layer(emb)))
+        (emb, ngram), extra = seq
+        emb = self.embedding(emb).sum(dim=0) # sum of word embedding
+        hidden = F.relu(self.batchnorm1(self.first_layer(emb)))
         for i, middle_layer in enumerate(self.middle_layers):
-            if i == len(self.middle_layers) - 1:
-                hidden = F.relu(self.dropout(middle_layer(hidden)))
-            else:
-                hidden = F.relu(middle_layer(hidden))
+            hidden = F.relu(self.batchnorm2(middle_layer(hidden)))
+                
+        preds = self.final_layer(hidden)
+        return preds
+
+
+class BertMLP(nn.Module):
+    def __init__(self, path="data",
+                 emb_dim=768,
+                 hidden_dim=400,  
+                 output_dim=46,
+                 num_middle_layer=0,
+                 ):
+        super().__init__()
+        self.first_layer = nn.Linear(emb_dim, hidden_dim)
+        self.middle_layers = []
+        for _ in range(num_middle_layer):
+            self.middle_layers.append(nn.Linear(hidden_dim, hidden_dim))
+        self.middle_layers = nn.ModuleList(self.middle_layers)
+        self.final_layer = nn.Linear(hidden_dim, output_dim)
+        self.batchnorm = nn.BatchNorm1d(hidden_dim)
+        self.bert_embedding = BertEmbedding()
+        
+    def forward(self, seq):
+        (emb, ngram), extra = seq
+        raw_text = extra["raw_text"]
+        emb = self.embedding(emb).sum(dim=0) # sum of word embedding
+        hidden = F.relu(self.batchnorm1(self.first_layer(emb)))
+        for i, middle_layer in enumerate(self.middle_layers):
+            hidden = F.relu(self.batchnorm2(middle_layer(hidden)))
                 
         preds = self.final_layer(hidden)
         return preds

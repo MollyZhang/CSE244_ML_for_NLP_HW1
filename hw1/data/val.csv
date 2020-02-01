@@ -1,334 +1,334 @@
 ID,text,raw_text,label,raw_label
-604,search for the name of the director of return,search for the name of the director of return,0000000000000100000000000000000000000000000000,movie.directed_by
-965,time travel movies,time travel movies,0000000000000000000000000000000010000000000000,movie.subjects
-3111,send dredd movie,send dredd movie,0000000000000000000000000000000000000100000000,other
-1474,which movies has kristen stewart been in,which movies has kristen stewart been in,0000000000000000000000000000001000000000000000,movie.starring.actor
-2363,how much did it cost to make looper,how much did it cost to make looper,0000000000000010000000000000000000000000000000,movie.estimated_budget
-462,when will iron man 3 be out in movie theatres,when will iron man 3 be out in movie theatres,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3053,what does a r rating mean,what does a r rating mean,0000000000000000000000000000000000001000000000,movie_other
-1055,i would like to view info on life is beautiful,i would like to view info on life is beautiful,1000000000000000000000000000000000000000000000,NO_REL
-304,where was black swan produced,where was black swan produced,0000000000010000000000000000000000000000000000,movie.country
-938,search for movies in french,search for movies in french,0000000000000000001000000000000000000000000000,movie.language
-2308,total titanic revenues,total titanic revenues,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1213,show me g movies,show me g movies,0000000000000000000000001000000000000000000000,movie.rating
-473,who's the director of pi,who's the director of pi,0000000000000100000000000000000000000000000000,movie.directed_by
-881,what are some movies made outside the us,what are some movies made outside the us,0000000000010000000000000000000000000000000000,movie.country
-2365,the movie mr and mrs smith reported making how much money,the movie mr and mrs smith reported making how much money,0000000000000010000000000000000000000000000000,movie.estimated_budget
-1309,i want to see movies from france,i want to see movies from france,0000000000010000000000000000000000000000000000,movie.country
-1564,show me brad pitt movies,show me brad pitt movies,0000000000000000000000000000001000000000000000,movie.starring.actor
-224,gone with the wind's budget information please,gone with the wind's budget information please,0000000000000010000000000000000000000000000000,movie.estimated_budget
-2812,box office total terminator 2,box office total terminator 2,0000000000000000100000000000000000000000000000,movie.gross_revenue
-2793,find the revenue of mirror,find the revenue of mirror,0000000000000000100000000000000000000000000000,movie.gross_revenue
-2220,is toy story for kids,is toy story for kids,0000000000000000000000001000000000000000000000,movie.rating
-362,when was the movie title little women released,when was the movie title little women released,0000000000000000010000000000000000000000000000,movie.initial_release_date
-232,what was the budget for old school,what was the budget for old school,0000000000000010000000000000000000000000000000,movie.estimated_budget
-2950,albery death yr,albery death yr,0000000000000000000000000000000000000100000000,other
-2184,can i see who produced possesion,can i see who produced possesion,0000000000000000000000100000000000000000000000,movie.produced_by
-1132,list some of the best world war 2 films,list some of the best world war 2 films,0000000000000000000000000000000010000000000000,movie.subjects
-2379,budget for amazing spiderman,budget for amazing spiderman,0000000000000010000000000000000000000000000000,movie.estimated_budget
-179,what was the budget for wrong turn,what was the budget for wrong turn,0000000000000010000000000000000000000000000000,movie.estimated_budget
-658,find out what kind of movie grease is,find out what kind of movie grease is,0000000000000001000000000000000000000000000000,movie.genre
-2964,did you have fun directing gilda mister vidor,did you have fun directing gilda mister vidor,0000000000000000000000000000000000001000000000,movie_other
-1327,look up french movies,look up french movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-1332,find movies produced by disney pixar,find movies produced by disney pixar,0000000000000000000000010000000000000000000000,movie.production_companies
-1455,show me finding nemo,show me finding nemo,1000000000000000000000000000000000000000000000,NO_REL
-147,who is in barfi,who is in barfi,0000000000000000000000000000001000000000000000,movie.starring.actor
-1039,can you tell me about the movie dirty dancing in detail,can you tell me about the movie dirty dancing in detail,1000000000000000000000000000000000000000000000,NO_REL
-937,search for movies in french,search for movies in french,0000000000000000001000000000000000000000000000,movie.language
-2110,what company produced cabin in the woods,what company produced cabin in the woods,0000000000000000000000010000000000000000000000,movie.production_companies
-3095,dirty dan,dirty dan,0000000000000000000000000000000000000100000000,other
-1217,watch pg and g movies,watch pg and g movies,0000000000000000000000001000000000000000000000,movie.rating
-174,how much was the budget for the hunger games,how much was the budget for the hunger games,0000000000000010000000000000000000000000000000,movie.estimated_budget
-2424,who directed daddy daycare,who directed daddy daycare,0000000000000100000000000000000000000000000000,movie.directed_by
-634,what is the movie category,what is the movie category,0000000000000001000000000000000000000000000000,movie.genre
-2763,how much did movie make,how much did movie make,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1217,watch pg and g movies,watch pg and g movies,0000000000000000000000001000000000000000000000,movie.rating
-1771,will ferrell been in,will ferrell been in,0000000000000000000000000000001000000000000000,movie.starring.actor
-1251,show movies directed by ron howard,show movies directed by ron howard,0000000000000100000000000000000000000000000000,movie.directed_by
-2102,who produced hitch,who produced hitch,0000000000000000000000100000000000000000000000,movie.produced_by
-3318,where can i see house at the end of the street,where can i see house at the end of the street,0000000000000000000000000000100000000000000000,movie.showing
-3189,show me the best films of twenty eleven for warner brothers,show me the best films of twenty eleven for warner brothers,0000000000000000010000010000010000000000000000,movie.production_companies movie.star_rating movie.initial_release_date
-3058,what does the flag of japan look like,what does the flag of japan look like,0000000000000000000000000000000000000100000000,other
-795,what movies has andrew stanton directed,what movies has andrew stanton directed,0000000000000100000000000000000000000000000000,movie.directed_by
-1016,what are some movies that were produced in europe,what are some movies that were produced in europe,0000000000010000000000000000000000000000000000,movie.country
-312,in what country was movie made,in what country was movie made,0000000000010000000000000000000000000000000000,movie.country
-871,look up information about canadian movies,look up information about canadian movies,0000000000010000000000000000000000000000000000,movie.country
-512,who directed the film avatar,who directed the film avatar,0000000000000100000000000000000000000000000000,movie.directed_by
-1428,get john cusack movies for me,get john cusack movies for me,0000000000000000000000000000001000000000000000,movie.starring.actor
-1706,star wars four,star wars four,1000000000000000000000000000000000000000000000,NO_REL
-1367,i need movies directed by oliver stone,i need movies directed by oliver stone,0000000000000100000000000000000000000000000000,movie.directed_by
-3252,show all movies by oscar winning directors for the seventies,show all movies by oscar winning directors for the seventies,0000101000000100010000000000000000000000000000,director.award movie.directed_by movie.initial_release_date award.ceremony
-647,what genre is network in,what genre is network in,0000000000000001000000000000000000000000000000,movie.genre
-700,what language was aguirre wrath of god in,what language was aguirre wrath of god in,0000000000000000001000000000000000000000000000,movie.language
-622,what genre is rambo,what genre is rambo,0000000000000001000000000000000000000000000000,movie.genre
-2991,if he was still making movies would you want to help,if he was still making movies would you want to help,0000000000000000000000000000000000001000000000,movie_other
-1687,movies frances ford copolla,movies frances ford copolla,0000000000000100000000000000000000000000000000,movie.directed_by
-284,can you tell me which country the movie kati patang comes from,can you tell me which country the movie kati patang comes from,0000000000010000000000000000000000000000000000,movie.country
-2772,how much money did hotel transylvania gross overall,how much money did hotel transylvania gross overall,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1270,movie by steven spielberg,movie by steven spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
-1120,find a movie with mel gibson,find a movie with mel gibson,0000000000000000000000000000001000000000000000,movie.starring.actor
-2726,i need to know who produced star wars,i need to know who produced star wars,0000000000000000000000100000000000000000000000,movie.produced_by
-383,what is possessed realese date,what is possessed realese date,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3308,is star wars four any good,is star wars four any good,0000000000000000000000000000010000000000000000,movie.star_rating
-1426,list recent films with actor bruce willis,list recent films with actor bruce willis,0000000000000000010000000000001000000000000000,movie.starring.actor movie.initial_release_date
-636,type of movie,type of movie,0000000000000001000000000000000000000000000000,movie.genre
-2029,show me a bio of will ferrell,show me a bio of will ferrell,1000000000000000000000000000000000000000000000,NO_REL
-1096,sort in all japanese movies,sort in all japanese movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-3175,watch movie omg oh nine twenty eight twenty twelve,watch movie omg oh nine twenty eight twenty twelve,0000000000000000010010000000000000000000000000,movie.media movie.initial_release_date
-804,movies that have been directed by tony scott,movies that have been directed by tony scott,0000000000000100000000000000000000000000000000,movie.directed_by
-951,show me information on movie,show me information on movie,1000000000000000000000000000000000000000000000,NO_REL
-856,i am in the mood for a horror film,i am in the mood for a horror film,0000000000000001000000000000000000000000000000,movie.genre
-1436,about finding nemo,about finding nemo,1000000000000000000000000000000000000000000000,NO_REL
-477,tell me the director of the film the dark knight,tell me the director of the film the dark knight,0000000000000100000000000000000000000000000000,movie.directed_by
-2032,who is will ferrell,who is will ferrell,1000000000000000000000000000000000000000000000,NO_REL
-1677,dutch movie listing,dutch movie listing,0000000000010000001000000000000000000000000000,movie.country movie.language
-1111,what movies about vampires are there,what movies about vampires are there,0000000000000000000000000000000010000000000000,movie.subjects
-3138,who played the mother in steel magnolias,who played the mother in steel magnolias,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
-1027,will you please show me info on the movie dirty dancing,will you please show me info on the movie dirty dancing,1000000000000000000000000000000000000000000000,NO_REL
-3213,movies by franco zephereli,movies by franco zephereli,0000000000000100000000000000000000000000000000,movie.directed_by
-489,who directed the movie opening night,who directed the movie opening night,0000000000000100000000000000000000000000000000,movie.directed_by
-1659,i want to see zombie movies that are scary,i want to see zombie movies that are scary,0000000000000001000000000000000010000000000000,movie.genre movie.subjects
-889,find italian movies,find italian movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-2325,how long is the movie,how long is the movie,0000000000000000000000000001000000000000000001,rt.runtime movie.runtime
-2629,gardening movies,gardening movies,0000000000000000000000000000000010000000000000,movie.subjects
-1851,movies rated pg,movies rated pg,0000000000000000000000001000000000000000000000,movie.rating
-1818,find movies produced by george lucus,find movies produced by george lucus,0000000000000000000000100000000000000000000000,movie.produced_by
-178,what were production costs for black swan,what were production costs for black swan,0000000000000010000000000000000000000000000000,movie.estimated_budget
-1031,i want to see infomation on the movie dirty dancing,i want to see infomation on the movie dirty dancing,1000000000000000000000000000000000000000000000,NO_REL
-1236,i would like to select the option to search for movies produced by stephen spielberg,i would like to select the option to search for movies produced by stephen spielberg,0000000000000000000000100000000000000000000000,movie.produced_by
-224,gone with the wind's budget information please,gone with the wind's budget information please,0000000000000010000000000000000000000000000000,movie.estimated_budget
-1985,search directors,search directors,1000000000000000000000000000000000000000000000,NO_REL
-3251,did life is beautiful win an academy award,did life is beautiful win an academy award,0000100001000000000000000000000000000000000000,movie.award award.ceremony
-2049,who is kristen stewart,who is kristen stewart,1000000000000000000000000000000000000000000000,NO_REL
-598,who directed the sound of music,who directed the sound of music,0000000000000100000000000000000000000000000000,movie.directed_by
-1833,i want to see info on the movie the campaign,i want to see info on the movie the campaign,1000000000000000000000000000000000000000000000,NO_REL
-2252,what rating is freedom writers,what rating is freedom writers,0000000000000000000000001000000000000000000000,movie.rating
-986,mandarin movie please,mandarin movie please,0000000000000000001000000000000000000000000000,movie.language
-1915,did rob reiner direct any movies,did rob reiner direct any movies,0000000000000100000000000000000000000000000000,movie.directed_by
-2858,searching for movie prices please,searching for movie prices please,0000000000000000000000000000000000001000000000,movie_other
-549,search director of the movie platoon,search director of the movie platoon,0000000000000100000000000000000000000000000000,movie.directed_by
-2218,show producers who work for miramax,show producers who work for miramax,0000000000000000000000110000000000000000000000,movie.production_companies movie.produced_by
-1980,display biography of actor will ferrell,display biography of actor will ferrell,1000000000000000000000000000000000000000000000,NO_REL
-1618,please make a list of movies that have been made in spanish,please make a list of movies that have been made in spanish,0000000000000000001000000000000000000000000000,movie.language
-2778,what was the profit margin of iron man,what was the profit margin of iron man,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1638,get list of zombie movies,get list of zombie movies,0000000000000000000000000000000010000000000000,movie.subjects
-1749,can you show movies produced by clint eastwood,can you show movies produced by clint eastwood,0000000000000000000000100000000000000000000000,movie.produced_by
-439,when did dredd come out,when did dredd come out,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3243,show me the movies released in srilanka,show me the movies released in srilanka,0000000000000000000000000100000000000000000010,movie.release release.region
-3003,look for information about parental guidance,look for information about parental guidance,0000000000000000000000000000000000001000000000,movie_other
-311,what country is movie from,what country is movie from,0000000000010000000000000000000000000000000000,movie.country
-1120,find a movie with mel gibson,find a movie with mel gibson,0000000000000000000000000000001000000000000000,movie.starring.actor
-2945,zombies list,zombies list,0000000000000000000000000000000000000100000000,other
-1094,show me a list of some japanese movies,show me a list of some japanese movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-2593,search for films with von sudow,search for films with von sudow,0000000000000000000000000000001000000000000000,movie.starring.actor
-2636,movies about gardens,movies about gardens,0000000000000000000000000000000010000000000000,movie.subjects
-1714,movies with sally field,movies with sally field,0000000000000000000000000000001000000000000000,movie.starring.actor
-165,how much did it cost to produce the dark night,how much did it cost to produce the dark night,0000000000000010000000000000000000000000000000,movie.estimated_budget
-2654,show me movies about the future,show me movies about the future,0000000000000000000000000000000010000000000000,movie.subjects
-3039,universal how many producers work to put a movie production together,universal how many producers work to put a movie production together,0000000000000000000000000000000000000100000000,other
-446,when is the release date of resident evil: retribution,when is the release date of resident evil: retribution,0000000000000000010000000000000000000000000000,movie.initial_release_date
-1147,is parenthood a comedy,is parenthood a comedy,0000000000000001000000000000000000000000000000,movie.genre
-3293,show me the reviews for in july,show me the reviews for in july,0000000000000000000000000010000000000000000000,movie.review
-1525,give me anything directed by robert wise,give me anything directed by robert wise,0000000000000100000000000000000000000000000000,movie.directed_by
-2969,do they have oscar awards in india,do they have oscar awards in india,0000000000000000000000000000000000001000000000,movie_other
-3314,where is movie playing,where is movie playing,0000000000000000000000000000100000000000000000,movie.showing
-932,find french language movies,find french language movies,0000000000000000001000000000000000000000000000,movie.language
-2816,how much revenue did cabin in the woods bring in,how much revenue did cabin in the woods bring in,0000000000000000100000000000000000000000000000,movie.gross_revenue
-7,who was the co-star in shoot to kill,who was the co-star in shoot to kill,0000000000000000000000000000001000000000000000,movie.starring.actor
-2950,albery death yr,albery death yr,0000000000000000000000000000000000000100000000,other
-2413,search date for omg,search date for omg,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3036,thirty dance,thirty dance,0000000000000000000000000000000000000100000000,other
-927,give me a list of romance movies,give me a list of romance movies,0000000000000001000000000000000000000000000000,movie.genre
-1530,what are all movies produced by chris nolan,what are all movies produced by chris nolan,0000000000000000000000100000000000000000000000,movie.produced_by
-1016,what are some movies that were produced in europe,what are some movies that were produced in europe,0000000000010000000000000000000000000000000000,movie.country
-135,who was in now,who was in now,0000000000000000000000000000001000000000000000,movie.starring.actor
-2016,bring me to will ferrell informaion,bring me to will ferrell informaion,1000000000000000000000000000000000000000000000,NO_REL
-627,give me the genre of the movie lawless,give me the genre of the movie lawless,0000000000000001000000000000000000000000000000,movie.genre
-1704,show me star wars four,show me star wars four,1000000000000000000000000000000000000000000000,NO_REL
-876,show me canadian films,show me canadian films,0000000000010000000000000000000000000000000000,movie.country
-1476,find movie info kristenn stewart,find movie info kristenn stewart,0000000000000000000000000000001000000000000000,movie.starring.actor
-120,who is in the movie two can play that game,who is in the movie two can play that game,0000000000000000000000000000001000000000000000,movie.starring.actor
-2170,company that produced twilight,company that produced twilight,0000000000000000000000010000000000000000000000,movie.production_companies
-703,i want to know the original language of ju on,i want to know the original language of ju on,0000000000000000001000000000000000000000000000,movie.language
-262,how many movies has charles vidor directed,how many movies has charles vidor directed,0000000000000100000000000000000000000000000000,movie.directed_by
-1514,look for kareena's movies,look for kareena's movies,0000000000000000000000000000001000000000000000,movie.starring.actor
-1079,find movies from japan,find movies from japan,0000000000010000000000000000000000000000000000,movie.country
-2072,information for sally field,information for sally field,1000000000000000000000000000000000000000000000,NO_REL
-1730,display information for the movie in july,display information for the movie in july,1000000000000000000000000000000000000000000000,NO_REL
-65,find cast and crew for the movie finding nemo,find cast and crew for the movie finding nemo,0000000000000000000000000000001000000000000000,movie.starring.actor
-2762,how much money did this movie accumalate,how much money did this movie accumalate,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1409,list movies directed by james cameron,list movies directed by james cameron,0000000000000100000000000000000000000000000000,movie.directed_by
-655,pretty girl what is the movie's genre,pretty girl what is the movie's genre,0000000000000001000000000000000000000000000000,movie.genre
-2959,des ireland have any movie festivals,des ireland have any movie festivals,0000000000000000000000000000000000000100000000,other
-1580,find movies with r ratings,find movies with r ratings,0000000000000000000000001000000000000000000000,movie.rating
-2632,i want to see movies about gardening,i want to see movies about gardening,0000000000000000000000000000000010000000000000,movie.subjects
-2055,show me spielberg's info,show me spielberg's info,1000000000000000000000000000000000000000000000,NO_REL
-1418,show me all films produced by warner bros.,show me all films produced by warner bros.,0000000000000000000000010000000000000000000000,movie.production_companies
-2510,what are the movies by director tom cruise,what are the movies by director tom cruise,0000000000000100000000000000000000000000000000,movie.directed_by
-1365,find movies directed by oliver stone,find movies directed by oliver stone,0000000000000100000000000000000000000000000000,movie.directed_by
-2165,what is the history behind paramount,what is the history behind paramount,1000000000000000000000000000000000000000000000,NO_REL
-1827,movies about immigration,movies about immigration,0000000000000000000000000000000010000000000000,movie.subjects
-3272,find rating information about the movie dredd,find rating information about the movie dredd,0000000000000000000000001000010000000000000000,movie.rating movie.star_rating
-2667,show me belle the movie is it in spanish,show me belle the movie is it in spanish,0000000000000000001000000000000000000000000000,movie.language
-879,are there any canadian movies,are there any canadian movies,0000000000010000000000000000000000000000000000,movie.country
-1142,i want to see movies directed by michael bay,i want to see movies directed by michael bay,0000000000000100000000000000000000000000000000,movie.directed_by
-757,will ferrell films,will ferrell films,0000000000000000000000000000001000000000000000,movie.starring.actor
-325,when was top gun released,when was top gun released,0000000000000000010000000000000000000000000000,movie.initial_release_date
-2652,space movies,space movies,0000000000000000000000000000000010000000000000,movie.subjects
-912,find spanish movies,find spanish movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-2410,find date omg,find date omg,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3,find the female actress from the movie she s the man,find the female actress from the movie she s the man,0100000000000000000000000000001000000000000000,movie.starring.actor actor.gender
-1366,find oliver stone directed movies,find oliver stone directed movies,0000000000000100000000000000000000000000000000,movie.directed_by
-3251,did life is beautiful win an academy award,did life is beautiful win an academy award,0000100001000000000000000000000000000000000000,movie.award award.ceremony
-736,life is beautiful movie page,life is beautiful movie page,1000000000000000000000000000000000000000000000,NO_REL
-2751,how much did end of watch make in the box office,how much did end of watch make in the box office,0000000000000000100000000000000000000000000000,movie.gross_revenue
-1577,rate r movies for adult enterainment,rate r movies for adult enterainment,0000000000000000000000001000000000000000000000,movie.rating
-3194,show me a set of movie trailers,show me a set of movie trailers,0000000000000000000000000000000000100000000000,movie.trailer
-28,who played robin in batman forever,who played robin in batman forever,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
-800,what movies did clint eastwood direct and star in,what movies did clint eastwood direct and star in,0000000000000100000000000000001000000000000000,movie.starring.actor movie.directed_by
-2532,search nineteen ninety 's movies,search nineteen ninety 's movies,0000000000000000010000000000000000000000000000,movie.initial_release_date
-401,when will the movie frankenstein be released,when will the movie frankenstein be released,0000000000000000010000000000000000000000000000,movie.initial_release_date
-2175,what company produced the hangover,what company produced the hangover,0000000000000000000000010000000000000000000000,movie.production_companies
-1599,show me r rated movies,show me r rated movies,0000000000000000000000001000000000000000000000,movie.rating
-219,how much did it take to make the avengers,how much did it take to make the avengers,0000000000000010000000000000000000000000000000,movie.estimated_budget
-1013,show me french r rated dramas,show me french r rated dramas,0000000000010001001000001000000000000000000000,movie.country movie.language movie.genre movie.rating
-1832,the campaign movie page,the campaign movie page,1000000000000000000000000000000000000000000000,NO_REL
-2975,flags of foreign countries,flags of foreign countries,0000000000000000000000000000000000000100000000,other
-658,find out what kind of movie grease is,find out what kind of movie grease is,0000000000000001000000000000000000000000000000,movie.genre
-2342,actress from reba who played kyra,actress from reba who played kyra,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
-271,how many movies has woody allen directed,how many movies has woody allen directed,0000000000000100000000000000000000000000000000,movie.directed_by
-3210,show movies made in country,show movies made in country,0000000000010000000000000000000000000000000000,movie.country
-1266,steven spielberg movies,steven spielberg movies,0000000000000100000000000000000000000000000000,movie.directed_by
-1895,hitchcock movie list,hitchcock movie list,0000000000000100000000000000000000000000000000,movie.directed_by
-2495,what other films has george vidor done,what other films has george vidor done,0000000000000100000000000000000000000000000000,movie.directed_by
-2375,what was the budget of return,what was the budget of return,0000000000000010000000000000000000000000000000,movie.estimated_budget
-2620,i would love to see a movie about esp,i would love to see a movie about esp,0000000000000000000000000000000010000000000000,movie.subjects
-647,what genre is network in,what genre is network in,0000000000000001000000000000000000000000000000,movie.genre
-1363,producer tom hanks movies,producer tom hanks movies,0000000000000000000000100000000000000000000000,movie.produced_by
-2541,what movies were released in september,what movies were released in september,0000000000000000010000000000000000000000000000,movie.initial_release_date
-1237,please list all movies that stephen spielberg produced,please list all movies that stephen spielberg produced,0000000000000000000000100000000000000000000000,movie.produced_by
-3290,reviews for in july,reviews for in july,0000000000000000000000000010000000000000000000,movie.review
-2201,who is the producer for the movie ants,who is the producer for the movie ants,0000000000000000000000100000000000000000000000,movie.produced_by
-2211,who was the producer for coming to america,who was the producer for coming to america,0000000000000000000000100000000000000000000000,movie.produced_by
-2231,movie rating,movie rating,0000000000000000000000001000000000000000000000,movie.rating
-1548,what movies and upcoming movies will christian bale star in,what movies and upcoming movies will christian bale star in,0000000000000000000000000000001000000000000000,movie.starring.actor
-1869,i want to see movies that are rated pg,i want to see movies that are rated pg,0000000000000000000000001000000000000000000000,movie.rating
-1734,what movies has jack black been in,what movies has jack black been in,0000000000000000000000000000001000000000000000,movie.starring.actor
-0,who plays luke on star wars new hope,who plays luke on star wars new hope,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
-747,look up movies about dancing,look up movies about dancing,0000000000000000000000000000000010000000000000,movie.subjects
-1725,search the movie in july,search the movie in july,1000000000000000000000000000000000000000000000,NO_REL
-1219,find love stories,find love stories,0000000000000000000000000000000010000000000000,movie.subjects
-2813,amazing spiderman revenue,amazing spiderman revenue,0000000000000000100000000000000000000000000000,movie.gross_revenue
-3081,find,find,0000000000000000000000000000000000000100000000,other
-2973,find select info,find select info,0000000000000000000000000000000000000100000000,other
-378,release date for toy story,release date for toy story,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3209,what are the best british action movies,what are the best british action movies,0000000000010001000000000000010000000000000000,movie.country movie.genre movie.star_rating
-313,where was movie made,where was movie made,0000000000010000000000000000000000000000000000,movie.country
-3061,what does the paramount logo look like,what does the paramount logo look like,0000000000000000000000000000000000001000000000,movie_other
-2297,revenue for pretty woman,revenue for pretty woman,0000000000000000100000000000000000000000000000,movie.gross_revenue
-2762,how much money did this movie accumalate,how much money did this movie accumalate,0000000000000000100000000000000000000000000000,movie.gross_revenue
-2079,search for information about robert wise,search for information about robert wise,1000000000000000000000000000000000000000000000,NO_REL
-467,who directed gone with the wind,who directed gone with the wind,0000000000000100000000000000000000000000000000,movie.directed_by
-901,give me a list of movies from spain,give me a list of movies from spain,0000000000010000000000000000000000000000000000,movie.country
-2034,who is will ferrell,who is will ferrell,1000000000000000000000000000000000000000000000,NO_REL
-3032,show me the not rated label,show me the not rated label,0000000000000000000000000000000000001000000000,movie_other
-2454,what tongue did they speak in black swan,what tongue did they speak in black swan,0000000000000000001000000000000000000000000000,movie.language
-1944,show me a list of movies that are new and rated pg-13,show me a list of movies that are new and rated pg-13,0000000000000000010000001000000000000000000000,movie.rating movie.initial_release_date
-101,who played esme in twilight,who played esme in twilight,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
-1558,list all brad pitt's movies,list all brad pitt's movies,0000000000000000000000000000001000000000000000,movie.starring.actor
-2720,production company for amityville horror,production company for amityville horror,0000000000000000000000010000000000000000000000,movie.production_companies
-443,what year was the campaign released,what year was the campaign released,0000000000000000010000000000000000000000000000,movie.initial_release_date
-1027,will you please show me info on the movie dirty dancing,will you please show me info on the movie dirty dancing,1000000000000000000000000000000000000000000000,NO_REL
-1321,find french movies,find french movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-1063,find movies from new zealand,find movies from new zealand,0000000000010000000000000000000000000000000000,movie.country
-411,what was the release date for avatar,what was the release date for avatar,0000000000000000010000000000000000000000000000,movie.initial_release_date
-3044,what are some different movie genres,what are some different movie genres,0000000000000000000000000000000000001000000000,movie_other
-541,who directed finding nemo,who directed finding nemo,0000000000000100000000000000000000000000000000,movie.directed_by
-1574,i want to look for movies with an r rating,i want to look for movies with an r rating,0000000000000000000000001000000000000000000000,movie.rating
-1519,give me a list of woody allen films,give me a list of woody allen films,0000000000000100000000000000000000000000000000,movie.directed_by
-2067,what about steven spielberg,what about steven spielberg,1000000000000000000000000000000000000000000000,NO_REL
-803,show me movies directed by sergio leone,show me movies directed by sergio leone,0000000000000100000000000000000000000000000000,movie.directed_by
-458,when house at the end of the street showing,when house at the end of the street showing,0000000000000000010000000000000000000000000000,movie.initial_release_date
-2913,search for the actor that sings let me love you,search for the actor that sings let me love you,0000000000000000000000000000000000001000000000,movie_other
-2181,who produced the great debaters,who produced the great debaters,0000000000000000000000100000000000000000000000,movie.produced_by
+368,what year was dirty dancing released,what year was dirty dancing released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2539,show me movies released in september,show me movies released in september,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2368,how much was the budget for paranorman,how much was the budget for paranorman,0000000000000010000000000000000000000000000000,movie.estimated_budget
+1854,show me movies rated pg,show me movies rated pg,0000000000000000000000001000000000000000000000,movie.rating
+3001,jenn ann house,jenn ann house,0000000000000000000000000000000000000100000000,other
+2838,show all russian movies made in the last five years,show all russian movies made in the last five years,0000000000010000011000000000000000000000000000,movie.country movie.language movie.initial_release_date
+2025,look for will ferrell,look for will ferrell,1000000000000000000000000000000000000000000000,NO_REL
+2121,who produced et,who produced et,0000000000000000000000100000000000000000000000,movie.produced_by
+524,search gilda director,search gilda director,0000000000000100000000000000000000000000000000,movie.directed_by
+1621,show me movies that are in spanish,show me movies that are in spanish,0000000000000000001000000000000000000000000000,movie.language
 1710,what is full name of star wars iv,what is full name of star wars iv,1000000000000000000000000000000000000000000000,NO_REL
-1528,what are all of the movies directed by robert wise,what are all of the movies directed by robert wise,0000000000000100000000000000000000000000000000,movie.directed_by
-1139,can i have a list of bruce lee produced movies,can i have a list of bruce lee produced movies,0000000000000000000000100000000000000000000000,movie.produced_by
-500,who is the director of ghost busters,who is the director of ghost busters,0000000000000100000000000000000000000000000000,movie.directed_by
-3062,what is,what is,0000000000000000000000000000000000000100000000,other
-2020,get me bio info for will ferrell,get me bio info for will ferrell,1000000000000000000000000000000000000000000000,NO_REL
-1607,spanish language movies,spanish language movies,0000000000000000001000000000000000000000000000,movie.language
-3171,evil goes global video,evil goes global video,0000000000000000000010000000000000000000000000,movie.media
-2254,what ratings does the house at the end of the street hold,what ratings does the house at the end of the street hold,0000000000000000000000001000000000000000000000,movie.rating
-2377,what was star wars budget,what was star wars budget,0000000000000010000000000000000000000000000000,movie.estimated_budget
-693,what language is la havre in,what language is la havre in,0000000000000000001000000000000000000000000000,movie.language
-2131,producer of avatar,producer of avatar,0000000000000000000000100000000000000000000000,movie.produced_by
-360,movie little women release date is when,movie little women release date is when,0000000000000000010000000000000000000000000000,movie.initial_release_date
-658,find out what kind of movie grease is,find out what kind of movie grease is,0000000000000001000000000000000000000000000000,movie.genre
-1688,what movie did victor fleming direct,what movie did victor fleming direct,0000000000000100000000000000000000000000000000,movie.directed_by
-1574,i want to look for movies with an r rating,i want to look for movies with an r rating,0000000000000000000000001000000000000000000000,movie.rating
-1697,i would like to get some information about the movie star wars:episode four -a new hope,i would like to get some information about the movie star wars:episode four -a new hope,1000000000000000000000000000000000000000000000,NO_REL
-2450,find out the genre for the movie the businessman,find out the genre for the movie the businessman,0000000000000001000000000000000000000000000000,movie.genre
-2447,genre for downton abbey,genre for downton abbey,0000000000000001000000000000000000000000000000,movie.genre
-1457,show me the official site for finding nemo,show me the official site for finding nemo,1000000000000000000000000000000000000000000000,NO_REL
-3306,show me the viewer ratings,show me the viewer ratings,0000000000000000000000000010000000000000000000,movie.review
-646,what is the genre for the patriot,what is the genre for the patriot,0000000000000001000000000000000000000000000000,movie.genre
-3190,tell me some of the best nc-17 movies,tell me some of the best nc-17 movies,0000000000000000000000001000010000000000000000,movie.rating movie.star_rating
-1867,find movies with pg ratings only,find movies with pg ratings only,0000000000000000000000001000000000000000000000,movie.rating
-3192,brad pitt popular movies,brad pitt popular movies,0000000000000000000000000000011000000000000000,movie.starring.actor movie.star_rating
-3218,what movie is robert wise famous for directing,what movie is robert wise famous for directing,0000000000000100000000000000010000000000000000,movie.directed_by movie.star_rating
-367,when was dirty dancing released,when was dirty dancing released,0000000000000000010000000000000000000000000000,movie.initial_release_date
-806,show me horror movie earnings,show me horror movie earnings,0000000000000001100000000000000000000000000000,movie.gross_revenue movie.genre
-1359,tom hanks movies,tom hanks movies,0000000000000000000000000000001000000000000000,movie.starring.actor
-108,show me hitch's cast,show me hitch's cast,0000000000000000000000000000001000000000000000,movie.starring.actor
-2716,arabic actors,arabic actors,0000000000000000000000000000000000000001000000,person.country
-2505,show ray stark movies,show ray stark movies,0000000000000100000000000000000000000000000000,movie.directed_by
-1313,i am looking for movies made in france,i am looking for movies made in france,0000000000010000000000000000000000000000000000,movie.country
-190,finding the buget of heroine,finding the buget of heroine,0000000000000010000000000000000000000000000000,movie.estimated_budget
-657,what genre is the movie pretty girl,what genre is the movie pretty girl,0000000000000001000000000000000000000000000000,movie.genre
-850,looking for a comedy movie,looking for a comedy movie,0000000000000001000000000000000000000000000000,movie.genre
-1944,show me a list of movies that are new and rated pg-13,show me a list of movies that are new and rated pg-13,0000000000000000010000001000000000000000000000,movie.rating movie.initial_release_date
-923,show me spanish movies,show me spanish movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-1191,i want to take my kids to a g movie,i want to take my kids to a g movie,0000000000000000000000001000000000000000000000,movie.rating
-1620,show me movies in spanish,show me movies in spanish,0000000000000000001000000000000000000000000000,movie.language
-1101,what movies have people speaking japanese in them,what movies have people speaking japanese in them,0000000000000000001000000000000000000000000000,movie.language
-2401,what country was the maid set in,what country was the maid set in,0000000000000000000100000000000000000000000000,movie.locations
-1269,find movies directed by steven spielberg,find movies directed by steven spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
-677,what language is the movie in,what language is the movie in,0000000000000000001000000000000000000000000000,movie.language
-3073,whos idea was it for kung fo panda two,whos idea was it for kung fo panda two,0000000000000000000000000000000000000100000000,other
-1288,which movies are from stephen spielberg,which movies are from stephen spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
-753,movies will ferrell played in,movies will ferrell played in,0000000000000000000000000000001000000000000000,movie.starring.actor
-354,when will the great gatsby be out,when will the great gatsby be out,0000000000000000010000000000000000000000000000,movie.initial_release_date
-2756,show me the revenue created by ghost rider spirit of vengeance,show me the revenue created by ghost rider spirit of vengeance,0000000000000000100000000000000000000000000000,movie.gross_revenue
-3051,what does a movie have if it is rated r,what does a movie have if it is rated r,0000000000000000000000000000000000001000000000,movie_other
-2265,list movie ratings for us movie looper,list movie ratings for us movie looper,0000000000010000000000001000000000000000000000,movie.country movie.rating
-3042,what age group is an r movie appropriate for,what age group is an r movie appropriate for,0000000000000000000000000000000000001000000000,movie_other
-1918,what movies made the most money,what movies made the most money,0000000010000000100000000000000000000000000000,movie.gross_revenue gr.amount
-3214,what is the latest movie directed by director two,what is the latest movie directed by director two,0000000000000100010000000000000000000000000000,movie.directed_by movie.initial_release_date
-985,search for movies by language,search for movies by language,0000000000000000001000000000000000000000000000,movie.language
-680,language of godzilla movie,language of godzilla movie,0000000000000000001000000000000000000000000000,movie.language
-985,search for movies by language,search for movies by language,0000000000000000001000000000000000000000000000,movie.language
-909,can you show me movies spanish,can you show me movies spanish,0000000000010000001000000000000000000000000000,movie.country movie.language
-656,what genre is pretty girl,what genre is pretty girl,0000000000000001000000000000000000000000000000,movie.genre
-947,find all films showing in french,find all films showing in french,0000000000000000001000000000000000000000000000,movie.language
-1239,which productions are from stephen spilberg,which productions are from stephen spilberg,0000000000000000000000100000000000000000000000,movie.produced_by
-1481,lionsgate films,lionsgate films,0000000000000000000000010000000000000000000000,movie.production_companies
-108,show me hitch's cast,show me hitch's cast,0000000000000000000000000000001000000000000000,movie.starring.actor
-751,i would like to see will ferrell movies,i would like to see will ferrell movies,0000000000000000000000000000001000000000000000,movie.starring.actor
-920,look for spanish movies,look for spanish movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-2140,who is the producer of grease,who is the producer of grease,0000000000000000000000100000000000000000000000,movie.produced_by
-1676,please give me a dutch movie listing,please give me a dutch movie listing,0000000000010000001000000000000000000000000000,movie.country movie.language
-726,stephen king directed what movie,stephen king directed what movie,0000000000000100000000000000000000000000000000,movie.directed_by
+2517,show all sy fi movies for twenty twelve,show all sy fi movies for twenty twelve,0000000000000001010000000000000000000000000000,movie.genre movie.initial_release_date
+721,can you give me names of some movies having pg thirteen rating,can you give me names of some movies having pg thirteen rating,0000000000000000000000001000000000000000000000,movie.rating
+496,director of the avengers,director of the avengers,0000000000000100000000000000000000000000000000,movie.directed_by
 262,how many movies has charles vidor directed,how many movies has charles vidor directed,0000000000000100000000000000000000000000000000,movie.directed_by
-2534,movies in september twenty twelve,movies in september twenty twelve,0000000000000000010000000000000000000000000000,movie.initial_release_date
-2691,i want to see mission impossible in spanish,i want to see mission impossible in spanish,0000000000000000001000000000000000000000000000,movie.language
-3112,what does pg thirteen stand for,what does pg thirteen stand for,0000000000000000000000000000000000001000000000,movie_other
-1425,show recent films starring bruce willis,show recent films starring bruce willis,0000000000000000010000000000001000000000000000,movie.starring.actor movie.initial_release_date
-21,what's the cast for life is beautiful,what's the cast for life is beautiful,0000000000000000000000000000001000000000000000,movie.starring.actor
-2733,what movie rating is the anchorman,what movie rating is the anchorman,0000000000000000000000001000000000000000000000,movie.rating
-1369,show movies directed by oliver stone,show movies directed by oliver stone,0000000000000100000000000000000000000000000000,movie.directed_by
-2214,pixar film studio,pixar film studio,1000000000000000000000000000000000000000000000,NO_REL
-439,when did dredd come out,when did dredd come out,0000000000000000010000000000000000000000000000,movie.initial_release_date
-1286,show me movies directed by steven spielberg,show me movies directed by steven spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
-1096,sort in all japanese movies,sort in all japanese movies,0000000000010000001000000000000000000000000000,movie.country movie.language
-1862,movies with pg rating,movies with pg rating,0000000000000000000000001000000000000000000000,movie.rating
+1813,tom cruise movies,tom cruise movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+3097,pg thirteen information,pg thirteen information,0000000000000000000000000000000000001000000000,movie_other
+577,look for the director of hum tum,look for the director of hum tum,0000000000000100000000000000000000000000000000,movie.directed_by
+3004,mister lester did you get to meet the beatles,mister lester did you get to meet the beatles,0000000000000000000000000000000000000100000000,other
+3307,show me viewer ratings,show me viewer ratings,0000000000000000000000000010000000000000000000,movie.review
+990,find me tamil movies,find me tamil movies,0000000000000000001000000000000000000000000000,movie.language
+969,show me movies about time travel,show me movies about time travel,0000000000000000000000000000000010000000000000,movie.subjects
+2394,in what country was les miserables created,in what country was les miserables created,0000000000010000000000000000000000000000000000,movie.country
+3057,what does the flag of greece look like,what does the flag of greece look like,0000000000000000000000000000000000000100000000,other
+2332,actor from forrest gump lieutenant dan,actor from forrest gump lieutenant dan,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
+2857,searching for cheap movies,searching for cheap movies,0000000000000000000000000000000000001000000000,movie_other
+699,language of the film revanche,language of the film revanche,0000000000000000001000000000000000000000000000,movie.language
+1444,how can i get more information on finding nemo,how can i get more information on finding nemo,1000000000000000000000000000000000000000000000,NO_REL
+2362,how expensive was it to make looper,how expensive was it to make looper,0000000000000010000000000000000000000000000000,movie.estimated_budget
+1802,find all chinese language movies,find all chinese language movies,0000000000000000001000000000000000000000000000,movie.language
+2689,show me the movie lionsgate,show me the movie lionsgate,1000000000000000000000000000000000000000000000,NO_REL
+2402,when will barfi! be released,when will barfi! be released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2330,what is movie about,what is movie about,0000000000000000000000000000000010000000000000,movie.subjects
+974,quentin tarrantino movies,quentin tarrantino movies,0000000000000100000000000000000000000000000000,movie.directed_by
+3065,what is the g rating,what is the g rating,0000000000000000000000000000000000001000000000,movie_other
+1076,dirty dancing facts,dirty dancing facts,1000000000000000000000000000000000000000000000,NO_REL
+1794,show me more details for the movie house at the end of the street,show me more details for the movie house at the end of the street,1000000000000000000000000000000000000000000000,NO_REL
+3202,cartoon with fish,cartoon with fish,0000000000001001000000000000000000000000000000,movie.genre movie.description
+2061,search for steven spielberg,search for steven spielberg,1000000000000000000000000000000000000000000000,NO_REL
+3309,how many stars does star wars new hope have,how many stars does star wars new hope have,0000000000000000000000000000010000000000000000,movie.star_rating
+1131,movies regarding the hobby of chess,movies regarding the hobby of chess,0000000000000000000000000000000010000000000000,movie.subjects
+1058,show me life is beautiful information,show me life is beautiful information,1000000000000000000000000000000000000000000000,NO_REL
+162,when was tom cruise born,when was tom cruise born,0000000000000000000000000000000000000000100000,person.date_of_birth
+3030,show me the credits in orange,show me the credits in orange,0000000000000000000000000000000000000100000000,other
+2456,is the movie bastardos en el paraiso all in swedish,is the movie bastardos en el paraiso all in swedish,0000000000000000001000000000000000000000000000,movie.language
+1701,get me star wars episode four details,get me star wars episode four details,1000000000000000000000000000000000000000000000,NO_REL
+70,who stars in finding nemo,who stars in finding nemo,0000000000000000000000000000001000000000000000,movie.starring.actor
+2149,company that produced the avengers,company that produced the avengers,0000000000000000000000010000000000000000000000,movie.production_companies
+319,what country does mirror come from,what country does mirror come from,0000000000010000000000000000000000000000000000,movie.country
+2428,director of indiana jones movie,director of indiana jones movie,0000000000000100000000000000000000000000000000,movie.directed_by
+1241,list steven spielberg produced movies,list steven spielberg produced movies,0000000000000000000000100000000000000000000000,movie.produced_by
+1822,list of dax shepard movies,list of dax shepard movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+2972,find map of canada,find map of canada,0000000000000000000000000000000000000100000000,other
+107,list cast hitch,list cast hitch,0000000000000000000000000000001000000000000000,movie.starring.actor
+1375,show me movies with alan rickman,show me movies with alan rickman,0000000000000000000000000000001000000000000000,movie.starring.actor
+2976,give me more information about the text highlighted in orange,give me more information about the text highlighted in orange,0000000000000000000000000000000000000100000000,other
+351,what year did spielberg start directing movies,what year did spielberg start directing movies,0000000000000100010000000000000000000000000000,movie.directed_by movie.initial_release_date
+450,what is the release date of the movie barfi,what is the release date of the movie barfi,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2116,who produced cars,who produced cars,0000000000000000000000100000000000000000000000,movie.produced_by
+1073,search for dirty dancing,search for dirty dancing,1000000000000000000000000000000000000000000000,NO_REL
+3115,want page,want page,0000000000000000000000000000000000000100000000,other
+1233,list movies produced by sean penn,list movies produced by sean penn,0000000000000000000000100000000000000000000000,movie.produced_by
+3323,where is the campaign playing,where is the campaign playing,0000000000000000000000000000100000000000000000,movie.showing
+2578,show nc seventeen movies for twenty eleven,show nc seventeen movies for twenty eleven,0000000000000000010000001000000000000000000000,movie.rating movie.initial_release_date
+3198,display movies made in country,display movies made in country,0000000000010000000000000000000000000000000000,movie.country
+3316,which theatre is this playing in,which theatre is this playing in,0000000000000000000000000000100000000000000000,movie.showing
+3009,paramount- do you pay all the expenses for the stand byes,paramount- do you pay all the expenses for the stand byes,0000000000000000000000000000000000000100000000,other
+1713,i only want movies by sidney lumit,i only want movies by sidney lumit,0000000000000100000000000000000000000000000000,movie.directed_by
+1291,find some musical movies,find some musical movies,0000000000000001000000000000000000000000000000,movie.genre
+662,find out the genre for the movie annamayya,find out the genre for the movie annamayya,0000000000000001000000000000000000000000000000,movie.genre
+2310,dark knight revenue,dark knight revenue,0000000000000000100000000000000000000000000000,movie.gross_revenue
+2598,find a movie about apartheid,find a movie about apartheid,0000000000000000000000000000000010000000000000,movie.subjects
+588,search for the director of step up,search for the director of step up,0000000000000100000000000000000000000000000000,movie.directed_by
+362,when was the movie title little women released,when was the movie title little women released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+1541,movie results for back to the future,movie results for back to the future,1000000000000000000000000000000000000000000000,NO_REL
+29,find the male actor from dirty harry,find the male actor from dirty harry,0100000000000000000000000000001000000000000000,movie.starring.actor actor.gender
+2027,please show me information on will ferrell,please show me information on will ferrell,1000000000000000000000000000000000000000000000,NO_REL
+165,how much did it cost to produce the dark night,how much did it cost to produce the dark night,0000000000000010000000000000000000000000000000,movie.estimated_budget
+980,show me england movies,show me england movies,0000000000010000000000000000000000000000000000,movie.country
+83,who played in the oranges,who played in the oranges,0000000000000000000000000000001000000000000000,movie.starring.actor
+1482,lionsgate list,lionsgate list,0000000000000000000000010000000000000000000000,movie.production_companies
+3096,july,july,0000000000000000000000000000000000000100000000,other
+2666,did tom hanks act in and produce apollo thirteen,did tom hanks act in and produce apollo thirteen,0000000000000000000000100000001000000000000000,movie.starring.actor movie.produced_by
+1188,get me only g-rated movies,get me only g-rated movies,0000000000000000000000001000000000000000000000,movie.rating
+3223,show me names of some famous movies in hindi language,show me names of some famous movies in hindi language,0000000000000000001000000000010000000000000000,movie.language movie.star_rating
+2882,is kristen stewart really dating robert pattinson,is kristen stewart really dating robert pattinson,0000000000000000000000000000000000001000000000,movie_other
+1844,can you get me a pg movie list,can you get me a pg movie list,0000000000000000000000001000000000000000000000,movie.rating
+1606,search for movies in spanish,search for movies in spanish,0000000000000000001000000000000000000000000000,movie.language
+1272,movies by steven spielberg,movies by steven spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
+2199,the movie ants was produced by what person,the movie ants was produced by what person,0000000000000000000000100000000000000000000000,movie.produced_by
+2346,who starred in three's company,who starred in three's company,0000000000000000000000000000001000000000000000,movie.starring.actor
+2795,what is the revenue of mirror,what is the revenue of mirror,0000000000000000100000000000000000000000000000,movie.gross_revenue
+1856,find me pg movies,find me pg movies,0000000000000000000000001000000000000000000000,movie.rating
+713,find movie titles,find movie titles,1000000000000000000000000000000000000000000000,NO_REL
+988,movie made in mandarin,movie made in mandarin,0000000000000000001000000000000000000000000000,movie.language
+1026,show me the dirty dancing movie,show me the dirty dancing movie,1000000000000000000000000000000000000000000000,NO_REL
+2894,movies like in july,movies like in july,0000000000000000000000000000000000001000000000,movie_other
+2986,how popular do you think the movie will be,how popular do you think the movie will be,0000000000000000000000000000000000001000000000,movie_other
+1503,show me korean movies,show me korean movies,0000000000010000001000000000000000000000000000,movie.country movie.language
+255,how many films directed by barbra streisand have been shot in the czech republic,how many films directed by barbra streisand have been shot in the czech republic,0000000000000100000100000000000000000000000000,movie.locations movie.directed_by
+49,can you tell me more about the cast and crew of the movie apollo thirteen,can you tell me more about the cast and crew of the movie apollo thirteen,0000000000000000000000000000001000000000000000,movie.starring.actor
+2533,show me films that came out in september of this year,show me films that came out in september of this year,0000000000000000010000000000000000000000000000,movie.initial_release_date
+57,i want to find information about the cast of apollo thirteen,i want to find information about the cast of apollo thirteen,0000000000000000000000000000001000000000000000,movie.starring.actor
+1302,list movies about war,list movies about war,0000000000000000000000000000000010000000000000,movie.subjects
+1591,compile a list of movies with a r rating,compile a list of movies with a r rating,0000000000000000000000001000000000000000000000,movie.rating
+3327,watch trailer for star wars iv,watch trailer for star wars iv,0000000000000000000000000000000000100000000000,movie.trailer
+200,how much did the studio spend to make avatar,how much did the studio spend to make avatar,0000000000000010000000000000000000000000000000,movie.estimated_budget
+3129,show me the little girl from full house,show me the little girl from full house,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
+414,when was avatar released,when was avatar released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+3234,i would like to know the names of some award winning movies by indian actor dilip kumar,i would like to know the names of some award winning movies by indian actor dilip kumar,0010000001000000000000000000001000000000000000,movie.starring.actor movie.award actor.nationality
+897,what movies are in italian,what movies are in italian,0000000000000000001000000000000000000000000000,movie.language
+425,tell me when compliance came out,tell me when compliance came out,0000000000000000010000000000000000000000000000,movie.initial_release_date
+1978,display actors in movies,display actors in movies,1000000000000000000000000000000000000000000000,NO_REL
+1517,has spike lee produced any films,has spike lee produced any films,0000000000000000000000100000000000000000000000,movie.produced_by
+579,i am interested in who directed cabin in the woods,i am interested in who directed cabin in the woods,0000000000000100000000000000000000000000000000,movie.directed_by
+589,i need to know who directed black swan,i need to know who directed black swan,0000000000000100000000000000000000000000000000,movie.directed_by
+444,when was the campaign released,when was the campaign released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+1467,frank capra movies,frank capra movies,0000000000000100000000000000000000000000000000,movie.directed_by
+1456,show me finding nemo's page,show me finding nemo's page,1000000000000000000000000000000000000000000000,NO_REL
+2244,what rating is superman,what rating is superman,0000000000000000000000001000000000000000000000,movie.rating
+1992,show me information on darla anderson,show me information on darla anderson,1000000000000000000000000000000000000000000000,NO_REL
+3165,show me the top hollywood film directors of all time,show me the top hollywood film directors of all time,0000000000000100000000000000010000000000000000,movie.directed_by movie.star_rating
+2951,arabic life of a movie,arabic life of a movie,0000000000000000000000000000000000000100000000,other
+780,i want to watch movies directed by jackie chan,i want to watch movies directed by jackie chan,0000000000000100000000000000000000000000000000,movie.directed_by
+382,when life is beautiful was released,when life is beautiful was released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2142,display production company lionsgate,display production company lionsgate,1000000000000000000000000000000000000000000000,NO_REL
+2384,budget for the help,budget for the help,0000000000000010000000000000000000000000000000,movie.estimated_budget
+17,what are the names of female actors who played in lost,what are the names of female actors who played in lost,0100000000000000000000000000001000000000000000,movie.starring.actor actor.gender
+2087,information for vivian lee,information for vivian lee,1000000000000000000000000000000000000000000000,NO_REL
+3308,is star wars four any good,is star wars four any good,0000000000000000000000000000010000000000000000,movie.star_rating
+2010,find information about tom cruise,find information about tom cruise,1000000000000000000000000000000000000000000000,NO_REL
+1246,give me a list of some movies by producer walt disney,give me a list of some movies by producer walt disney,0000000000000000000000010000000000000000000000,movie.production_companies
+222,find out the budget of cujo,find out the budget of cujo,0000000000000010000000000000000000000000000000,movie.estimated_budget
+2802,how much did shrek make,how much did shrek make,0000000000000000100000000000000000000000000000,movie.gross_revenue
+1116,which movies are directed by tyler perry,which movies are directed by tyler perry,0000000000000100000000000000000000000000000000,movie.directed_by
+505,avatar was directed by whom,avatar was directed by whom,0000000000000100000000000000000000000000000000,movie.directed_by
+2844,find movie based on criteria,find movie based on criteria,0000000000000000000000000000000000001000000000,movie_other
+679,language of anna karinia,language of anna karinia,0000000000000000001000000000000000000000000000,movie.language
+940,show movies in french,show movies in french,0000000000000000001000000000000000000000000000,movie.language
+1608,i am looking for movies in spanish,i am looking for movies in spanish,0000000000000000001000000000000000000000000000,movie.language
+1835,please show me info on the movie the campaign,please show me info on the movie the campaign,1000000000000000000000000000000000000000000000,NO_REL
+1123,i want to see paramount movies,i want to see paramount movies,0000000000000000000000010000000000000000000000,movie.production_companies
+3147,give me the name of the mom on seinfeld,give me the name of the mom on seinfeld,0000000000000000000000000000001100000000000000,movie.starring.actor movie.starring.character
+2294,how much revenue did the movie avatar generate,how much revenue did the movie avatar generate,0000000000000000100000000000000000000000000000,movie.gross_revenue
+2896,search for dramas like downton abbey,search for dramas like downton abbey,0000000000000000000000000000000000001000000000,movie_other
+2841,i'd like to see a movie that was filmed in africa,i'd like to see a movie that was filmed in africa,0000000000010000000100000000000000000000000000,movie.locations movie.country
+2617,what foreign film involves dragons,what foreign film involves dragons,0000000000010000000000000000000010000000000000,movie.country movie.subjects
+67,show me the cast of finding nemo,show me the cast of finding nemo,0000000000000000000000000000001000000000000000,movie.starring.actor
+377,what was the date when welcome to the dollhouse was released,what was the date when welcome to the dollhouse was released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+1436,about finding nemo,about finding nemo,1000000000000000000000000000000000000000000000,NO_REL
+1600,show only rated r movies,show only rated r movies,0000000000000000000000001000000000000000000000,movie.rating
+1091,i want to see japanese movies,i want to see japanese movies,0000000000010000001000000000000000000000000000,movie.country movie.language
+1870,only show movies rated pg,only show movies rated pg,0000000000000000000000001000000000000000000000,movie.rating
+2110,what company produced cabin in the woods,what company produced cabin in the woods,0000000000000000000000010000000000000000000000,movie.production_companies
+1100,films with japaneese,films with japaneese,0000000000000000001000000000000000000000000000,movie.language
+1368,please provide movies directed by oliver stone,please provide movies directed by oliver stone,0000000000000100000000000000000000000000000000,movie.directed_by
+136,actor from modern family,actor from modern family,0000000000000000000000000000001000000000000000,movie.starring.actor
+2139,who is listed as producer of grease,who is listed as producer of grease,0000000000000000000000100000000000000000000000,movie.produced_by
+2562,movies for twenty twelve based in spain,movies for twenty twelve based in spain,0000000000000000010100000000000000000000000000,movie.locations movie.initial_release_date
+2516,find some historical romance movies,find some historical romance movies,0000000000000001000000000000000000000000000000,movie.genre
+2914,after watching this movie will i have nightmares about it,after watching this movie will i have nightmares about it,0000000000000000000000000000000000001000000000,movie_other
+874,find movies filmed in canada,find movies filmed in canada,0000000000010000000000000000000000000000000000,movie.country
+139,who starred in go,who starred in go,0000000000000000000000000000001000000000000000,movie.starring.actor
+1182,i want to see a list of g rated movies,i want to see a list of g rated movies,0000000000000000000000001000000000000000000000,movie.rating
+2639,show me movies that talk about healthy eating,show me movies that talk about healthy eating,0000000000000000000000000000000010000000000000,movie.subjects
+477,tell me the director of the film the dark knight,tell me the director of the film the dark knight,0000000000000100000000000000000000000000000000,movie.directed_by
+1347,look for cher movies,look for cher movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+2779,find revenue generated by kahani,find revenue generated by kahani,0000000000000000100000000000000000000000000000,movie.gross_revenue
+2058,show my spielberg info,show my spielberg info,1000000000000000000000000000000000000000000000,NO_REL
+3301,reviews of star wars four,reviews of star wars four,0000000000000000000000000010000000000000000000,movie.review
+566,looper directors,looper directors,0000000000000100000000000000000000000000000000,movie.directed_by
+2748,how much did dark night make at the box office,how much did dark night make at the box office,0000000000000000100000000000000000000000000000,movie.gross_revenue
+2496,show movies directed by greenberg,show movies directed by greenberg,0000000000000100000000000000000000000000000000,movie.directed_by
+2954,can i have a map of britain please,can i have a map of britain please,0000000000000000000000000000000000000100000000,other
+3013,r info,r info,0000000000000000000000000000000000001000000000,movie_other
+1687,movies frances ford copolla,movies frances ford copolla,0000000000000100000000000000000000000000000000,movie.directed_by
+1946,what other movies has will smith directed,what other movies has will smith directed,0000000000000100000000000000000000000000000000,movie.directed_by
+1048,russell crowe movies,russell crowe movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+1090,i want japanese movies,i want japanese movies,0000000000010000001000000000000000000000000000,movie.country movie.language
+2641,give me a list of movies the deal with the topic of healthy eating,give me a list of movies the deal with the topic of healthy eating,0000000000000000000000000000000010000000000000,movie.subjects
+2644,make a list of movies about libraries,make a list of movies about libraries,0000000000000000000000000000000010000000000000,movie.subjects
+394,when was finding nemo released,when was finding nemo released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+660,i would like to know the genre of grease,i would like to know the genre of grease,0000000000000001000000000000000000000000000000,movie.genre
+1943,what new movies are playing with rating of pg thirteen,what new movies are playing with rating of pg thirteen,0000000000000000010000001000000000000000000000,movie.rating movie.initial_release_date
+2514,find anime films from japan,find anime films from japan,0000000000010001000000000000000000000000000000,movie.country movie.genre
+2688,house to akrend street,house to akrend street,1000000000000000000000000000000000000000000000,NO_REL
+2836,what is the movie the campaign about,what is the movie the campaign about,0000000000000000000000000000000010000000000000,movie.subjects
+933,find movies in french,find movies in french,0000000000000000001000000000000000000000000000,movie.language
+1442,finding nemo details please,finding nemo details please,1000000000000000000000000000000000000000000000,NO_REL
+741,what are the particulars for the movie life is beautiful,what are the particulars for the movie life is beautiful,1000000000000000000000000000000000000000000000,NO_REL
+1778,please show me movies about ice skating,please show me movies about ice skating,0000000000000000000000000000000010000000000000,movie.subjects
+344,release day for the movie,release day for the movie,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2904,what other movies are about the holocaust similar to life is beautiful,what other movies are about the holocaust similar to life is beautiful,0000000000000000000000000000000000001000000000,movie_other
+2483,show all african movies for twenty eleven,show all african movies for twenty eleven,0000000000010000010000000000000000000000000000,movie.country movie.initial_release_date
+1819,give me a list of movies produced by george lucas,give me a list of movies produced by george lucas,0000000000000000000000100000000000000000000000,movie.produced_by
+1524,which movies does gabrielle union come out in,which movies does gabrielle union come out in,0000000000000000000000000000001000000000000000,movie.starring.actor
+1483,lionsgate movies,lionsgate movies,0000000000000000000000010000000000000000000000,movie.production_companies
+1271,movie stuff for steven spielberg,movie stuff for steven spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
+646,what is the genre for the patriot,what is the genre for the patriot,0000000000000001000000000000000000000000000000,movie.genre
+948,show me a list of all the movies produced by william packer,show me a list of all the movies produced by william packer,0000000000000000000000100000000000000000000000,movie.produced_by
+1129,is there a list of movies about chess,is there a list of movies about chess,0000000000000000000000000000000010000000000000,movie.subjects
+2388,where is the film budbrigeren from,where is the film budbrigeren from,0000000000010000000000000000000000000000000000,movie.country
+2873,movie type,movie type,0000000000000000000000000000000000001000000000,movie_other
+1558,list all brad pitt's movies,list all brad pitt's movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+2210,person produced the blind side,person produced the blind side,0000000000000000000000100000000000000000000000,movie.produced_by
+197,did the avatar movie have a budget for spending,did the avatar movie have a budget for spending,0000000000000010000000000000000000000000000000,movie.estimated_budget
+2270,how old for black swan,how old for black swan,0000000000000000000000001000000000000000000000,movie.rating
+2851,search by box-office rating,search by box-office rating,0000000000000000000000000000000000001000000000,movie_other
+2359,what was the budget for hotel translyvania,what was the budget for hotel translyvania,0000000000000010000000000000000000000000000000,movie.estimated_budget
+2250,what is the rating of dirty dancing,what is the rating of dirty dancing,0000000000000000000000001000000000000000000000,movie.rating
+185,how much was the total budget for the titanic,how much was the total budget for the titanic,0000000000000010000000000000000000000000000000,movie.estimated_budget
+2531,show me movies from the nineteen fifties,show me movies from the nineteen fifties,0000000000000000010000000000000000000000000000,movie.initial_release_date
+590,i want to look for the director of freedom writers,i want to look for the director of freedom writers,0000000000000100000000000000000000000000000000,movie.directed_by
+2731,think like a man the movie which company produce,think like a man the movie which company produce,0000000000000000000000010000000000000000000000,movie.production_companies
+288,give me the name of the country for the movie thoda pyaar thoda magic,give me the name of the country for the movie thoda pyaar thoda magic,0000000000010000000000000000000000000000000000,movie.country
+1006,brian de palma movies,brian de palma movies,0000000000000100000000000000000000000000000000,movie.directed_by
+758,will ferrell movies,will ferrell movies,0000000000000000000000000000001000000000000000,movie.starring.actor
+2424,who directed daddy daycare,who directed daddy daycare,0000000000000100000000000000000000000000000000,movie.directed_by
+2671,show movie evil goes global on oh nine fourteen twelve,show movie evil goes global on oh nine fourteen twelve,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2939,scary,scary,0000000000000000000000000000000000000100000000,other
+1878,get hungarian films,get hungarian films,0000000000010000001000000000000000000000000000,movie.country movie.language
+2646,search movies about the october revolution,search movies about the october revolution,0000000000000000000000000000000010000000000000,movie.subjects
+1907,get me a list of current r-rated movies,get me a list of current r-rated movies,0000000000000000010000001000000000000000000000,movie.rating movie.initial_release_date
+1587,r rated movies,r rated movies,0000000000000000000000001000000000000000000000,movie.rating
+157,i can't figure out the name of the lead guy in the avengers,i can't figure out the name of the lead guy in the avengers,0000000000000000000000000000001000000000000000,movie.starring.actor
+3120,was the poularity good or bad,was the poularity good or bad,0000000000000000000000000000000000000100000000,other
+1031,i want to see infomation on the movie dirty dancing,i want to see infomation on the movie dirty dancing,1000000000000000000000000000000000000000000000,NO_REL
+1576,please look up r rated movies,please look up r rated movies,0000000000000000000000001000000000000000000000,movie.rating
+1899,hitchcock movie info,hitchcock movie info,0000000000000100000000000000000000000000000000,movie.directed_by
+1022,i'm looking for the cost of some movies,i'm looking for the cost of some movies,0000000000000010000000000000000000000000000000,movie.estimated_budget
+766,find russian movies,find russian movies,0000000000010000001000000000000000000000000000,movie.country movie.language
+1838,can you show me details about the movie the campaign,can you show me details about the movie the campaign,1000000000000000000000000000000000000000000000,NO_REL
+2855,search by stars,search by stars,0000000000000000000000000000000000001000000000,movie_other
+1120,find a movie with mel gibson,find a movie with mel gibson,0000000000000000000000000000001000000000000000,movie.starring.actor
+1192,list of g movies,list of g movies,0000000000000000000000001000000000000000000000,movie.rating
+1049,about life is beautiful,about life is beautiful,1000000000000000000000000000000000000000000000,NO_REL
+2045,show biography for director steven spielberg,show biography for director steven spielberg,1000000000000000000000000000000000000000000000,NO_REL
+2316,how much did jurassic park make,how much did jurassic park make,0000000000000000100000000000000000000000000000,movie.gross_revenue
+602,who directed return,who directed return,0000000000000100000000000000000000000000000000,movie.directed_by
+900,a list of all italian speaking movies,a list of all italian speaking movies,0000000000000000001000000000000000000000000000,movie.language
+1797,display overview of the movie house at the end of the street,display overview of the movie house at the end of the street,1000000000000000000000000000000000000000000000,NO_REL
+1939,movies by tom hanks,movies by tom hanks,0000000000000100000000000000000000000000000000,movie.directed_by
+555,who made et,who made et,0000000000000100000000000000000000000000000000,movie.directed_by
+2261,show rating of movie avengers,show rating of movie avengers,0000000000000000000000001000000000000000000000,movie.rating
+2272,can you tell me the rating for cabin in the woods,can you tell me the rating for cabin in the woods,0000000000000000000000001000000000000000000000,movie.rating
+702,i want to know in what language was ju on filmed,i want to know in what language was ju on filmed,0000000000000000001000000000000000000000000000,movie.language
+965,time travel movies,time travel movies,0000000000000000000000000000000010000000000000,movie.subjects
+1050,details about life is beautiful please,details about life is beautiful please,1000000000000000000000000000000000000000000000,NO_REL
+2420,when was star wars released,when was star wars released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2971,england will you make movie about the life of prince william and harry's life,england will you make movie about the life of prince william and harry's life,0000000000000000000000000000000000001000000000,movie_other
+2396,where was les mes set,where was les mes set,0000000000000000000100000000000000000000000000,movie.locations
+18,can i see the set list and cast for life is beautiful,can i see the set list and cast for life is beautiful,0000000000000000000000000000001000000000000000,movie.starring.actor
+2374,search for the budget of return,search for the budget of return,0000000000000010000000000000000000000000000000,movie.estimated_budget
+1312,give me a list of movies made in france,give me a list of movies made in france,0000000000010000000000000000000000000000000000,movie.country
+158,what were the names of the ladies in facts of life,what were the names of the ladies in facts of life,0100000000000000000000000000001000000000000000,movie.starring.actor actor.gender
+1982,director,director,1000000000000000000000000000000000000000000000,NO_REL
+2717,give me a list of irish actors,give me a list of irish actors,0000000000000000000000000000000000000000010000,person.nationality
+3079,searching for maps,searching for maps,0000000000000000000000000000000000000100000000,other
+236,will you show the cost to produce the deer hunter,will you show the cost to produce the deer hunter,0000000000000010000000000000000000000000000000,movie.estimated_budget
+1299,show me some war themed movies,show me some war themed movies,0000000000000000000000000000000010000000000000,movie.subjects
+62,i can't remember the lead guy in the avengers,i can't remember the lead guy in the avengers,0000000000000000000000000000001000000000000000,movie.starring.actor
+2302,what were the gross receipts for the avengers,what were the gross receipts for the avengers,0000000000000000100000000000000000000000000000,movie.gross_revenue
+1627,find scifi films,find scifi films,0000000000000001000000000000000000000000000000,movie.genre
+14,who was the lead man in taxi driver,who was the lead man in taxi driver,0000000000000000000000000000001000000000000000,movie.starring.actor
+1847,give me some good pg moives,give me some good pg moives,0000000000000000000000001000000000000000000000,movie.rating
+2973,find select info,find select info,0000000000000000000000000000000000000100000000,other
+3214,what is the latest movie directed by director two,what is the latest movie directed by director two,0000000000000100010000000000000000000000000000,movie.directed_by movie.initial_release_date
+1410,watch james cameron movies,watch james cameron movies,0000000000000100000000000000000000000000000000,movie.directed_by
+992,find hindi movies,find hindi movies,0000000000000000001000000000000000000000000000,movie.language
+2977,goto greyscale,goto greyscale,0000000000000000000000000000000000000100000000,other
+1688,what movie did victor fleming direct,what movie did victor fleming direct,0000000000000100000000000000000000000000000000,movie.directed_by
+736,life is beautiful movie page,life is beautiful movie page,1000000000000000000000000000000000000000000000,NO_REL
+1439,find me more about finding nemo,find me more about finding nemo,1000000000000000000000000000000000000000000000,NO_REL
+1810,in what movies tom cruise is,in what movies tom cruise is,0000000000000000000000000000001000000000000000,movie.starring.actor
+1853,please show a list of recent movies rated pg,please show a list of recent movies rated pg,0000000000000000000000001000000000000000000000,movie.rating
+822,find a movie,find a movie,1000000000000000000000000000000000000000000000,NO_REL
+1314,i want to see a list of movies that were made in france,i want to see a list of movies that were made in france,0000000000010000000000000000000000000000000000,movie.country
+1430,look for wes anderson films,look for wes anderson films,0000000000000100000000000000000000000000000000,movie.directed_by
+1987,movie directors,movie directors,1000000000000000000000000000000000000000000000,NO_REL
+1616,i would like a list of movies that have been made in spanish,i would like a list of movies that have been made in spanish,0000000000000000001000000000000000000000000000,movie.language
+1278,find a list of movies directed by spielberg,find a list of movies directed by spielberg,0000000000000100000000000000000000000000000000,movie.directed_by
+1023,what movies did kevin costner direct,what movies did kevin costner direct,0000000000000100000000000000000000000000000000,movie.directed_by
+1565,show movies with brad pitt,show movies with brad pitt,0000000000000000000000000000001000000000000000,movie.starring.actor
+1725,search the movie in july,search the movie in july,1000000000000000000000000000000000000000000000,NO_REL
+2257,find the rating of the movie step up,find the rating of the movie step up,0000000000000000000000001000000000000000000000,movie.rating
+1210,list movies rated g,list movies rated g,0000000000000000000000001000000000000000000000,movie.rating
+1488,find danish movies,find danish movies,0000000000010000001000000000000000000000000000,movie.country movie.language
+1224,list uk movies,list uk movies,0000000000010000000000000000000000000000000000,movie.country
+781,star wars,star wars,1000000000000000000000000000000000000000000000,NO_REL
+1119,what films has selena gomez been in,what films has selena gomez been in,0000000000000000000000000000001000000000000000,movie.starring.actor
+2593,search for films with von sudow,search for films with von sudow,0000000000000000000000000000001000000000000000,movie.starring.actor
+2029,show me a bio of will ferrell,show me a bio of will ferrell,1000000000000000000000000000000000000000000000,NO_REL
+3014,r rating means sex or nudity,r rating means sex or nudity,0000000000000000000000000000000000001000000000,movie_other
+1543,what are all of the movies acted in by the actor christian bale,what are all of the movies acted in by the actor christian bale,0000000000000000000000000000001000000000000000,movie.starring.actor
+824,i don't want any g rated movies,i don't want any g rated movies,0000000000000000000000001000000000000000000000,movie.rating
+326,when does top gun come out,when does top gun come out,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2665,where can i find the movie amelie in french,where can i find the movie amelie in french,0000000000000000001000000000000000000000000000,movie.language
+1775,generate a list of movies about ice skating,generate a list of movies about ice skating,0000000000000000000000000000000010000000000000,movie.subjects
+2889,middle aged white actors,middle aged white actors,0000000000000000000000000000000000001000000000,movie_other
+2605,i want to see films involving cars,i want to see films involving cars,0000000000000000000000000000000010000000000000,movie.subjects
+2659,find war movies rated r,find war movies rated r,0000000000000000000000001000000010000000000000,movie.rating movie.subjects
+3006,movie parental guidance rating scale,movie parental guidance rating scale,0000000000000000000000000000000000001000000000,movie_other
+413,when avatar released,when avatar released,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2442,who directed the good,who directed the good,0000000000000100000000000000000000000000000000,movie.directed_by
+2325,how long is the movie,how long is the movie,0000000000000000000000000001000000000000000001,rt.runtime movie.runtime
+962,show me movies with time travel themes,show me movies with time travel themes,0000000000000000000000000000000010000000000000,movie.subjects
+2568,what are the movies that alfred ruddy produced,what are the movies that alfred ruddy produced,0000000000000000000000100000000000000000000000,movie.produced_by
+518,who made steel magnolias,who made steel magnolias,0000000000000100000000000000000000000000000000,movie.directed_by
+981,show me movies from england,show me movies from england,0000000000010000000000000000000000000000000000,movie.country
+2645,list movies about libraries,list movies about libraries,0000000000000000000000000000000010000000000000,movie.subjects
+1479,display movies made by production lionsgate,display movies made by production lionsgate,0000000000000000000000010000000000000000000000,movie.production_companies
+2922,what do the actors speak,what do the actors speak,0000000000000000000000000000000000000100000000,other
+2612,what movies have classic cars in them,what movies have classic cars in them,0000000000000000000000000000000010000000000000,movie.subjects
+1750,find all movies produced by clint eastwood,find all movies produced by clint eastwood,0000000000000000000000100000000000000000000000,movie.produced_by
+1883,show me the movie now forager,show me the movie now forager,1000000000000000000000000000000000000000000000,NO_REL
+2964,did you have fun directing gilda mister vidor,did you have fun directing gilda mister vidor,0000000000000000000000000000000000001000000000,movie_other
+503,rocky director,rocky director,0000000000000100000000000000000000000000000000,movie.directed_by
+2943,zombies,zombies,0000000000000000000000000000000000000100000000,other
+1652,which movies are based on zombies,which movies are based on zombies,0000000000000000000000000000000010000000000000,movie.subjects
+1986,search directors,search directors,1000000000000000000000000000000000000000000000,NO_REL
+1866,show me the movies rating pg,show me the movies rating pg,0000000000000000000000001000000000000000000000,movie.rating
+2729,name of company that produced the great debaters,name of company that produced the great debaters,0000000000000000000000010000000000000000000000,movie.production_companies
+2768,what was the box office gross in hitch,what was the box office gross in hitch,0000000000000000100000000000000000000000000000,movie.gross_revenue
+1812,show me all movies tom cruise has been in,show me all movies tom cruise has been in,0000000000000000000000000000001000000000000000,movie.starring.actor
+2098,who are the producers for the movie hitch,who are the producers for the movie hitch,0000000000000000000000100000000000000000000000,movie.produced_by
+364,karate kid release date,karate kid release date,0000000000000000010000000000000000000000000000,movie.initial_release_date
+2434,i would like to know who the director of star wars was,i would like to know who the director of star wars was,0000000000000100000000000000000000000000000000,movie.directed_by
+3022,show information in english,show information in english,0000000000000000000000000000000000000100000000,other
+2861,where can i rent this movie,where can i rent this movie,0000000000000000000000000000000000001000000000,movie_other
+1748,can you locate movies produced by clint eastwood,can you locate movies produced by clint eastwood,0000000000000000000000100000000000000000000000,movie.produced_by
+2216,who produced godfather,who produced godfather,0000000000000000000000100000000000000000000000,movie.produced_by
+146,who was the actor in movie hum tum,who was the actor in movie hum tum,0000000000000000000000000000001000000000000000,movie.starring.actor
+864,movies by producer,movies by producer,0000000000000000000000100000000000000000000000,movie.produced_by

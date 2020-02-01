@@ -6,7 +6,7 @@ import os
 
 
 def prep_all_data(batch_size=64, path="data", char_level=False,
-                  device="cuda", ngram=1, 
+                  device="cuda", ngram=1, bert=True,  
                   train_file = "train_real.csv",
                   val_file = "val.csv",
                   test_file = "test.csv"):
@@ -14,8 +14,11 @@ def prep_all_data(batch_size=64, path="data", char_level=False,
     tokenize = lambda x: re.split("'| ", x.lower())
     if char_level:
         tokenize = lambda x: list(x)
-
-    text_field = Field(sequential=True, tokenize=tokenize, 
+    if bert:
+        text_field = Field(sequential=True, tokenize=tokenize, 
+                       lower=True, include_lengths=True)
+    else:
+        text_field = Field(sequential=True, tokenize=tokenize, 
                        lower=True, include_lengths=True)
     labeler = lambda x: torch.tensor([int(i) for i in list(x)])
     label_field = RawField(preprocessing=lambda x: labeler(x), is_target=True)

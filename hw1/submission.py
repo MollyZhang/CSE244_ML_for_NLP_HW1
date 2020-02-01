@@ -58,7 +58,7 @@ class Ensemble(object):
             df_labeled = ensemble_df.join(self.df_test)
             self.ensemble_df = ensemble_df.copy()
         else:    
-            df_labeled = ensemble_df.join(self.df_val)
+            df_labeled = ensemble_df.join(self.df_val, how="inner")
             f1 = evaluation.simple_f1(y_true=df_labeled["raw_label"], 
                                       y_pred=df_labeled["CORE RELATIONS"])
             print("ensemble f1 val score:", f1)
