@@ -125,7 +125,9 @@ class BaseModelNGram(nn.Module):
     def __init__(self, ngram=1, device="cuda", path="data",
                  hidden_dim=400, output_dim=46):
         super().__init__()
-        input_dim = len(np.load(os.path.join(path, "{}grams.npy".format(ngram))))
+        input_dim = 0
+        for i in range(ngram):
+            input_dim += len(np.load(os.path.join(path, "{}grams.npy".format(i+1))))
         self.fc1 = nn.Linear(input_dim, hidden_dim)
         self.fc3 = nn.Linear(hidden_dim, output_dim)
         self.device = device

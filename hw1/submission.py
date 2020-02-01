@@ -39,6 +39,7 @@ class Ensemble(object):
         self.df_test = pd.read_csv(
             "./data/test.csv", index_col="ID")[["text", "raw_label"]]
 
+
     def save_submission_file(self, name):
         today = datetime.datetime.now().strftime("%b%d")
         self.ensemble_df.to_csv("./data/submissions/{}_{}.csv".format(today, name))
