@@ -10,19 +10,41 @@ from transformers import BertTokenizer, BertForSequenceClassification
 
 
 class BertMovie(nn.Module):
-    def __init__(self, output_dim=46):
+    def __init__(self, output_dim=46, device="cuda"):
         super().__init__()
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        self.tokenizer = BertTokenizer.from_pretrained('bert-large-uncased')
         self.bert = BertForSequenceClassification.from_pretrained(
-            'bert-base-uncased', num_labels=output_dim)      
+            'bert-large-uncased', num_labels=output_dim)
+        self.device = device
 
     def forward(self, x):
-        _, extra = x
-        tokenized_text = self.tokenizer.tokenize(extra["raw_text"][0])
-        print(tokenized_text)
-        print("haha")
+        _, raw_text = x
+        input_ids, attention, segment = self.prepare_data(raw_text)
+        outputs = self.bert(input_ids, attention_mask=attention, token_type_ids=segment)
+        return outputs[0]
+    
+    def prepare_data(self, raw_text):
+        data = []
+        for text in raw_text:
+            text = "[CLS] " + text + " [SEP]"
+            tokenized_text = self.tokenizer.tokenize(text)
+            data.append(tokenized_text)
+        longest = max([len(i) for i in data])
+        indices = []
+        attention_masks = []
+        segment_ids = []
+        for text in data:
+            attention_mask = [1] * len(text) + [0] * (longest - len(text))
+            text = text + ["[PAD]"] * (longest - len(text))
+            segment_id = [1] * len(text)
+            text_index = self.tokenizer.convert_tokens_to_ids(text)
+            indices.append(text_index)
+            attention_masks.append(attention_mask)
+            segment_ids.append(segment_id)
+        return (torch.tensor(indices).to(self.device), 
+                torch.tensor(attention_masks).to(self.device), 
+                torch.tensor(segment_ids).to(self.device))
 
-        return None
 
 
 class BaseModel(nn.Module):
