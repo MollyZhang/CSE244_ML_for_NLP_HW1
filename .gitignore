@@ -1,7 +1,7 @@
 # nlp
 fasttext/
-hw1/data/submissions/
-hw1/data/model_checkpoints/
+data/submissions/
+data/model_checkpoints/
 
 # linux
 *.swp
