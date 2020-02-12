@@ -4,6 +4,9 @@ Code for CSE244 winter 2020 homework 1: Relation Extraction From Text
 ### Staring script:
 run.ipynb or run-bert.ipynb
 
+### Report:
+https://github.com/MollyZhang/CSE244_ML_for_NLP_HW1/blob/master/HW1%20report.pdf
+
 ### Folder structure:
 - model_utils.py
 
