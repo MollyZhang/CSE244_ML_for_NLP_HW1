@@ -10,29 +10,30 @@ https://github.com/MollyZhang/CSE244_ML_for_NLP_HW1/blob/master/HW1%20report.pdf
 ### Folder structure:
 - model_utils.py
 
-This file contains all models I have tried
+  This file contains all models I have tried
 - data_utils.py
 
-This contains preparing data with torchtext, for both ngram format and also word embedding format. This file also include wrappers which generate data batches for training. 
+  This contains preparing data with torchtext, for both ngram format and also word embedding format. This file also include wrappers which generate data batches for training. 
 - train_utils.py
 
-This file contains the function used for training and calculating losses during training
+  This file contains the function used for training and calculating losses during training
 - evaluation.py
 
-This file contains calculation of f1 scores in various ways
+  This file contains calculation of f1 scores in various ways
 - submission.py
 
-This file generate submission file for kaggle. It also includes an Ensemble class to combine results of multiple models into one final result. It also includes basic error anaylysis. 
+  This file generate submission file for kaggle. It also includes an Ensemble class to combine results of multiple models into one final result. It also includes basic error anaylysis. 
 - preprocessing.ipynb
 
-This is the notebook for preprocessing: train, validation, test splitting. Converting label text to numerical categories. Among with many minute things I tried. 
+  This is the notebook for preprocessing: train, validation, test splitting. Converting label text to numerical categories. Among with many minute things I tried. 
 
 - movie_and_person_names.ipynb 
-
-This is the notebook specificially for one type of feature engineering: processing movie and people names into phrases.
+  
+  This is the notebook specificially for one type of feature engineering: processing movie and people names into phrases.
 
 - run.ipynb and run-bert.ipynb
-This should be the starting point. This is where I import all other functions from \*.py files and get results.
+  
+  This should be the starting point. This is where I import all other functions from \*.py files and get results.
 
 
 
